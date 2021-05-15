@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-15T09:03:18.414Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="SL7YVOCvtg6d1l9JwBp7" version="14.6.12" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-15T10:24:36.115Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="jTWHq3kVEw1N5mREYQB_" version="14.6.12" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
     <mxGraphModel dx="782" dy="381" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="#ffffff" math="0" shadow="0">
       <root>
@@ -85,7 +85,7 @@
         <mxCell id="TibwtfmMf2A8SIVAAXav-15" value="u32 file_descriptor：文件描述符" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TibwtfmMf2A8SIVAAXav-14">
           <mxGeometry y="26" width="240" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="TibwtfmMf2A8SIVAAXav-17" value="u32 flags" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TibwtfmMf2A8SIVAAXav-14">
+        <mxCell id="TibwtfmMf2A8SIVAAXav-17" value="u32 flags，" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TibwtfmMf2A8SIVAAXav-14">
           <mxGeometry y="52" width="240" height="26" as="geometry" />
         </mxCell>
         <mxCell id="TibwtfmMf2A8SIVAAXav-18" value="u32 polling_thread_index" style="text;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#d6b656;" vertex="1" parent="TibwtfmMf2A8SIVAAXav-14">
@@ -102,6 +102,14 @@
         </mxCell>
         <mxCell id="TibwtfmMf2A8SIVAAXav-22" value="u64 read_events;&#xa;  u64 write_events;&#xa;  u64 error_events;" style="text;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#d6b656;" vertex="1" parent="TibwtfmMf2A8SIVAAXav-14">
           <mxGeometry y="208" width="240" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="TibwtfmMf2A8SIVAAXav-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TibwtfmMf2A8SIVAAXav-10" target="TibwtfmMf2A8SIVAAXav-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="10" y="353" />
+              <mxPoint x="10" y="436" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
