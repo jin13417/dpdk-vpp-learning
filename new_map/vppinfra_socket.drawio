@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-15T10:35:03.883Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="9aYnF1tKaL98VEhCeqIe" version="14.6.12" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-15T10:36:09.181Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="OQVImui6YYlVXQDzWJEn" version="14.6.12" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
     <mxGraphModel dx="782" dy="381" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="#ffffff" math="0" shadow="0">
       <root>
@@ -61,7 +61,7 @@
         <mxCell id="TibwtfmMf2A8SIVAAXav-4" value="struct epoll_event *epoll_events" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TibwtfmMf2A8SIVAAXav-1">
           <mxGeometry y="70" width="290" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="TibwtfmMf2A8SIVAAXav-5" value="int n_epoll_fds" style="text;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#b85450;" vertex="1" parent="TibwtfmMf2A8SIVAAXav-1">
+        <mxCell id="TibwtfmMf2A8SIVAAXav-5" value="int n_epoll_fds,记录当前epool监听文件描述个数" style="text;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#b85450;" vertex="1" parent="TibwtfmMf2A8SIVAAXav-1">
           <mxGeometry y="96" width="290" height="26" as="geometry" />
         </mxCell>
         <mxCell id="TibwtfmMf2A8SIVAAXav-6" value="u64 epoll_files_ready" style="text;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#b85450;" vertex="1" parent="TibwtfmMf2A8SIVAAXav-1">
