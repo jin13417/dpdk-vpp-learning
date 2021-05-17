@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-05-16T02:28:44.362Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="tnspRrcsqV-gMJPwIK3m" version="14.6.12" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-17T14:09:26.828Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="sQQBYLyyXfY68gxa9EaY" version="14.6.13" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
-    <mxGraphModel dx="782" dy="381" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -52,58 +52,58 @@
         <mxCell id="sHo7rCu5BnpLvMFZvAdc-57" value="uword private_data，私有数据" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="sHo7rCu5BnpLvMFZvAdc-41" vertex="1">
           <mxGeometry y="390" width="230" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="TibwtfmMf2A8SIVAAXav-1" value="linux_epoll_main_t" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="TibwtfmMf2A8SIVAAXav-1" value="linux_epoll_main_t" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="20" y="60" width="290" height="188" as="geometry" />
         </mxCell>
-        <mxCell id="TibwtfmMf2A8SIVAAXav-2" value="int epoll_fd， 由epool_create函数生成一个&#xa;epoll专用的文件描述符." style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TibwtfmMf2A8SIVAAXav-1">
+        <mxCell id="TibwtfmMf2A8SIVAAXav-2" value="int epoll_fd， 由epool_create函数生成一个&#xa;epoll专用的文件描述符." style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="TibwtfmMf2A8SIVAAXav-1" vertex="1">
           <mxGeometry y="26" width="290" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="TibwtfmMf2A8SIVAAXav-4" value="struct epoll_event *epoll_events，vector结构，&#xa;默认最大256，用于epool_wait函数入参，接收返回时间" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TibwtfmMf2A8SIVAAXav-1">
+        <mxCell id="TibwtfmMf2A8SIVAAXav-4" value="struct epoll_event *epoll_events，vector结构，&#xa;默认最大256，用于epool_wait函数入参，接收返回时间" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="TibwtfmMf2A8SIVAAXav-1" vertex="1">
           <mxGeometry y="70" width="290" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="TibwtfmMf2A8SIVAAXav-5" value="int n_epoll_fds,记录当前epool监听文件描述个数" style="text;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#b85450;" vertex="1" parent="TibwtfmMf2A8SIVAAXav-1">
+        <mxCell id="TibwtfmMf2A8SIVAAXav-5" value="int n_epoll_fds,记录当前epool监听文件描述个数" style="text;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#b85450;" parent="TibwtfmMf2A8SIVAAXav-1" vertex="1">
           <mxGeometry y="110" width="290" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="TibwtfmMf2A8SIVAAXav-6" value="u64 epoll_files_ready" style="text;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#b85450;" vertex="1" parent="TibwtfmMf2A8SIVAAXav-1">
+        <mxCell id="TibwtfmMf2A8SIVAAXav-6" value="u64 epoll_files_ready" style="text;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#b85450;" parent="TibwtfmMf2A8SIVAAXav-1" vertex="1">
           <mxGeometry y="136" width="290" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="TibwtfmMf2A8SIVAAXav-7" value="u64 epoll_waits" style="text;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#b85450;" vertex="1" parent="TibwtfmMf2A8SIVAAXav-1">
+        <mxCell id="TibwtfmMf2A8SIVAAXav-7" value="u64 epoll_waits" style="text;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#b85450;" parent="TibwtfmMf2A8SIVAAXav-1" vertex="1">
           <mxGeometry y="162" width="290" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="TibwtfmMf2A8SIVAAXav-9" value="clib_file_main_t&#xa;文件管理结构体" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
+        <mxCell id="TibwtfmMf2A8SIVAAXav-9" value="clib_file_main_t&#xa;文件管理结构体" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#d6b656;fillColor=#fff2cc;" parent="1" vertex="1">
           <mxGeometry x="20" y="260" width="230" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="TibwtfmMf2A8SIVAAXav-10" value="clib_file_t *file_pool，文件管理pool池" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TibwtfmMf2A8SIVAAXav-9">
+        <mxCell id="TibwtfmMf2A8SIVAAXav-10" value="clib_file_t *file_pool，文件管理pool池" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="TibwtfmMf2A8SIVAAXav-9" vertex="1">
           <mxGeometry y="40" width="230" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="TibwtfmMf2A8SIVAAXav-12" value="void (*file_update)（）文件更新函数指针&#xa;支持文件信息的添加、删除、修改动作。" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TibwtfmMf2A8SIVAAXav-9">
+        <mxCell id="TibwtfmMf2A8SIVAAXav-12" value="void (*file_update)（）文件更新函数指针&#xa;支持文件信息的添加、删除、修改动作。" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="TibwtfmMf2A8SIVAAXav-9" vertex="1">
           <mxGeometry y="66" width="230" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="TibwtfmMf2A8SIVAAXav-14" value="clib_file_t 文件信息结构体" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
-          <mxGeometry x="40" y="436" width="250" height="322" as="geometry" />
+        <mxCell id="TibwtfmMf2A8SIVAAXav-14" value="clib_file_t 文件信息结构体" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#b85450;fillColor=#f8cecc;" parent="1" vertex="1">
+          <mxGeometry x="30" y="390" width="250" height="322" as="geometry" />
         </mxCell>
-        <mxCell id="TibwtfmMf2A8SIVAAXav-15" value="u32 file_descriptor：文件描述符" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TibwtfmMf2A8SIVAAXav-14">
+        <mxCell id="TibwtfmMf2A8SIVAAXav-15" value="u32 file_descriptor：文件描述符" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="TibwtfmMf2A8SIVAAXav-14" vertex="1">
           <mxGeometry y="26" width="250" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="TibwtfmMf2A8SIVAAXav-17" value="u32 flags，标识，目前提供2种" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TibwtfmMf2A8SIVAAXav-14">
+        <mxCell id="TibwtfmMf2A8SIVAAXav-17" value="u32 flags，标识，目前提供2种" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="TibwtfmMf2A8SIVAAXav-14" vertex="1">
           <mxGeometry y="52" width="250" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="TibwtfmMf2A8SIVAAXav-18" value="u32 polling_thread_index，指定worker线程" style="text;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#d6b656;" vertex="1" parent="TibwtfmMf2A8SIVAAXav-14">
+        <mxCell id="TibwtfmMf2A8SIVAAXav-18" value="u32 polling_thread_index，指定worker线程" style="text;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#d6b656;" parent="TibwtfmMf2A8SIVAAXav-14" vertex="1">
           <mxGeometry y="80" width="250" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="TibwtfmMf2A8SIVAAXav-19" value="u64 private_data，&#xa;私有数据，文件操作函数使用" style="text;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#d6b656;" vertex="1" parent="TibwtfmMf2A8SIVAAXav-14">
+        <mxCell id="TibwtfmMf2A8SIVAAXav-19" value="u64 private_data，&#xa;私有数据，文件操作函数使用" style="text;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#d6b656;" parent="TibwtfmMf2A8SIVAAXav-14" vertex="1">
           <mxGeometry y="106" width="250" height="46" as="geometry" />
         </mxCell>
-        <mxCell id="TibwtfmMf2A8SIVAAXav-20" value="clib_file_function_t *read_function, &#xa;*write_function,&#xa; *error_function&#xa;对应文件的操作函数" style="text;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#d6b656;" vertex="1" parent="TibwtfmMf2A8SIVAAXav-14">
+        <mxCell id="TibwtfmMf2A8SIVAAXav-20" value="clib_file_function_t *read_function, &#xa;*write_function,&#xa; *error_function&#xa;对应文件的操作函数" style="text;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#d6b656;" parent="TibwtfmMf2A8SIVAAXav-14" vertex="1">
           <mxGeometry y="152" width="250" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="TibwtfmMf2A8SIVAAXav-21" value="u8 *description，当前文件描述符的描述信息" style="text;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#d6b656;" vertex="1" parent="TibwtfmMf2A8SIVAAXav-14">
+        <mxCell id="TibwtfmMf2A8SIVAAXav-21" value="u8 *description，当前文件描述符的描述信息" style="text;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#d6b656;" parent="TibwtfmMf2A8SIVAAXav-14" vertex="1">
           <mxGeometry y="222" width="250" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="TibwtfmMf2A8SIVAAXav-22" value="u64 read_events;&#xa;  u64 write_events;&#xa;  u64 error_events;&#xa; 对应文件操作函数的事件统计计数" style="text;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#d6b656;" vertex="1" parent="TibwtfmMf2A8SIVAAXav-14">
+        <mxCell id="TibwtfmMf2A8SIVAAXav-22" value="u64 read_events;&#xa;  u64 write_events;&#xa;  u64 error_events;&#xa; 对应文件操作函数的事件统计计数" style="text;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#d6b656;" parent="TibwtfmMf2A8SIVAAXav-14" vertex="1">
           <mxGeometry y="250" width="250" height="72" as="geometry" />
         </mxCell>
-        <mxCell id="TibwtfmMf2A8SIVAAXav-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TibwtfmMf2A8SIVAAXav-10" target="TibwtfmMf2A8SIVAAXav-14">
+        <mxCell id="TibwtfmMf2A8SIVAAXav-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" source="TibwtfmMf2A8SIVAAXav-10" target="TibwtfmMf2A8SIVAAXav-14" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="10" y="353" />
@@ -111,19 +111,19 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="TibwtfmMf2A8SIVAAXav-24" value="unix_main_t" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
+        <mxCell id="TibwtfmMf2A8SIVAAXav-24" value="unix_main_t" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#d6b656;fillColor=#fff2cc;" parent="1" vertex="1">
           <mxGeometry x="370" y="92" width="230" height="96" as="geometry" />
         </mxCell>
-        <mxCell id="TibwtfmMf2A8SIVAAXav-25" value="clib_socket_t cli_listen_socket;&#xa;cli 监听套接字" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TibwtfmMf2A8SIVAAXav-24">
+        <mxCell id="TibwtfmMf2A8SIVAAXav-25" value="clib_socket_t cli_listen_socket;&#xa;cli 监听套接字" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="TibwtfmMf2A8SIVAAXav-24" vertex="1">
           <mxGeometry y="26" width="230" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="TibwtfmMf2A8SIVAAXav-27" value="..." style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TibwtfmMf2A8SIVAAXav-24">
+        <mxCell id="TibwtfmMf2A8SIVAAXav-27" value="..." style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="TibwtfmMf2A8SIVAAXav-24" vertex="1">
           <mxGeometry y="70" width="230" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="TibwtfmMf2A8SIVAAXav-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.048;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="TibwtfmMf2A8SIVAAXav-25" target="sHo7rCu5BnpLvMFZvAdc-41">
+        <mxCell id="TibwtfmMf2A8SIVAAXav-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.048;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="TibwtfmMf2A8SIVAAXav-25" target="sHo7rCu5BnpLvMFZvAdc-41" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="TibwtfmMf2A8SIVAAXav-30" value="VLIB_INIT_FUNCTION (linux_epoll_input_init);" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="1">
+        <mxCell id="TibwtfmMf2A8SIVAAXav-30" value="VLIB_INIT_FUNCTION (linux_epoll_input_init);" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="110" y="920" width="300" height="40" as="geometry" />
         </mxCell>
       </root>
