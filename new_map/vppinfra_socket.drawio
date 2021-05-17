@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-05-17T14:09:26.828Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="sQQBYLyyXfY68gxa9EaY" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-17T14:10:53.139Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="7o8xk9s8KVcuf0Oxtoqv" version="14.6.13" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
     <mxGraphModel dx="946" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="sHo7rCu5BnpLvMFZvAdc-41" value="clib_socket_t&#xa;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#6a00ff;strokeColor=#3700CC;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="370" y="212" width="230" height="416" as="geometry" />
+          <mxGeometry x="640" y="80" width="230" height="416" as="geometry" />
         </mxCell>
         <mxCell id="sHo7rCu5BnpLvMFZvAdc-42" value="i32 fd ,socket 文件描述符" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="sHo7rCu5BnpLvMFZvAdc-41" vertex="1">
           <mxGeometry y="26" width="230" height="26" as="geometry" />
@@ -80,7 +80,7 @@
           <mxGeometry y="66" width="230" height="54" as="geometry" />
         </mxCell>
         <mxCell id="TibwtfmMf2A8SIVAAXav-14" value="clib_file_t 文件信息结构体" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#b85450;fillColor=#f8cecc;" parent="1" vertex="1">
-          <mxGeometry x="30" y="390" width="250" height="322" as="geometry" />
+          <mxGeometry x="340" y="220" width="250" height="322" as="geometry" />
         </mxCell>
         <mxCell id="TibwtfmMf2A8SIVAAXav-15" value="u32 file_descriptor：文件描述符" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="TibwtfmMf2A8SIVAAXav-14" vertex="1">
           <mxGeometry y="26" width="250" height="26" as="geometry" />
@@ -103,16 +103,16 @@
         <mxCell id="TibwtfmMf2A8SIVAAXav-22" value="u64 read_events;&#xa;  u64 write_events;&#xa;  u64 error_events;&#xa; 对应文件操作函数的事件统计计数" style="text;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#d6b656;" parent="TibwtfmMf2A8SIVAAXav-14" vertex="1">
           <mxGeometry y="250" width="250" height="72" as="geometry" />
         </mxCell>
-        <mxCell id="TibwtfmMf2A8SIVAAXav-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" source="TibwtfmMf2A8SIVAAXav-10" target="TibwtfmMf2A8SIVAAXav-14" edge="1">
+        <mxCell id="TibwtfmMf2A8SIVAAXav-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" source="TibwtfmMf2A8SIVAAXav-10" target="TibwtfmMf2A8SIVAAXav-14" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="10" y="353" />
-              <mxPoint x="10" y="436" />
+              <mxPoint x="280" y="313" />
+              <mxPoint x="280" y="252" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="TibwtfmMf2A8SIVAAXav-24" value="unix_main_t" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#d6b656;fillColor=#fff2cc;" parent="1" vertex="1">
-          <mxGeometry x="370" y="92" width="230" height="96" as="geometry" />
+          <mxGeometry x="360" y="70" width="230" height="96" as="geometry" />
         </mxCell>
         <mxCell id="TibwtfmMf2A8SIVAAXav-25" value="clib_socket_t cli_listen_socket;&#xa;cli 监听套接字" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="TibwtfmMf2A8SIVAAXav-24" vertex="1">
           <mxGeometry y="26" width="230" height="44" as="geometry" />
@@ -120,7 +120,7 @@
         <mxCell id="TibwtfmMf2A8SIVAAXav-27" value="..." style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="TibwtfmMf2A8SIVAAXav-24" vertex="1">
           <mxGeometry y="70" width="230" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="TibwtfmMf2A8SIVAAXav-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.048;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="TibwtfmMf2A8SIVAAXav-25" target="sHo7rCu5BnpLvMFZvAdc-41" edge="1">
+        <mxCell id="TibwtfmMf2A8SIVAAXav-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.048;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="TibwtfmMf2A8SIVAAXav-25" target="sHo7rCu5BnpLvMFZvAdc-41" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TibwtfmMf2A8SIVAAXav-30" value="VLIB_INIT_FUNCTION (linux_epoll_input_init);" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" parent="1" vertex="1">
