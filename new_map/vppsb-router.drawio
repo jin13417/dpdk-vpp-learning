@@ -1,16 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2021-05-22T11:03:55.775Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="mY7N-eHg9iEl6DN4R1Zy" version="14.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-22T11:07:43.885Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="_Icei8QU5AE-VAE5mYZy" version="14.7.0" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
     <mxGraphModel dx="782" dy="437" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Rd-93OQ4wHYLOg3_eCHo-41" value="VPP1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="Rd-93OQ4wHYLOg3_eCHo-41" value="VPP1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="140" y="120" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Rd-93OQ4wHYLOg3_eCHo-42" value="VPP2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="Rd-93OQ4wHYLOg3_eCHo-42" value="VPP2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="450" y="120" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Rd-93OQ4wHYLOg3_eCHo-44" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Rd-93OQ4wHYLOg3_eCHo-41" target="Rd-93OQ4wHYLOg3_eCHo-42">
+        <mxCell id="Rd-93OQ4wHYLOg3_eCHo-44" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=none;" edge="1" parent="1" source="Rd-93OQ4wHYLOg3_eCHo-41" target="Rd-93OQ4wHYLOg3_eCHo-42">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="320" y="220" as="sourcePoint" />
             <mxPoint x="420" y="120" as="targetPoint" />
@@ -19,29 +19,29 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Rd-93OQ4wHYLOg3_eCHo-45" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Rd-93OQ4wHYLOg3_eCHo-44">
+        <mxCell id="Rd-93OQ4wHYLOg3_eCHo-45" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="Rd-93OQ4wHYLOg3_eCHo-44">
           <mxGeometry x="-0.1368" y="4" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Rd-93OQ4wHYLOg3_eCHo-46" value="OSPF" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Rd-93OQ4wHYLOg3_eCHo-44">
+        <mxCell id="Rd-93OQ4wHYLOg3_eCHo-46" value="OSPF" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="Rd-93OQ4wHYLOg3_eCHo-44">
           <mxGeometry x="-0.1158" y="6" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Rd-93OQ4wHYLOg3_eCHo-47" value="ospf---vpp1&lt;br&gt;GigabitEthernet13/0/0 (up):&lt;br&gt;&amp;nbsp; L3 192.168.100.2/24" style="text;whiteSpace=wrap;html=1;strokeColor=#d79b00;dashed=1;fillColor=#ffe6cc;" vertex="1" parent="1">
+        <mxCell id="Rd-93OQ4wHYLOg3_eCHo-47" value="ospf---vpp1&lt;br&gt;GigabitEthernet13/0/0 (up):&lt;br&gt;&amp;nbsp; L3 192.168.100.2/24" style="text;whiteSpace=wrap;html=1;strokeColor=#d79b00;dashed=1;fillColor=#ffe6cc;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="206" y="65" width="160" height="52" as="geometry" />
         </mxCell>
-        <mxCell id="Rd-93OQ4wHYLOg3_eCHo-48" value="ospf---vpp1&lt;br&gt;GigabitEthernet13/0/0 (up):&lt;br&gt;&amp;nbsp; L3 192.168.100.1/24" style="text;whiteSpace=wrap;html=1;strokeColor=#b85450;dashed=1;fillColor=#f8cecc;" vertex="1" parent="1">
+        <mxCell id="Rd-93OQ4wHYLOg3_eCHo-48" value="ospf---vpp1&lt;br&gt;GigabitEthernet13/0/0 (up):&lt;br&gt;&amp;nbsp; L3 192.168.100.1/24" style="text;whiteSpace=wrap;html=1;strokeColor=#b85450;dashed=1;fillColor=#f8cecc;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="366" y="64" width="160" height="53" as="geometry" />
         </mxCell>
-        <mxCell id="Rd-93OQ4wHYLOg3_eCHo-49" value="LAN----vpp0&lt;br&gt;GigabitEthernetb/0/0 (up):&lt;br&gt;&amp;nbsp; L3 100.100.100.1/24" style="text;whiteSpace=wrap;html=1;strokeColor=#b85450;dashed=1;fillColor=#f8cecc;" vertex="1" parent="1">
+        <mxCell id="Rd-93OQ4wHYLOg3_eCHo-49" value="LAN----vpp0&lt;br&gt;GigabitEthernetb/0/0 (up):&lt;br&gt;&amp;nbsp; L3 100.100.100.1/24" style="text;whiteSpace=wrap;html=1;strokeColor=#b85450;dashed=1;fillColor=#f8cecc;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="410" y="180" width="160" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Rd-93OQ4wHYLOg3_eCHo-51" value="LAN----vpp0&lt;br&gt;GigabitEthernetb/0/0 (up):&lt;br&gt;&amp;nbsp; L3 100.100.102.1/24" style="text;whiteSpace=wrap;html=1;strokeColor=#d79b00;dashed=1;fillColor=#ffe6cc;" vertex="1" parent="1">
+        <mxCell id="Rd-93OQ4wHYLOg3_eCHo-51" value="LAN----vpp0&lt;br&gt;GigabitEthernetb/0/0 (up):&lt;br&gt;&amp;nbsp; L3 100.100.102.1/24" style="text;whiteSpace=wrap;html=1;strokeColor=#d79b00;dashed=1;fillColor=#ffe6cc;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="140" y="180" width="160" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Rd-93OQ4wHYLOg3_eCHo-52" value="ospf环境配置" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=18;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="Rd-93OQ4wHYLOg3_eCHo-52" value="ospf环境配置" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=18;fontStyle=1;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="279" y="239" width="125" height="20" as="geometry" />
         </mxCell>
       </root>
