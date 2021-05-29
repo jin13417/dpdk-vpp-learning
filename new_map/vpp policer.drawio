@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-05-29T23:23:12.533Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="bkVbijFq-YTXTNc-qmUW" version="14.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-29T23:27:03.096Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="0Yi0IKCkzetIANrOQLvn" version="14.7.0" type="github">
   <diagram id="6OgHAIoOX9pApHHIhi0o" name="Page-1">
     <mxGraphModel dx="782" dy="381" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="VG_LlP_TlRW7tgk0G426-2" value="vnet_policer_main_t" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="50" y="250" width="270" height="320" as="geometry" />
+          <mxGeometry x="50" y="250" width="270" height="362" as="geometry" />
         </mxCell>
         <mxCell id="VG_LlP_TlRW7tgk0G426-3" value="policer_t *policers  policer pool内存池，&#xa;按照cache line对齐" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="VG_LlP_TlRW7tgk0G426-2">
           <mxGeometry y="26" width="270" height="44" as="geometry" />
@@ -16,23 +16,23 @@
         <mxCell id="VG_LlP_TlRW7tgk0G426-6" value="policer_t *policer_templates，pool内存池，&#xa;未要求按照cacheline对齐" style="text;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#b85450;" vertex="1" parent="VG_LlP_TlRW7tgk0G426-2">
           <mxGeometry y="108" width="270" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="VG_LlP_TlRW7tgk0G426-7" value="uword *policer_config_by_name" style="text;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#b85450;" vertex="1" parent="VG_LlP_TlRW7tgk0G426-2">
-          <mxGeometry y="150" width="270" height="26" as="geometry" />
+        <mxCell id="VG_LlP_TlRW7tgk0G426-7" value="uword *policer_config_by_name; hash结构&#xa;&lt;key:poclier name ,value:qos cfg pool id&gt;" style="text;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#b85450;" vertex="1" parent="VG_LlP_TlRW7tgk0G426-2">
+          <mxGeometry y="150" width="270" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="VG_LlP_TlRW7tgk0G426-8" value="uword *policer_index_by_name" style="text;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#b85450;" vertex="1" parent="VG_LlP_TlRW7tgk0G426-2">
-          <mxGeometry y="176" width="270" height="26" as="geometry" />
+        <mxCell id="VG_LlP_TlRW7tgk0G426-8" value="uword *policer_index_by_name; hash 结构&#xa;&lt;key policer name value:policer pool index&gt;" style="text;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#b85450;" vertex="1" parent="VG_LlP_TlRW7tgk0G426-2">
+          <mxGeometry y="190" width="270" height="40" as="geometry" />
         </mxCell>
         <mxCell id="VG_LlP_TlRW7tgk0G426-9" value="u32 *policer_index_by_sw_if_index" style="text;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#b85450;" vertex="1" parent="VG_LlP_TlRW7tgk0G426-2">
-          <mxGeometry y="202" width="270" height="26" as="geometry" />
+          <mxGeometry y="230" width="270" height="40" as="geometry" />
         </mxCell>
         <mxCell id="VG_LlP_TlRW7tgk0G426-10" value="vlib_main_t *vlib_main;&#xa;vnet_main_t *vnet_main;" style="text;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#b85450;" vertex="1" parent="VG_LlP_TlRW7tgk0G426-2">
-          <mxGeometry y="228" width="270" height="40" as="geometry" />
+          <mxGeometry y="270" width="270" height="40" as="geometry" />
         </mxCell>
         <mxCell id="VG_LlP_TlRW7tgk0G426-11" value="vlib_log_class_t log_class，log模块索引" style="text;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#b85450;" vertex="1" parent="VG_LlP_TlRW7tgk0G426-2">
-          <mxGeometry y="268" width="270" height="26" as="geometry" />
+          <mxGeometry y="310" width="270" height="26" as="geometry" />
         </mxCell>
         <mxCell id="VG_LlP_TlRW7tgk0G426-12" value="u32 fq_index；handoff功能frame queue索引" style="text;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#b85450;" vertex="1" parent="VG_LlP_TlRW7tgk0G426-2">
-          <mxGeometry y="294" width="270" height="26" as="geometry" />
+          <mxGeometry y="336" width="270" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
