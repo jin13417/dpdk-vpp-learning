@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-30T02:24:34.220Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="IPx6OhhU59bpXjzVNeQx" version="14.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-30T02:33:39.941Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="3gPqezOQqt3H3ayaOrWo" version="14.7.0" type="github">
   <diagram id="6OgHAIoOX9pApHHIhi0o" name="Page-1">
     <mxGraphModel dx="782" dy="381" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -35,7 +35,7 @@
           <mxGeometry y="350" width="270" height="26" as="geometry" />
         </mxCell>
         <mxCell id="VG_LlP_TlRW7tgk0G426-13" value="policer_t" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
-          <mxGeometry x="510" y="404" width="260" height="418" as="geometry" />
+          <mxGeometry x="510" y="404" width="260" height="436" as="geometry" />
         </mxCell>
         <mxCell id="VG_LlP_TlRW7tgk0G426-14" value="u32 lock,互斥锁" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="VG_LlP_TlRW7tgk0G426-13">
           <mxGeometry y="26" width="260" height="26" as="geometry" />
@@ -70,43 +70,43 @@
         <mxCell id="VG_LlP_TlRW7tgk0G426-25" value="u64 last_update_time" style="text;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#d6b656;" vertex="1" parent="VG_LlP_TlRW7tgk0G426-13">
           <mxGeometry y="340" width="260" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="VG_LlP_TlRW7tgk0G426-26" value=" u32 thread_index，handoff功能设置线程id" style="text;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#d6b656;" vertex="1" parent="VG_LlP_TlRW7tgk0G426-13">
-          <mxGeometry y="366" width="260" height="26" as="geometry" />
+        <mxCell id="VG_LlP_TlRW7tgk0G426-26" value=" u32 thread_index，handoff功能设置线程id。&#xa;默认全0xff" style="text;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#d6b656;" vertex="1" parent="VG_LlP_TlRW7tgk0G426-13">
+          <mxGeometry y="366" width="260" height="44" as="geometry" />
         </mxCell>
         <mxCell id="VG_LlP_TlRW7tgk0G426-27" value="u32 pad32" style="text;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#d6b656;" vertex="1" parent="VG_LlP_TlRW7tgk0G426-13">
-          <mxGeometry y="392" width="260" height="26" as="geometry" />
+          <mxGeometry y="410" width="260" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="VG_LlP_TlRW7tgk0G426-28" value="qos_pol_cfg_params_st" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
-          <mxGeometry x="100" y="30" width="280" height="316" as="geometry" />
+        <mxCell id="VG_LlP_TlRW7tgk0G426-28" value="qos_pol_cfg_params_st&#xa;qos 配置结构体" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="100" y="10" width="280" height="330" as="geometry" />
         </mxCell>
         <mxCell id="VG_LlP_TlRW7tgk0G426-29" value="union{kbps，pps}rb，速率配置" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="VG_LlP_TlRW7tgk0G426-28">
-          <mxGeometry y="26" width="280" height="26" as="geometry" />
+          <mxGeometry y="40" width="280" height="26" as="geometry" />
         </mxCell>
         <mxCell id="VG_LlP_TlRW7tgk0G426-31" value="qos_rate_type_en rate_type&#xa;限速类型，基于速率或者报文数量限速" style="text;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#d6b656;" vertex="1" parent="VG_LlP_TlRW7tgk0G426-28">
-          <mxGeometry y="52" width="280" height="38" as="geometry" />
+          <mxGeometry y="66" width="280" height="38" as="geometry" />
         </mxCell>
         <mxCell id="VG_LlP_TlRW7tgk0G426-32" value="qos_round_type_en rnd_type&#xa;速率计算时四舍五入的类型" style="text;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#d6b656;" vertex="1" parent="VG_LlP_TlRW7tgk0G426-28">
-          <mxGeometry y="90" width="280" height="40" as="geometry" />
+          <mxGeometry y="104" width="280" height="40" as="geometry" />
         </mxCell>
         <mxCell id="VG_LlP_TlRW7tgk0G426-33" value="qos_policer_type_en rfc，策略分配类型" style="text;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#d6b656;" vertex="1" parent="VG_LlP_TlRW7tgk0G426-28">
-          <mxGeometry y="130" width="280" height="26" as="geometry" />
+          <mxGeometry y="144" width="280" height="26" as="geometry" />
         </mxCell>
         <mxCell id="VG_LlP_TlRW7tgk0G426-34" value="u8 color_aware，是否关心报文颜色" style="text;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#d6b656;" vertex="1" parent="VG_LlP_TlRW7tgk0G426-28">
-          <mxGeometry y="156" width="280" height="22" as="geometry" />
+          <mxGeometry y="170" width="280" height="22" as="geometry" />
         </mxCell>
         <mxCell id="VG_LlP_TlRW7tgk0G426-36" value="u8 overwrite_bucket;		/* for debugging purposes */&#xa;  u32 current_bucket;		/* for debugging purposes */&#xa;  u32 extended_bucket" style="text;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#d6b656;" vertex="1" parent="VG_LlP_TlRW7tgk0G426-28">
-          <mxGeometry y="178" width="280" height="68" as="geometry" />
+          <mxGeometry y="192" width="280" height="68" as="geometry" />
         </mxCell>
         <mxCell id="VG_LlP_TlRW7tgk0G426-37" value="qos_pol_action_params_st 支持三种动作类型&#xa;conform_action; 动作配置&#xa; exceed_action;&#xa; violate_action" style="text;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#d6b656;" vertex="1" parent="VG_LlP_TlRW7tgk0G426-28">
-          <mxGeometry y="246" width="280" height="70" as="geometry" />
+          <mxGeometry y="260" width="280" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="VG_LlP_TlRW7tgk0G426-38" value="kbps" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
+        <mxCell id="VG_LlP_TlRW7tgk0G426-38" value="kbps（速率）" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
           <mxGeometry x="490" y="30" width="160" height="100" as="geometry" />
         </mxCell>
         <mxCell id="VG_LlP_TlRW7tgk0G426-39" value="      u32 cir_kbps;&#xa;      u32 eir_kbps;&#xa;      u64 cb_bytes;&#xa;      u64 eb_bytes;" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="VG_LlP_TlRW7tgk0G426-38">
           <mxGeometry y="26" width="160" height="74" as="geometry" />
         </mxCell>
-        <mxCell id="VG_LlP_TlRW7tgk0G426-42" value="pps" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
+        <mxCell id="VG_LlP_TlRW7tgk0G426-42" value="pps（报文数量）" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
           <mxGeometry x="650" y="30" width="160" height="100" as="geometry" />
         </mxCell>
         <mxCell id="VG_LlP_TlRW7tgk0G426-43" value="u32 cir_pps;&#xa;      u32 eir_pps;&#xa;      u64 cb_ms;&#xa;      u64 eb_ms;" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="VG_LlP_TlRW7tgk0G426-42">
