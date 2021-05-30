@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-05-30T02:33:39.941Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="3gPqezOQqt3H3ayaOrWo" version="14.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-30T03:26:34.479Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="jHc7g-YgHXBv5f6YYVPw" version="14.7.0" type="github">
   <diagram id="6OgHAIoOX9pApHHIhi0o" name="Page-1">
     <mxGraphModel dx="782" dy="381" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="VG_LlP_TlRW7tgk0G426-2" value="vnet_policer_main_t&#xa;policer管理结构体体" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="45" y="390" width="270" height="376" as="geometry" />
+          <mxGeometry x="100" y="390" width="270" height="376" as="geometry" />
         </mxCell>
         <mxCell id="VG_LlP_TlRW7tgk0G426-3" value="policer_t *policers  policer pool内存池，&#xa;按照cache line对齐" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="VG_LlP_TlRW7tgk0G426-2">
           <mxGeometry y="40" width="270" height="44" as="geometry" />
@@ -15,6 +15,22 @@
         </mxCell>
         <mxCell id="VG_LlP_TlRW7tgk0G426-6" value="policer_t *policer_templates，pool内存池，&#xa;未要求按照cacheline对齐" style="text;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#b85450;" vertex="1" parent="VG_LlP_TlRW7tgk0G426-2">
           <mxGeometry y="122" width="270" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="VG_LlP_TlRW7tgk0G426-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="VG_LlP_TlRW7tgk0G426-2" source="VG_LlP_TlRW7tgk0G426-7" target="VG_LlP_TlRW7tgk0G426-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-50" y="184" />
+              <mxPoint x="-50" y="103" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VG_LlP_TlRW7tgk0G426-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="VG_LlP_TlRW7tgk0G426-2" source="VG_LlP_TlRW7tgk0G426-7" target="VG_LlP_TlRW7tgk0G426-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-50" y="184" />
+              <mxPoint x="-50" y="143" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="VG_LlP_TlRW7tgk0G426-7" value="uword *policer_config_by_name; hash结构&#xa;&lt;key:poclier name ,value:qos cfg pool id&gt;" style="text;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#b85450;" vertex="1" parent="VG_LlP_TlRW7tgk0G426-2">
           <mxGeometry y="164" width="270" height="40" as="geometry" />
