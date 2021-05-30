@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-30T03:29:15.185Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="30_fNWMnCpeFJPiRYwrE" version="14.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-30T03:50:31.164Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="bBO00cf8eosxsjrsAA7B" version="14.7.0" type="github">
   <diagram id="6OgHAIoOX9pApHHIhi0o" name="Page-1">
     <mxGraphModel dx="782" dy="381" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -93,7 +93,7 @@
           <mxGeometry y="410" width="260" height="26" as="geometry" />
         </mxCell>
         <mxCell id="VG_LlP_TlRW7tgk0G426-28" value="qos_pol_cfg_params_st&#xa;qos 配置结构体" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
-          <mxGeometry x="100" y="10" width="280" height="330" as="geometry" />
+          <mxGeometry x="95" y="10" width="280" height="330" as="geometry" />
         </mxCell>
         <mxCell id="VG_LlP_TlRW7tgk0G426-29" value="union{kbps，pps}rb，速率配置" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="VG_LlP_TlRW7tgk0G426-28">
           <mxGeometry y="40" width="280" height="26" as="geometry" />
@@ -145,6 +145,22 @@
         </mxCell>
         <mxCell id="VG_LlP_TlRW7tgk0G426-57" value="policer_t结构" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VG_LlP_TlRW7tgk0G426-56">
           <mxGeometry x="-0.3291" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VG_LlP_TlRW7tgk0G426-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.004;entryY=0.12;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="VG_LlP_TlRW7tgk0G426-29" target="VG_LlP_TlRW7tgk0G426-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VG_LlP_TlRW7tgk0G426-59" value="速率配置" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VG_LlP_TlRW7tgk0G426-58">
+          <mxGeometry x="-0.3518" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VG_LlP_TlRW7tgk0G426-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.003;entryY=0.103;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="VG_LlP_TlRW7tgk0G426-37" target="VG_LlP_TlRW7tgk0G426-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VG_LlP_TlRW7tgk0G426-61" value="动作配置" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VG_LlP_TlRW7tgk0G426-60">
+          <mxGeometry x="-0.2769" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
