@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-30T09:04:16.822Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="nDs0kp_ZQW1j_r7W1PPe" version="14.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-30T09:16:45.671Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="9O4hcfAkkwhCP4Rfyt9F" version="14.7.0" type="github">
   <diagram id="6OgHAIoOX9pApHHIhi0o" name="Page-1">
     <mxGraphModel dx="782" dy="437" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="1">
       <root>
@@ -163,6 +163,9 @@
           <mxGeometry x="-0.2769" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="0go8Z7dsXnYSOvCUR9jS-1" value="接收配置参数临时结构体" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="385" y="336" width="184" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
