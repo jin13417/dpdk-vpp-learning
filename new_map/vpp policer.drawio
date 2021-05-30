@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-30T09:03:56.126Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="tQkbHDfaJXmeI5CNGU6x" version="14.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-30T09:04:16.822Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="nDs0kp_ZQW1j_r7W1PPe" version="14.7.0" type="github">
   <diagram id="6OgHAIoOX9pApHHIhi0o" name="Page-1">
     <mxGraphModel dx="782" dy="437" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="1">
       <root>
@@ -59,7 +59,7 @@
         <mxCell id="VG_LlP_TlRW7tgk0G426-16" value="u32 single_rate，1:单速，0：双速" style="text;fillColor=#A8DADC;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#457B9D;fontColor=#1D3557;" parent="VG_LlP_TlRW7tgk0G426-13" vertex="1">
           <mxGeometry y="52" width="260" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="VG_LlP_TlRW7tgk0G426-17" value="u32 color_aware，对分层监管" style="text;fillColor=#A8DADC;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#457B9D;fontColor=#1D3557;" parent="VG_LlP_TlRW7tgk0G426-13" vertex="1">
+        <mxCell id="VG_LlP_TlRW7tgk0G426-17" value="u32 color_aware，是否开启色敏模式" style="text;fillColor=#A8DADC;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#457B9D;fontColor=#1D3557;" parent="VG_LlP_TlRW7tgk0G426-13" vertex="1">
           <mxGeometry y="78" width="260" height="26" as="geometry" />
         </mxCell>
         <mxCell id="VG_LlP_TlRW7tgk0G426-18" value="u32 scale" style="text;fillColor=#A8DADC;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#457B9D;fontColor=#1D3557;" parent="VG_LlP_TlRW7tgk0G426-13" vertex="1">
