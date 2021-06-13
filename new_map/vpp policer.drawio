@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-13T03:57:42.799Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="oSs4Dc6qvgkXtbdXMPP_" version="14.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-13T03:57:58.576Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="DcvZe0gaA7_0mn40GQMJ" version="14.7.3" type="github">
   <diagram id="6OgHAIoOX9pApHHIhi0o" name="Page-1">
     <mxGraphModel dx="782" dy="437" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="1">
       <root>
@@ -284,7 +284,7 @@
           <mxGeometry x="1109" y="1387" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="0z_VEiuhw0DwLzbFKixf-53" value="vnet_classify_entry_t" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;dashed=1;strokeColor=#FF6666;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="66" y="1814" width="280" height="407" as="geometry" />
+          <mxGeometry x="66" y="1814" width="280" height="433" as="geometry" />
         </mxCell>
         <mxCell id="0z_VEiuhw0DwLzbFKixf-54" value="union{&#xa;    struct{&#xa;      u32 opaque_index;&#xa;      /* advance on hit, note it&#39;s a signed quantity... */&#xa;      i32 advance;&#xa;    };&#xa;    u64 opaque_count;&#xa;  };" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="0z_VEiuhw0DwLzbFKixf-53">
           <mxGeometry y="26" width="280" height="140" as="geometry" />
@@ -304,8 +304,11 @@
         <mxCell id="0z_VEiuhw0DwLzbFKixf-60" value="u16 metadata；存储action标识的数值。" style="text;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#000000;" vertex="1" parent="0z_VEiuhw0DwLzbFKixf-53">
           <mxGeometry y="355" width="280" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="0z_VEiuhw0DwLzbFKixf-61" value="+ method(type): type" style="text;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#000000;" vertex="1" parent="0z_VEiuhw0DwLzbFKixf-53">
+        <mxCell id="0z_VEiuhw0DwLzbFKixf-61" value="u32 next_index；" style="text;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#000000;" vertex="1" parent="0z_VEiuhw0DwLzbFKixf-53">
           <mxGeometry y="381" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="0z_VEiuhw0DwLzbFKixf-62" value="+ method(type): type" style="text;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#000000;" vertex="1" parent="0z_VEiuhw0DwLzbFKixf-53">
+          <mxGeometry y="407" width="280" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
