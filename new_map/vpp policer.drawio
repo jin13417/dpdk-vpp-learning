@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-13T04:27:33.358Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="9ezSDG2Xzd-RXzQOGlY0" version="14.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-13T04:30:58.005Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="MKpvwA5n6-gjytgC9pr0" version="14.7.3" type="github">
   <diagram id="6OgHAIoOX9pApHHIhi0o" name="Page-1">
     <mxGraphModel dx="782" dy="437" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="1">
       <root>
@@ -197,7 +197,7 @@
         <mxCell id="0z_VEiuhw0DwLzbFKixf-15" value="uword user_ctx；存储用户上下文数据" style="text;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#d6b656;" vertex="1" parent="0z_VEiuhw0DwLzbFKixf-10">
           <mxGeometry y="123" width="257" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="0z_VEiuhw0DwLzbFKixf-16" value="  u32 nbuckets; 桶的大小&#xa;  u32 log2_nbuckets;&#xa;  u32 entries_per_page;/**/&#xa;  u32 skip_n_vectors; &#xa;/*基于配置基址，跳过几个16字节*/&#xa;  u32 match_n_vectors;&#xa;/*需要匹配几个16字节*/" style="text;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#d6b656;" vertex="1" parent="0z_VEiuhw0DwLzbFKixf-10">
+        <mxCell id="0z_VEiuhw0DwLzbFKixf-16" value="  u32 nbuckets; 桶的大小，默认为2&#xa;  u32 log2_nbuckets;&#xa;  u32 entries_per_page;/*固定为2*/&#xa;  u32 skip_n_vectors; &#xa;/*基于配置基址，跳过几个16字节*/&#xa;  u32 match_n_vectors;&#xa;/*需要匹配几个16字节*/" style="text;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#d6b656;" vertex="1" parent="0z_VEiuhw0DwLzbFKixf-10">
           <mxGeometry y="149" width="257" height="108" as="geometry" />
         </mxCell>
         <mxCell id="0z_VEiuhw0DwLzbFKixf-17" value="u32 next_table_index;&#xa;当前table id的下一个table id，支持多级匹配处&#xa;理，主要有一级匹配成功就是匹配上。&#xa;" style="text;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#d6b656;" vertex="1" parent="0z_VEiuhw0DwLzbFKixf-10">
