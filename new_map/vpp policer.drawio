@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-13T03:22:55.000Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="OjEPJfMwjcT2GX83W7LV" version="14.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-13T03:24:49.415Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="0re63HSENz-mb2FXgok1" version="14.7.3" type="github">
   <diagram id="6OgHAIoOX9pApHHIhi0o" name="Page-1">
     <mxGraphModel dx="782" dy="437" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="1">
       <root>
@@ -183,7 +183,7 @@
           <mxGeometry y="218" width="324" height="44" as="geometry" />
         </mxCell>
         <mxCell id="0z_VEiuhw0DwLzbFKixf-10" value="vnet_classify_table_t" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="498" y="1220" width="257" height="563" as="geometry" />
+          <mxGeometry x="498" y="1220" width="257" height="588" as="geometry" />
         </mxCell>
         <mxCell id="0z_VEiuhw0DwLzbFKixf-11" value="u32x4 *mask;" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="0z_VEiuhw0DwLzbFKixf-10">
           <mxGeometry y="26" width="257" height="26" as="geometry" />
@@ -197,38 +197,38 @@
         <mxCell id="0z_VEiuhw0DwLzbFKixf-15" value="uword user_ctx；存储用户上下文数据" style="text;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#d6b656;" vertex="1" parent="0z_VEiuhw0DwLzbFKixf-10">
           <mxGeometry y="104" width="257" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="0z_VEiuhw0DwLzbFKixf-16" value="  u32 nbuckets; 桶的大小&#xa;  u32 log2_nbuckets;&#xa;  u32 entries_per_page;&#xa;  u32 skip_n_vectors;&#xa;  u32 match_n_vectors;" style="text;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#d6b656;" vertex="1" parent="0z_VEiuhw0DwLzbFKixf-10">
-          <mxGeometry y="130" width="257" height="83" as="geometry" />
+        <mxCell id="0z_VEiuhw0DwLzbFKixf-16" value="  u32 nbuckets; 桶的大小&#xa;  u32 log2_nbuckets;&#xa;  u32 entries_per_page;/**/&#xa;  u32 skip_n_vectors; &#xa;/*基于配置基址，跳过几个16字节*/&#xa;  u32 match_n_vectors;&#xa;/*需要匹配几个16字节*/" style="text;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#d6b656;" vertex="1" parent="0z_VEiuhw0DwLzbFKixf-10">
+          <mxGeometry y="130" width="257" height="108" as="geometry" />
         </mxCell>
         <mxCell id="0z_VEiuhw0DwLzbFKixf-17" value="u32 next_table_index;&#xa;当前table id的下一个table id，支持多级匹配处&#xa;理，主要有一级匹配成功就是匹配上。&#xa;" style="text;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#d6b656;" vertex="1" parent="0z_VEiuhw0DwLzbFKixf-10">
-          <mxGeometry y="213" width="257" height="54" as="geometry" />
+          <mxGeometry y="238" width="257" height="54" as="geometry" />
         </mxCell>
         <mxCell id="0z_VEiuhw0DwLzbFKixf-18" value="i16 current_data_offset;&#xa;vlib_buffer_t 结构中current_data 偏移量数字" style="text;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#d6b656;" vertex="1" parent="0z_VEiuhw0DwLzbFKixf-10">
-          <mxGeometry y="267" width="257" height="36" as="geometry" />
+          <mxGeometry y="292" width="257" height="36" as="geometry" />
         </mxCell>
         <mxCell id="0z_VEiuhw0DwLzbFKixf-19" value="vnet_classify_flags_t current_data_flag;&#xa;current_data_offset 是否有效标识。&#xa;" style="text;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#d6b656;" vertex="1" parent="0z_VEiuhw0DwLzbFKixf-10">
-          <mxGeometry y="303" width="257" height="45" as="geometry" />
+          <mxGeometry y="328" width="257" height="45" as="geometry" />
         </mxCell>
         <mxCell id="0z_VEiuhw0DwLzbFKixf-20" value="u32 miss_next_index;" style="text;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#d6b656;" vertex="1" parent="0z_VEiuhw0DwLzbFKixf-10">
-          <mxGeometry y="348" width="257" height="26" as="geometry" />
+          <mxGeometry y="373" width="257" height="26" as="geometry" />
         </mxCell>
         <mxCell id="0z_VEiuhw0DwLzbFKixf-21" value="  u32 linear_buckets;&#xa;  u32 active_elements;&#xa;  u32 data_offset;" style="text;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#d79b00;" vertex="1" parent="0z_VEiuhw0DwLzbFKixf-10">
-          <mxGeometry y="374" width="257" height="59" as="geometry" />
+          <mxGeometry y="399" width="257" height="59" as="geometry" />
         </mxCell>
         <mxCell id="0z_VEiuhw0DwLzbFKixf-22" value="vnet_classify_entry_t **working_copies;" style="text;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#d79b00;" vertex="1" parent="0z_VEiuhw0DwLzbFKixf-10">
-          <mxGeometry y="433" width="257" height="26" as="geometry" />
+          <mxGeometry y="458" width="257" height="26" as="geometry" />
         </mxCell>
         <mxCell id="0z_VEiuhw0DwLzbFKixf-24" value="int *working_copy_lengths;" style="text;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#d79b00;" vertex="1" parent="0z_VEiuhw0DwLzbFKixf-10">
-          <mxGeometry y="459" width="257" height="26" as="geometry" />
+          <mxGeometry y="484" width="257" height="26" as="geometry" />
         </mxCell>
         <mxCell id="0z_VEiuhw0DwLzbFKixf-25" value="vnet_classify_bucket_t saved_bucket;" style="text;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#d79b00;" vertex="1" parent="0z_VEiuhw0DwLzbFKixf-10">
-          <mxGeometry y="485" width="257" height="26" as="geometry" />
+          <mxGeometry y="510" width="257" height="26" as="geometry" />
         </mxCell>
         <mxCell id="0z_VEiuhw0DwLzbFKixf-26" value="vnet_classify_entry_t **freelists;" style="text;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#d79b00;" vertex="1" parent="0z_VEiuhw0DwLzbFKixf-10">
-          <mxGeometry y="511" width="257" height="26" as="geometry" />
+          <mxGeometry y="536" width="257" height="26" as="geometry" />
         </mxCell>
         <mxCell id="0z_VEiuhw0DwLzbFKixf-27" value="clib_spinlock_t writer_lock;" style="text;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#d79b00;" vertex="1" parent="0z_VEiuhw0DwLzbFKixf-10">
-          <mxGeometry y="537" width="257" height="26" as="geometry" />
+          <mxGeometry y="562" width="257" height="26" as="geometry" />
         </mxCell>
         <mxCell id="0z_VEiuhw0DwLzbFKixf-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0z_VEiuhw0DwLzbFKixf-2" target="0z_VEiuhw0DwLzbFKixf-10">
           <mxGeometry relative="1" as="geometry" />
