@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-14T13:09:29.545Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="IXD6FnDRsuXzcOByQNnp" version="14.7.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-14T15:16:25.639Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="dGsV5ALMzl8yB2oOC7F8" version="14.7.7" type="github">
   <diagram id="6OgHAIoOX9pApHHIhi0o" name="Page-1">
     <mxGraphModel dx="782" dy="437" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="1">
       <root>
@@ -276,24 +276,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0z_VEiuhw0DwLzbFKixf-47" value="mask:匹配掩码" style="text;html=1;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;strokeColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="1109" y="1319" width="114" height="27" as="geometry" />
+          <mxGeometry x="1109" y="1403.5" width="114" height="27" as="geometry" />
         </mxCell>
         <mxCell id="0z_VEiuhw0DwLzbFKixf-48" value="长度16字节* tables[0].&lt;span&gt;match_n_vectors&lt;br&gt;是由mask参数生成。&lt;br&gt;&lt;/span&gt;" style="text;html=1;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;strokeColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="1303" y="1307.5" width="266" height="50" as="geometry" />
+          <mxGeometry x="1264" y="1392" width="266" height="50" as="geometry" />
         </mxCell>
         <mxCell id="0z_VEiuhw0DwLzbFKixf-50" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;entryX=0;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="0z_VEiuhw0DwLzbFKixf-40" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1109" y="1566" as="sourcePoint" />
+            <mxPoint x="1109" y="1513" as="sourcePoint" />
             <mxPoint x="1271" y="1413" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GxebqxSVH_xqxho-cg3a-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0z_VEiuhw0DwLzbFKixf-51">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1356" y="1418" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="GxebqxSVH_xqxho-cg3a-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0z_VEiuhw0DwLzbFKixf-51" target="GxebqxSVH_xqxho-cg3a-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0z_VEiuhw0DwLzbFKixf-51" value="&lt;span style=&quot;&quot;&gt;i16 current_data_offset;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;vnet_classify_flags_t current_data_flag&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;strokeColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="1109" y="1387" width="220" height="47" as="geometry" />
+          <mxGeometry x="1109" y="1448.5" width="220" height="47" as="geometry" />
         </mxCell>
         <mxCell id="0z_VEiuhw0DwLzbFKixf-53" value="vnet_classify_entry_t" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;dashed=1;strokeColor=#FF6666;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="66" y="1814" width="280" height="433" as="geometry" />
@@ -321,6 +319,21 @@
         </mxCell>
         <mxCell id="0z_VEiuhw0DwLzbFKixf-62" value="u32x4 key[0]；实际的match内容。" style="text;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#000000;" parent="0z_VEiuhw0DwLzbFKixf-53" vertex="1">
           <mxGeometry y="407" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GxebqxSVH_xqxho-cg3a-3" value="&lt;span&gt;用于指定classify 匹配报文起始位置。默认是vlib_buffer_t中data。&lt;br&gt;&lt;/span&gt;" style="text;html=1;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1358" y="1448.5" width="220" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="GxebqxSVH_xqxho-cg3a-5" value="1、从pool内存池中，获取classify table资源" style="text;html=1;fillColor=#ffe6cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#d79b00;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="1111" y="1216" width="315" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GxebqxSVH_xqxho-cg3a-8" value="2、table[0].mheap 空间申请，从系统直接申请。后续用于存在classify session，也就是匹配规则表" style="text;html=1;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;strokeColor=#000000;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="1115" y="1303" width="427" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="GxebqxSVH_xqxho-cg3a-9" value="3、t-&amp;gt;buckets，申请桶空间大小，默认为指定桶大小是2。&lt;br&gt;这里需要注意桶空间是使用main_heap,而非从table[0].mheap&amp;nbsp;上内存" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="1109" y="1349" width="435" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="GxebqxSVH_xqxho-cg3a-10" value="填写tables其他参数设置。" style="text;html=1;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1109" y="1514" width="330" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
