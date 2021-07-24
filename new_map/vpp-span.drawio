@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-24T10:28:56.161Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="4C1oB711ewU6_pN0UPi9" version="14.7.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-24T10:31:34.635Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="k_44dTQFCSf7G5DxAb_Y" version="14.7.7" type="github">
   <diagram id="ntxCtAjPnNQsugVhFeW-" name="Page-1">
     <mxGraphModel dx="782" dy="437" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -29,13 +29,13 @@
           <mxGeometry y="40" width="230" height="54" as="geometry" />
         </mxCell>
         <mxCell id="VfCFXuvqAlAXGb72iytf-12" value="span_mirror_t&#xa;镜像观察口" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#b85450;fillColor=#f8cecc;shadow=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="650" y="100" width="160" height="92" as="geometry" />
+          <mxGeometry x="630" y="100" width="160" height="134" as="geometry" />
         </mxCell>
-        <mxCell id="VfCFXuvqAlAXGb72iytf-13" value="clib_bitmap_t *mirror_ports" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=1;rounded=1;" vertex="1" parent="VfCFXuvqAlAXGb72iytf-12">
-          <mxGeometry y="40" width="160" height="26" as="geometry" />
+        <mxCell id="VfCFXuvqAlAXGb72iytf-13" value="clib_bitmap_t *mirror_ports&#xa;bitmap方式存储镜像观察口&#xa;接口索引" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=1;rounded=1;" vertex="1" parent="VfCFXuvqAlAXGb72iytf-12">
+          <mxGeometry y="40" width="160" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="VfCFXuvqAlAXGb72iytf-15" value="u32 num_mirror_ports；" style="text;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#d6b656;shadow=1;rounded=1;" vertex="1" parent="VfCFXuvqAlAXGb72iytf-12">
-          <mxGeometry y="66" width="160" height="26" as="geometry" />
+        <mxCell id="VfCFXuvqAlAXGb72iytf-15" value="u32 num_mirror_ports；&#xa;镜像观察口数量" style="text;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#d6b656;shadow=1;rounded=1;" vertex="1" parent="VfCFXuvqAlAXGb72iytf-12">
+          <mxGeometry y="90" width="160" height="44" as="geometry" />
         </mxCell>
         <mxCell id="VfCFXuvqAlAXGb72iytf-16" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;shadow=1;curved=1;" edge="1" parent="1" source="VfCFXuvqAlAXGb72iytf-4" target="VfCFXuvqAlAXGb72iytf-8">
           <mxGeometry relative="1" as="geometry" />
