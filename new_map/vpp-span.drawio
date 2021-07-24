@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-24T10:02:15.772Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="mF4TJAUMd7tvT6qdd2bZ" version="14.7.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-24T10:24:46.100Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="voyyZl4c2Eb2s1CFcjGW" version="14.7.7" type="github">
   <diagram id="ntxCtAjPnNQsugVhFeW-" name="Page-1">
     <mxGraphModel dx="782" dy="437" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -22,7 +22,7 @@
         <mxCell id="VfCFXuvqAlAXGb72iytf-8" value="span_interface_t&#xa;镜像实例" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
           <mxGeometry x="340" y="100" width="230" height="94" as="geometry" />
         </mxCell>
-        <mxCell id="VfCFXuvqAlAXGb72iytf-9" value="span_mirror_t mirror_rxtx[x][y];" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="VfCFXuvqAlAXGb72iytf-8">
+        <mxCell id="VfCFXuvqAlAXGb72iytf-9" value="span_mirror_t mirror_rxtx[x][y];&#xa;x：镜像类型，0:所有报文，1：针对l2转发&#xa;y: 镜像方向，inbound or outboard" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="VfCFXuvqAlAXGb72iytf-8">
           <mxGeometry y="40" width="230" height="54" as="geometry" />
         </mxCell>
       </root>
