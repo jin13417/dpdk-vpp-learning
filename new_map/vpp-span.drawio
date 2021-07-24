@@ -1,23 +1,23 @@
-<mxfile host="app.diagrams.net" modified="2021-07-24T10:31:54.813Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="wofz_29okzX-1gh34hXj" version="14.7.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-24T10:36:08.081Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="OmpukUG4uGdfbVv5Ueqw" version="14.7.7" type="github">
   <diagram id="ntxCtAjPnNQsugVhFeW-" name="Page-1">
     <mxGraphModel dx="782" dy="437" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="VfCFXuvqAlAXGb72iytf-1" value="span_main_t&#xa;镜像管理结构体" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#ffe6cc;strokeColor=#d79b00;shadow=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="100" width="190" height="172" as="geometry" />
+          <mxGeometry x="50" y="100" width="220" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="VfCFXuvqAlAXGb72iytf-2" value="u32 l2_input_next[32];&#xa;u32 l2_output_next[32];" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=1;rounded=1;" vertex="1" parent="VfCFXuvqAlAXGb72iytf-1">
-          <mxGeometry y="40" width="190" height="40" as="geometry" />
+        <mxCell id="VfCFXuvqAlAXGb72iytf-2" value="u32 l2_input_next[32];&#xa;u32 l2_output_next[32];&#xa;L2层镜像存储feature信息。" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=1;rounded=1;" vertex="1" parent="VfCFXuvqAlAXGb72iytf-1">
+          <mxGeometry y="40" width="220" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="VfCFXuvqAlAXGb72iytf-4" value="span_interface_t *interfaces;" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=1;rounded=1;" vertex="1" parent="VfCFXuvqAlAXGb72iytf-1">
-          <mxGeometry y="80" width="190" height="26" as="geometry" />
+        <mxCell id="VfCFXuvqAlAXGb72iytf-4" value="span_interface_t *interfaces;&#xa;vec结构，以镜像镜像口索引。" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=1;rounded=1;" vertex="1" parent="VfCFXuvqAlAXGb72iytf-1">
+          <mxGeometry y="90" width="220" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="VfCFXuvqAlAXGb72iytf-5" value="u32 max_sw_if_index" style="text;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#d6b656;shadow=1;rounded=1;" vertex="1" parent="VfCFXuvqAlAXGb72iytf-1">
-          <mxGeometry y="106" width="190" height="26" as="geometry" />
+        <mxCell id="VfCFXuvqAlAXGb72iytf-5" value="u32 max_sw_if_index；&#xa;存储镜像观察口最大接口索引" style="text;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#d6b656;shadow=1;rounded=1;" vertex="1" parent="VfCFXuvqAlAXGb72iytf-1">
+          <mxGeometry y="130" width="220" height="40" as="geometry" />
         </mxCell>
         <mxCell id="VfCFXuvqAlAXGb72iytf-6" value="vlib_main_t *vlib_main;&#xa;vnet_main_t *vnet_main;" style="text;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#d6b656;shadow=1;rounded=1;" vertex="1" parent="VfCFXuvqAlAXGb72iytf-1">
-          <mxGeometry y="132" width="190" height="40" as="geometry" />
+          <mxGeometry y="170" width="220" height="40" as="geometry" />
         </mxCell>
         <mxCell id="VfCFXuvqAlAXGb72iytf-17" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;shadow=1;curved=1;" edge="1" parent="1" source="VfCFXuvqAlAXGb72iytf-8" target="VfCFXuvqAlAXGb72iytf-12">
           <mxGeometry relative="1" as="geometry" />
