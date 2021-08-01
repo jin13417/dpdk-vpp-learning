@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-01T02:22:36.057Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="v92vhm5vc2bk6JyVfZXr" version="14.9.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-01T02:26:22.679Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="SOuevrNf-9ZEboXzCIpW" version="14.9.3" type="github">
   <diagram id="LrOjiwraoGgn8fYIWFso" name="Page-1">
     <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -50,31 +50,31 @@
           <mxGeometry y="526" width="220" height="48" as="geometry" />
         </mxCell>
         <mxCell id="ZkCBohArZmW88u9ZcdBu-18" value="dns_cache_entry_t" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#b85450;fillColor=#f8cecc;" parent="1" vertex="1">
-          <mxGeometry x="310" y="130" width="260" height="310" as="geometry" />
+          <mxGeometry x="310" y="130" width="260" height="338" as="geometry" />
         </mxCell>
         <mxCell id="ZkCBohArZmW88u9ZcdBu-19" value="volatile u8 flags" style="text;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#d6b656;" parent="ZkCBohArZmW88u9ZcdBu-18" vertex="1">
           <mxGeometry y="26" width="260" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="ZkCBohArZmW88u9ZcdBu-21" value="u8 *name" style="text;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#d6b656;" parent="ZkCBohArZmW88u9ZcdBu-18" vertex="1">
+        <mxCell id="ZkCBohArZmW88u9ZcdBu-21" value="u8 *name，域名，如 www.baidu.com" style="text;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#d6b656;" parent="ZkCBohArZmW88u9ZcdBu-18" vertex="1">
           <mxGeometry y="52" width="260" height="26" as="geometry" />
         </mxCell>
         <mxCell id="ZkCBohArZmW88u9ZcdBu-22" value="u8 *cname" style="text;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#d6b656;" parent="ZkCBohArZmW88u9ZcdBu-18" vertex="1">
           <mxGeometry y="78" width="260" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="ZkCBohArZmW88u9ZcdBu-23" value="f64 expiration_time" style="text;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#d6b656;" parent="ZkCBohArZmW88u9ZcdBu-18" vertex="1">
+        <mxCell id="ZkCBohArZmW88u9ZcdBu-23" value="f64 expiration_time,超时时间" style="text;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#d6b656;" parent="ZkCBohArZmW88u9ZcdBu-18" vertex="1">
           <mxGeometry y="104" width="260" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="ZkCBohArZmW88u9ZcdBu-24" value="u8 *dns_request" style="text;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#d6b656;" parent="ZkCBohArZmW88u9ZcdBu-18" vertex="1">
-          <mxGeometry y="130" width="260" height="26" as="geometry" />
+        <mxCell id="ZkCBohArZmW88u9ZcdBu-24" value="u8 *dns_request，&#xa;缓存的dns请求，用于发送重试" style="text;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#d6b656;" parent="ZkCBohArZmW88u9ZcdBu-18" vertex="1">
+          <mxGeometry y="130" width="260" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ZkCBohArZmW88u9ZcdBu-25" value="int retry_count;&#xa;int server_rotor;&#xa;int server_af;&#xa;int server_fails;&#xa;f64 retry_timer;" style="text;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#d6b656;" parent="ZkCBohArZmW88u9ZcdBu-18" vertex="1">
-          <mxGeometry y="156" width="260" height="86" as="geometry" />
+          <mxGeometry y="170" width="260" height="100" as="geometry" />
         </mxCell>
         <mxCell id="ZkCBohArZmW88u9ZcdBu-26" value="u8 *dns_response" style="text;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#d6b656;" parent="ZkCBohArZmW88u9ZcdBu-18" vertex="1">
-          <mxGeometry y="242" width="260" height="26" as="geometry" />
+          <mxGeometry y="270" width="260" height="26" as="geometry" />
         </mxCell>
         <mxCell id="ZkCBohArZmW88u9ZcdBu-27" value="dns_pending_request_t *pending_requests" style="text;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#b85450;" parent="ZkCBohArZmW88u9ZcdBu-18" vertex="1">
-          <mxGeometry y="268" width="260" height="42" as="geometry" />
+          <mxGeometry y="296" width="260" height="42" as="geometry" />
         </mxCell>
         <mxCell id="ZkCBohArZmW88u9ZcdBu-29" value="dns_pending_request_t" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#d79b00;fillColor=#ffe6cc;" parent="1" vertex="1">
           <mxGeometry x="650" y="130" width="160" height="234" as="geometry" />
