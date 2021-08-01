@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-01T15:00:13.278Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="04DkqltgoimtFguse95Q" version="14.9.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-01T15:02:18.526Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="aIU9gBCZkn9UYbX9srr5" version="14.9.3" type="github">
   <diagram id="LrOjiwraoGgn8fYIWFso" name="Page-1">
     <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -207,7 +207,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="JksAib5gZETohY2zEiZS-50" value="send_dns4_request&lt;br&gt;请求设置nameserver去查询" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=#3A5431;fillColor=#6d8764;fontStyle=1;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="310" y="1570" width="160" height="40" as="geometry" />
+          <mxGeometry x="310" y="1580" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="JksAib5gZETohY2zEiZS-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;strokeColor=#FF0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JksAib5gZETohY2zEiZS-53" target="JksAib5gZETohY2zEiZS-37">
           <mxGeometry relative="1" as="geometry">
@@ -238,6 +238,14 @@
         <mxCell id="JksAib5gZETohY2zEiZS-72" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;fontColor=#FF0000;strokeColor=#FF0000;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" target="JksAib5gZETohY2zEiZS-71" parent="1" source="JksAib5gZETohY2zEiZS-20">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="690" y="1420" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JksAib5gZETohY2zEiZS-73" value="1、请求name sever来查询域名&lt;br&gt;2、唤醒dns process 节点，定时发送&lt;br&gt;dns request请求" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=left;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};rounded=1;dashed=1;fontColor=#FF0000;strokeColor=#ACB36F;" vertex="1" parent="1">
+          <mxGeometry x="414" y="1630" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JksAib5gZETohY2zEiZS-74" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;fontColor=#FF0000;strokeColor=#FF0000;exitX=0.417;exitY=0.983;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="JksAib5gZETohY2zEiZS-73" parent="1" source="JksAib5gZETohY2zEiZS-50">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="1690" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
       </root>
