@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-01T02:26:22.679Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="SOuevrNf-9ZEboXzCIpW" version="14.9.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-01T02:27:38.062Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="e5nEmvf-k5NiKWfMMipe" version="14.9.3" type="github">
   <diagram id="LrOjiwraoGgn8fYIWFso" name="Page-1">
     <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -67,10 +67,10 @@
         <mxCell id="ZkCBohArZmW88u9ZcdBu-24" value="u8 *dns_request，&#xa;缓存的dns请求，用于发送重试" style="text;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#d6b656;" parent="ZkCBohArZmW88u9ZcdBu-18" vertex="1">
           <mxGeometry y="130" width="260" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ZkCBohArZmW88u9ZcdBu-25" value="int retry_count;&#xa;int server_rotor;&#xa;int server_af;&#xa;int server_fails;&#xa;f64 retry_timer;" style="text;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#d6b656;" parent="ZkCBohArZmW88u9ZcdBu-18" vertex="1">
+        <mxCell id="ZkCBohArZmW88u9ZcdBu-25" value="int retry_count;&#xa;int server_rotor;&#xa;int server_af;&#xa;int server_fails;&#xa;f64 retry_timer;&#xa;发送重试的一些参数。" style="text;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#d6b656;" parent="ZkCBohArZmW88u9ZcdBu-18" vertex="1">
           <mxGeometry y="170" width="260" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="ZkCBohArZmW88u9ZcdBu-26" value="u8 *dns_response" style="text;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#d6b656;" parent="ZkCBohArZmW88u9ZcdBu-18" vertex="1">
+        <mxCell id="ZkCBohArZmW88u9ZcdBu-26" value="u8 *dns_response；缓存dns回应报文。" style="text;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#d6b656;" parent="ZkCBohArZmW88u9ZcdBu-18" vertex="1">
           <mxGeometry y="270" width="260" height="26" as="geometry" />
         </mxCell>
         <mxCell id="ZkCBohArZmW88u9ZcdBu-27" value="dns_pending_request_t *pending_requests" style="text;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#b85450;" parent="ZkCBohArZmW88u9ZcdBu-18" vertex="1">
