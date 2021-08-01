@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-01T02:27:38.062Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="e5nEmvf-k5NiKWfMMipe" version="14.9.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-01T02:29:00.910Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="MEEO47qVMgWLFK4awa9e" version="14.9.3" type="github">
   <diagram id="LrOjiwraoGgn8fYIWFso" name="Page-1">
     <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -73,7 +73,7 @@
         <mxCell id="ZkCBohArZmW88u9ZcdBu-26" value="u8 *dns_response；缓存dns回应报文。" style="text;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#d6b656;" parent="ZkCBohArZmW88u9ZcdBu-18" vertex="1">
           <mxGeometry y="270" width="260" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="ZkCBohArZmW88u9ZcdBu-27" value="dns_pending_request_t *pending_requests" style="text;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#b85450;" parent="ZkCBohArZmW88u9ZcdBu-18" vertex="1">
+        <mxCell id="ZkCBohArZmW88u9ZcdBu-27" value="dns_pending_request_t *pending_requests&#xa;描述等待响应的客户端信息。" style="text;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#b85450;" parent="ZkCBohArZmW88u9ZcdBu-18" vertex="1">
           <mxGeometry y="296" width="260" height="42" as="geometry" />
         </mxCell>
         <mxCell id="ZkCBohArZmW88u9ZcdBu-29" value="dns_pending_request_t" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#d79b00;fillColor=#ffe6cc;" parent="1" vertex="1">
