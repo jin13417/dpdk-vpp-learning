@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-01T14:04:57.598Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="oApP0okNOFAN3EW2EEZo" version="14.9.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-01T14:07:59.799Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="016esAtv3IGmCnIIKCbx" version="14.9.3" type="github">
   <diagram id="LrOjiwraoGgn8fYIWFso" name="Page-1">
     <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -170,21 +170,6 @@
         <mxCell id="JksAib5gZETohY2zEiZS-16" value="ip4-udp-lookup" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d6b656;gradientColor=#ffd966;fillColor=#fff2cc;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="359" y="1360" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="JksAib5gZETohY2zEiZS-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF0000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JksAib5gZETohY2zEiZS-39" target="JksAib5gZETohY2zEiZS-37">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="80" y="1620" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="JksAib5gZETohY2zEiZS-43" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JksAib5gZETohY2zEiZS-36">
-          <mxGeometry x="0.1033" y="-3" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="JksAib5gZETohY2zEiZS-44" value="&lt;span style=&quot;font-size: 12px; font-weight: 700; background-color: rgb(248, 249, 250);&quot;&gt;dns cache 查询到&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" vertex="1" connectable="0" parent="JksAib5gZETohY2zEiZS-36">
-          <mxGeometry x="0.1133" y="-5" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="JksAib5gZETohY2zEiZS-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF0000;" edge="1" parent="1" source="JksAib5gZETohY2zEiZS-18" target="JksAib5gZETohY2zEiZS-39">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -204,16 +189,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="JksAib5gZETohY2zEiZS-37" value="ip4-lookup" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=#B20000;fillColor=#e51400;fontStyle=1;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="30" y="1570" width="120" height="40" as="geometry" />
+          <mxGeometry x="30" y="1600" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="JksAib5gZETohY2zEiZS-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;strokeColor=#FF0000;" edge="1" parent="1" source="JksAib5gZETohY2zEiZS-39" target="JksAib5gZETohY2zEiZS-50">
+        <mxCell id="JksAib5gZETohY2zEiZS-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;strokeColor=#FF0000;" edge="1" parent="1" source="JksAib5gZETohY2zEiZS-39" target="JksAib5gZETohY2zEiZS-53">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="JksAib5gZETohY2zEiZS-39" value="dns_resolve_name&lt;br&gt;解析域名" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=#b85450;gradientColor=#ea6b66;fillColor=#f8cecc;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="170" y="1470" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="JksAib5gZETohY2zEiZS-41" value="回应client" style="ellipse;whiteSpace=wrap;html=1;rounded=1;fontColor=#ffffff;fontStyle=1;strokeColor=#B20000;fillColor=#e51400;" vertex="1" parent="1">
-          <mxGeometry x="30" y="1640" width="120" height="30" as="geometry" />
+          <mxGeometry x="30" y="1670" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="JksAib5gZETohY2zEiZS-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.003;entryY=0.026;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#FF0000;strokeColor=#FF0000;curved=1;" edge="1" parent="1" source="ZkCBohArZmW88u9ZcdBu-2" target="ZkCBohArZmW88u9ZcdBu-18">
           <mxGeometry relative="1" as="geometry" />
@@ -222,7 +207,30 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="JksAib5gZETohY2zEiZS-50" value="dns_resolve_name&lt;br&gt;解析域名" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=#b85450;gradientColor=#ea6b66;fillColor=#f8cecc;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="280" y="1570" width="120" height="40" as="geometry" />
+          <mxGeometry x="310" y="1580" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JksAib5gZETohY2zEiZS-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;strokeColor=#FF0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JksAib5gZETohY2zEiZS-53" target="JksAib5gZETohY2zEiZS-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="75" y="1550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JksAib5gZETohY2zEiZS-59" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;fontStyle=1" vertex="1" connectable="0" parent="JksAib5gZETohY2zEiZS-56">
+          <mxGeometry x="-0.6812" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JksAib5gZETohY2zEiZS-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;strokeColor=#FF0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JksAib5gZETohY2zEiZS-53" target="JksAib5gZETohY2zEiZS-50">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="385" y="1550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JksAib5gZETohY2zEiZS-60" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;fontStyle=1" vertex="1" connectable="0" parent="JksAib5gZETohY2zEiZS-58">
+          <mxGeometry x="-0.1228" y="-2" relative="1" as="geometry">
+            <mxPoint x="-7" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JksAib5gZETohY2zEiZS-53" value="dns 缓存查询是否存在" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fontStyle=1;strokeColor=#b85450;fillColor=#f8cecc;gradientColor=#ea6b66;" vertex="1" parent="1">
+          <mxGeometry x="155" y="1530" width="150" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
