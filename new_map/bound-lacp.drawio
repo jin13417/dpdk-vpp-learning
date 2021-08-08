@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-08T04:10:49.656Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="nvX35Djuf8_rqOLta2zy" version="14.9.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-08T04:15:25.173Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="L3sWufIcY7JOdHhxNu-v" version="14.9.3" type="github">
   <diagram id="9AG6dMXkFzKv3NEKEavT" name="Page-1">
     <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -313,8 +313,20 @@
         <mxCell id="XbOeX88OnJUGYsb8YKjg-18" value="BondEthernet2-output" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
           <mxGeometry x="115" y="2740" width="150" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="XbOeX88OnJUGYsb8YKjg-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XbOeX88OnJUGYsb8YKjg-20" target="XbOeX88OnJUGYsb8YKjg-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="XbOeX88OnJUGYsb8YKjg-20" value="BondEthernet2-tx" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
           <mxGeometry x="115" y="2810" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XbOeX88OnJUGYsb8YKjg-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XbOeX88OnJUGYsb8YKjg-22" target="XbOeX88OnJUGYsb8YKjg-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XbOeX88OnJUGYsb8YKjg-22" value="interfacexxx-output" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="115" y="2880" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XbOeX88OnJUGYsb8YKjg-24" value="&lt;span&gt;interfacexxx-tx&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="115" y="2950" width="150" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
