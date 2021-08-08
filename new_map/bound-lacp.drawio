@@ -1,9 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2021-08-08T05:04:28.353Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="QTSGqBEr_5WPmM9LSkIm" version="14.9.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-08T05:07:53.832Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="-pf645aeNkR99AXbUG0Q" version="14.9.3" type="github">
   <diagram id="9AG6dMXkFzKv3NEKEavT" name="Page-1">
     <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="XbOeX88OnJUGYsb8YKjg-64" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;VMware 虚拟机2" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#82b366;align=left;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="590" y="3125" width="220" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="XbOeX88OnJUGYsb8YKjg-63" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;VMware 虚拟机1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#82b366;align=left;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="200" y="3125" width="220" height="170" as="geometry" />
+        </mxCell>
         <mxCell id="q2S3u8bW5YVib6_HT2O6-1" value="bond_main_t" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="50" y="350" width="250" height="318" as="geometry" />
         </mxCell>
@@ -401,11 +407,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="XbOeX88OnJUGYsb8YKjg-47" value="learning-vpp1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#d79b00;align=left;fillColor=#ffe6cc;" vertex="1" parent="1">
-          <mxGeometry x="260" y="3160" width="120" height="60" as="geometry" />
+        <mxCell id="XbOeX88OnJUGYsb8YKjg-47" value="learning-vpp1 程序" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#d79b00;align=left;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="220" y="3160" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="XbOeX88OnJUGYsb8YKjg-48" value="&lt;span&gt;learning-vpp2&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#d6b656;align=left;fillColor=#fff2cc;" vertex="1" parent="1">
-          <mxGeometry x="650" y="3160" width="120" height="60" as="geometry" />
+          <mxGeometry x="650" y="3160" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="XbOeX88OnJUGYsb8YKjg-53" value="GigabitEthernet13/0/0" style="text;html=1;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#d79b00;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="380" y="3140" width="130" height="20" as="geometry" />
@@ -418,6 +424,24 @@
         </mxCell>
         <mxCell id="XbOeX88OnJUGYsb8YKjg-56" value="GigabitEthernet1b/0/0" style="text;html=1;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#d79b00;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="380" y="3180" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XbOeX88OnJUGYsb8YKjg-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XbOeX88OnJUGYsb8YKjg-57" target="XbOeX88OnJUGYsb8YKjg-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XbOeX88OnJUGYsb8YKjg-57" value="GigabitEthernetb/0/0" style="text;html=1;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#9673a6;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="235" y="3200" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XbOeX88OnJUGYsb8YKjg-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XbOeX88OnJUGYsb8YKjg-58" target="XbOeX88OnJUGYsb8YKjg-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XbOeX88OnJUGYsb8YKjg-58" value="GigabitEthernetb/0/0" style="text;html=1;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#9673a6;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="3200" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XbOeX88OnJUGYsb8YKjg-59" value="ens161" style="text;html=1;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#9673a6;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="235" y="3250" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XbOeX88OnJUGYsb8YKjg-61" value="ens33" style="text;html=1;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#9673a6;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="3250" width="130" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
