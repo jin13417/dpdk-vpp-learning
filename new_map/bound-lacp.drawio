@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-08T04:54:42.590Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="XD2O8SMTFrO-b_iau1WB" version="14.9.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-08T04:58:27.741Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="b0PRTLYGWk7EmLjsLDm3" version="14.9.3" type="github">
   <diagram id="9AG6dMXkFzKv3NEKEavT" name="Page-1">
     <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -337,9 +337,6 @@
         </mxCell>
         <mxCell id="XbOeX88OnJUGYsb8YKjg-24" value="&lt;span&gt;interfacexxx-tx&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
           <mxGeometry x="110" y="2980" width="150" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="XbOeX88OnJUGYsb8YKjg-26" value="BondEthernet2-output" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
-          <mxGeometry x="105" y="2780" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="XbOeX88OnJUGYsb8YKjg-28" value="1、bond-input是arc featue类device-input的feature，接口绑定bond的时候使能的。&lt;br&gt;2、dpdk-input检查device-input arc类是否存在使能feature，存在走feature处理。" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=left;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};strokeColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="290" y="2430" width="470" height="30" as="geometry" />
