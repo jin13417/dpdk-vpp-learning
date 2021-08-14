@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-14T08:21:06.208Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="P9JlmZ7g4-Hi3WvhpZcK" version="14.9.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-14T08:22:07.100Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="Krkx5b3lJNmg_78toam5" version="14.9.5" type="github">
   <diagram id="9AG6dMXkFzKv3NEKEavT" name="Page-1">
     <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -269,7 +269,7 @@
           <mxGeometry y="236" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="XbOeX88OnJUGYsb8YKjg-1" value="bond_add_member_args_t&#xa;boud接口添加/删除成员口配置结构体" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="450" y="10" width="230" height="258" as="geometry" />
+          <mxGeometry x="40" y="960" width="230" height="258" as="geometry" />
         </mxCell>
         <mxCell id="XbOeX88OnJUGYsb8YKjg-2" value="u32 member；bond成员口索引" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="XbOeX88OnJUGYsb8YKjg-1" vertex="1">
           <mxGeometry y="40" width="230" height="26" as="geometry" />
