@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-15T14:41:25.260Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="2YKfjEnqHa1Ix6G7FjOv" version="14.9.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-15T14:49:27.909Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="BGEkzWTMVVgJP5dIG4sw" version="14.9.5" type="github">
   <diagram id="9AG6dMXkFzKv3NEKEavT" name="Page-1">
     <mxGraphModel dx="1043" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -495,8 +495,23 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="I8hkYLo_2UaoaW9EmSw0-25" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="I8hkYLo_2UaoaW9EmSw0-11" target="I8hkYLo_2UaoaW9EmSw0-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="I8hkYLo_2UaoaW9EmSw0-11" value="bond_main-&amp;gt;&lt;span style=&quot;text-align: left; font-size: 15px;&quot;&gt;per_thread_data&lt;/span&gt;" style="text;html=1;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#d6b656;dashed=1;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="842" y="402" width="220" height="50" as="geometry" />
+          <mxGeometry x="840" y="397" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="I8hkYLo_2UaoaW9EmSw0-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=15;curved=1;" edge="1" parent="1" source="I8hkYLo_2UaoaW9EmSw0-12" target="I8hkYLo_2UaoaW9EmSw0-34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1192" y="480" />
+              <mxPoint x="1100" y="480" />
+              <mxPoint x="1100" y="510" />
+              <mxPoint x="1030" y="510" />
+              <mxPoint x="1030" y="500" />
+              <mxPoint x="950" y="500" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="I8hkYLo_2UaoaW9EmSw0-12" value="&lt;span style=&quot;font-size: 12px ; text-align: left&quot;&gt;bond_per_thread_data_t&lt;br&gt;work_threads_0&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fontSize=15;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="1">
           <mxGeometry x="1102" y="392" width="179" height="60" as="geometry" />
@@ -516,17 +531,47 @@
         <mxCell id="I8hkYLo_2UaoaW9EmSw0-16" value="每个worker线程一个bond data结构体" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="1230.5" y="350" width="280" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="I8hkYLo_2UaoaW9EmSw0-17" value="bond_per_thread_data_t" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;dashed=1;fontSize=15;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="910" y="30" width="290" height="86" as="geometry" />
+        <mxCell id="I8hkYLo_2UaoaW9EmSw0-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=-0.002;entryY=0.167;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=15;" edge="1" parent="1" source="I8hkYLo_2UaoaW9EmSw0-17" target="I8hkYLo_2UaoaW9EmSw0-21">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="I8hkYLo_2UaoaW9EmSw0-18" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="I8hkYLo_2UaoaW9EmSw0-17">
-          <mxGeometry y="26" width="290" height="26" as="geometry" />
+        <mxCell id="I8hkYLo_2UaoaW9EmSw0-17" value="bond_per_thread_data_t&#xa;bond线程数据结构体" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="860.5" y="190" width="290" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="I8hkYLo_2UaoaW9EmSw0-19" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="I8hkYLo_2UaoaW9EmSw0-17">
-          <mxGeometry y="52" width="290" height="8" as="geometry" />
+        <mxCell id="I8hkYLo_2UaoaW9EmSw0-18" value="bond_per_port_queue_t *per_port_queue;&#xa;vector结构，bond每个成员口对应一个数据" style="text;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#d6b656;" vertex="1" parent="I8hkYLo_2UaoaW9EmSw0-17">
+          <mxGeometry y="50" width="290" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="I8hkYLo_2UaoaW9EmSw0-20" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="I8hkYLo_2UaoaW9EmSw0-17">
-          <mxGeometry y="60" width="290" height="26" as="geometry" />
+        <mxCell id="I8hkYLo_2UaoaW9EmSw0-21" value="bond_per_port_queue_t &#xa;报文临时缓存区" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=15;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="1230.5" y="190" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="I8hkYLo_2UaoaW9EmSw0-22" value="u32 buffers[VLIB_FRAME_SIZE];&#xa;存储报文索引" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="I8hkYLo_2UaoaW9EmSw0-21">
+          <mxGeometry y="50" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="I8hkYLo_2UaoaW9EmSw0-24" value="u32 n_buffers;记录存储报文数量" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="I8hkYLo_2UaoaW9EmSw0-21">
+          <mxGeometry y="90" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="I8hkYLo_2UaoaW9EmSw0-28" value="&lt;span style=&quot;font-size: 12px ; text-align: left&quot;&gt;bond_per_thread_data_t&lt;br&gt;work_threads_0&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fontSize=15;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="1112" y="592" width="179" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I8hkYLo_2UaoaW9EmSw0-29" value="&lt;span style=&quot;font-size: 12px ; text-align: left&quot;&gt;bond_per_thread_data_t&lt;/span&gt;&lt;br style=&quot;font-size: 12px ; text-align: left&quot;&gt;&lt;span style=&quot;font-size: 12px ; text-align: left&quot;&gt;work_threads_1&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fontSize=15;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="1291" y="592" width="179" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I8hkYLo_2UaoaW9EmSw0-30" value="&lt;span style=&quot;font-size: 12px ; text-align: left&quot;&gt;bond_per_thread_data_t&lt;/span&gt;&lt;br style=&quot;font-size: 12px ; text-align: left&quot;&gt;&lt;span style=&quot;font-size: 12px ; text-align: left&quot;&gt;work_threads_2&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fontSize=15;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="592" width="179" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I8hkYLo_2UaoaW9EmSw0-31" value="" style="endArrow=block;startArrow=block;endFill=1;startFill=1;html=1;fontSize=15;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1112" y="572" as="sourcePoint" />
+            <mxPoint x="1642" y="572" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I8hkYLo_2UaoaW9EmSw0-32" value="bond每个成员口对应一个结构体，用于缓存报文。无锁化" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="1240.5" y="530" width="219.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="I8hkYLo_2UaoaW9EmSw0-35" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="I8hkYLo_2UaoaW9EmSw0-34" target="I8hkYLo_2UaoaW9EmSw0-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I8hkYLo_2UaoaW9EmSw0-34" value="&lt;span style=&quot;font-size: 12px ; text-align: left&quot;&gt;per_port_queue&lt;/span&gt;" style="text;html=1;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#d6b656;dashed=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="880" y="597" width="140" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
