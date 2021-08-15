@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-15T14:52:34.184Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="OYnN_3pUzpqx7FftZPbu" version="14.9.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-15T14:53:05.491Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="Y0-rb76fyPFNsPQ2BLUr" version="14.9.5" type="github">
   <diagram id="9AG6dMXkFzKv3NEKEavT" name="Page-1">
     <mxGraphModel dx="1043" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -516,8 +516,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="I8hkYLo_2UaoaW9EmSw0-37" value="成员口缓存队列" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;labelBorderColor=#000000;" vertex="1" connectable="0" parent="I8hkYLo_2UaoaW9EmSw0-33">
+        <mxCell id="I8hkYLo_2UaoaW9EmSw0-37" value="指向成员口缓存队列" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;labelBorderColor=#000000;" vertex="1" connectable="0" parent="I8hkYLo_2UaoaW9EmSw0-33">
           <mxGeometry x="-0.1813" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I8hkYLo_2UaoaW9EmSw0-39" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="I8hkYLo_2UaoaW9EmSw0-33">
+          <mxGeometry x="-0.0042" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
