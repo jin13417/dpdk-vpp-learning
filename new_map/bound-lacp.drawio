@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-04T05:30:08.700Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="xFgGqQjwOZzVT5aNla6Z" version="15.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-04T05:32:21.926Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="Fy-vWJ2C8hyzKeaQ66-b" version="15.0.6" type="github">
   <diagram id="9AG6dMXkFzKv3NEKEavT" name="Page-1">
     <mxGraphModel dx="1609" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -629,7 +629,7 @@
           <mxGeometry y="156" width="250" height="26" as="geometry" />
         </mxCell>
         <mxCell id="U2vqloPY-AdH2RY4UuR--9" value="lacp maping" style="swimlane;startSize=20;horizontal=1;containerType=tree;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="-786" y="2673" width="776" height="337" as="geometry" />
+          <mxGeometry x="-786" y="2673" width="776" height="387" as="geometry" />
         </mxCell>
         <mxCell id="U2vqloPY-AdH2RY4UuR--10" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;" edge="1" parent="U2vqloPY-AdH2RY4UuR--9" source="U2vqloPY-AdH2RY4UuR--14" target="U2vqloPY-AdH2RY4UuR--15">
           <mxGeometry relative="1" as="geometry" />
@@ -708,7 +708,7 @@
             <mxPoint x="76" y="251" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="U2vqloPY-AdH2RY4UuR--86" value="超时时间" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="U2vqloPY-AdH2RY4UuR--9">
+        <mxCell id="U2vqloPY-AdH2RY4UuR--86" value="超时时间" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="U2vqloPY-AdH2RY4UuR--9">
           <mxGeometry x="122" y="279" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="U2vqloPY-AdH2RY4UuR--87" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="U2vqloPY-AdH2RY4UuR--86" parent="U2vqloPY-AdH2RY4UuR--9" source="U2vqloPY-AdH2RY4UuR--14">
@@ -716,16 +716,16 @@
             <mxPoint x="70" y="321" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="U2vqloPY-AdH2RY4UuR--90" value="Branch" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};strokeColor=#000000;" vertex="1" parent="U2vqloPY-AdH2RY4UuR--9">
-          <mxGeometry x="250" y="267" width="80" height="20" as="geometry" />
+        <mxCell id="U2vqloPY-AdH2RY4UuR--90" value="&lt;div&gt;LACP超时时间是指成员端口等待接收LACPDU的超时时间，在LACP超时时间之后，如果本端&lt;/div&gt;&lt;div&gt;成员端口仍未收到来自对端的LACPDU，则认为对端成员端口已失效。&lt;/div&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};strokeColor=#000000;" vertex="1" parent="U2vqloPY-AdH2RY4UuR--9">
+          <mxGeometry x="238" y="257" width="530" height="30" as="geometry" />
         </mxCell>
         <mxCell id="U2vqloPY-AdH2RY4UuR--91" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="U2vqloPY-AdH2RY4UuR--90" parent="U2vqloPY-AdH2RY4UuR--9" source="U2vqloPY-AdH2RY4UuR--86">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="200" y="310" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="U2vqloPY-AdH2RY4UuR--92" value="Branch" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};strokeColor=#000000;" vertex="1" parent="U2vqloPY-AdH2RY4UuR--9">
-          <mxGeometry x="256" y="307" width="80" height="20" as="geometry" />
+        <mxCell id="U2vqloPY-AdH2RY4UuR--92" value="&lt;div&gt;LACP超时时间同时也决定了对端发送LACPDU的速率。LACP超时有短超时（3秒）和长超时&lt;/div&gt;&lt;div&gt;（90秒）两种。&lt;/div&gt;&lt;div&gt;若LACP超时时间为短超时，则对端将快速发送LACPDU（每1秒发送1个LACPDU）。&lt;/div&gt;&lt;div&gt;若LACP超时时间为长超时，则对端将慢速发送LACPDU（每30秒发送1个LACPDU）。&lt;/div&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=left;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};strokeColor=#000000;" vertex="1" parent="U2vqloPY-AdH2RY4UuR--9">
+          <mxGeometry x="230" y="297" width="520" height="60" as="geometry" />
         </mxCell>
         <mxCell id="U2vqloPY-AdH2RY4UuR--93" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="U2vqloPY-AdH2RY4UuR--92" parent="U2vqloPY-AdH2RY4UuR--9" source="U2vqloPY-AdH2RY4UuR--86">
           <mxGeometry relative="1" as="geometry">
