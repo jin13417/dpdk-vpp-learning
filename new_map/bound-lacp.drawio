@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-04T03:44:04.527Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="yloDeQfiON6-CKCB8vEY" version="15.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-04T03:56:36.134Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="Qi-G6LkjgVEc19m1ggkt" version="15.0.6" type="github">
   <diagram id="9AG6dMXkFzKv3NEKEavT" name="Page-1">
     <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -73,10 +73,10 @@
         <mxCell id="q2S3u8bW5YVib6_HT2O6-22" value="u32 *active_members;bond下有效成员口" style="text;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#d6b656;" parent="q2S3u8bW5YVib6_HT2O6-12" vertex="1">
           <mxGeometry y="292" width="270" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="q2S3u8bW5YVib6_HT2O6-23" value="lacp_port_info_t partner" style="text;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#d6b656;" parent="q2S3u8bW5YVib6_HT2O6-12" vertex="1">
+        <mxCell id="q2S3u8bW5YVib6_HT2O6-23" value="lacp_port_info_t partner，目前看没有使用" style="text;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#b85450;" parent="q2S3u8bW5YVib6_HT2O6-12" vertex="1">
           <mxGeometry y="318" width="270" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="q2S3u8bW5YVib6_HT2O6-24" value="lacp_port_info_t actor;&#xa;" style="text;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#d6b656;" parent="q2S3u8bW5YVib6_HT2O6-12" vertex="1">
+        <mxCell id="q2S3u8bW5YVib6_HT2O6-24" value="lacp_port_info_t actor;     没有使用" style="text;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#b85450;" parent="q2S3u8bW5YVib6_HT2O6-12" vertex="1">
           <mxGeometry y="344" width="270" height="26" as="geometry" />
         </mxCell>
         <mxCell id="q2S3u8bW5YVib6_HT2O6-25" value="u8 individual_aggregator;" style="text;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#d6b656;" parent="q2S3u8bW5YVib6_HT2O6-12" vertex="1">
