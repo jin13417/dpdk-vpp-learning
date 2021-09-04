@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-04T04:49:14.097Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="iPJiuOJ-pmJX_6wW1_oY" version="15.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-04T04:57:02.436Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="UN2_nYZVhilhgPi5b75K" version="15.0.6" type="github">
   <diagram id="9AG6dMXkFzKv3NEKEavT" name="Page-1">
     <mxGraphModel dx="1609" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -629,7 +629,7 @@
           <mxGeometry y="156" width="250" height="26" as="geometry" />
         </mxCell>
         <mxCell id="U2vqloPY-AdH2RY4UuR--9" value="lacp maping" style="swimlane;startSize=20;horizontal=1;containerType=tree;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="-590" y="2950" width="520" height="250" as="geometry" />
+          <mxGeometry x="-760" y="2540" width="746" height="250" as="geometry" />
         </mxCell>
         <mxCell id="U2vqloPY-AdH2RY4UuR--10" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;" edge="1" parent="U2vqloPY-AdH2RY4UuR--9" source="U2vqloPY-AdH2RY4UuR--14" target="U2vqloPY-AdH2RY4UuR--15">
           <mxGeometry relative="1" as="geometry" />
@@ -641,19 +641,19 @@
           <mxGeometry x="10" y="110" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="U2vqloPY-AdH2RY4UuR--15" value="基本概念" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="U2vqloPY-AdH2RY4UuR--9">
-          <mxGeometry x="150" y="30" width="90" height="30" as="geometry" />
+          <mxGeometry x="140" y="45" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="U2vqloPY-AdH2RY4UuR--16" value="Branch" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="U2vqloPY-AdH2RY4UuR--9">
-          <mxGeometry x="270" y="24" width="72" height="26" as="geometry" />
+        <mxCell id="U2vqloPY-AdH2RY4UuR--16" value="&lt;span style=&quot;font-family: &amp;#34;arial&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , sans-serif ; font-size: 14px ; text-align: justify ; background-color: rgb(255 , 255 , 255)&quot;&gt;基于IEEE802.3ad标准的LACP协议是一种实现链路动态聚合的协议，&lt;br&gt;运行该协议的设备之间通过互发LACPDU来交互链路聚合的相关信息&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="U2vqloPY-AdH2RY4UuR--9">
+          <mxGeometry x="260" y="25" width="460" height="40" as="geometry" />
         </mxCell>
         <mxCell id="U2vqloPY-AdH2RY4UuR--17" value="工作模式" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="U2vqloPY-AdH2RY4UuR--9">
-          <mxGeometry x="150" y="90" width="90" height="30" as="geometry" />
+          <mxGeometry x="150" y="150" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="U2vqloPY-AdH2RY4UuR--12" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;" edge="1" parent="U2vqloPY-AdH2RY4UuR--9" source="U2vqloPY-AdH2RY4UuR--14" target="U2vqloPY-AdH2RY4UuR--17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="U2vqloPY-AdH2RY4UuR--23" value="Branch" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};strokeColor=#000000;" vertex="1" parent="U2vqloPY-AdH2RY4UuR--9">
-          <mxGeometry x="270" y="70" width="80" height="20" as="geometry" />
+          <mxGeometry x="280" y="145" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="U2vqloPY-AdH2RY4UuR--24" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="U2vqloPY-AdH2RY4UuR--23" parent="U2vqloPY-AdH2RY4UuR--9" source="U2vqloPY-AdH2RY4UuR--17">
           <mxGeometry relative="1" as="geometry">
@@ -661,12 +661,79 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="U2vqloPY-AdH2RY4UuR--21" value="Branch" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};strokeColor=#000000;" vertex="1" parent="U2vqloPY-AdH2RY4UuR--9">
-          <mxGeometry x="270" y="115" width="80" height="20" as="geometry" />
+          <mxGeometry x="280" y="180" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="U2vqloPY-AdH2RY4UuR--22" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" target="U2vqloPY-AdH2RY4UuR--21" parent="U2vqloPY-AdH2RY4UuR--9" source="U2vqloPY-AdH2RY4UuR--17">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="110" y="90" as="sourcePoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="U2vqloPY-AdH2RY4UuR--30" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;" edge="1" target="U2vqloPY-AdH2RY4UuR--32" parent="U2vqloPY-AdH2RY4UuR--9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="130" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U2vqloPY-AdH2RY4UuR--32" value="工作机制" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="U2vqloPY-AdH2RY4UuR--9">
+          <mxGeometry x="131" y="93" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="U2vqloPY-AdH2RY4UuR--33" value="Branch" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};strokeColor=#000000;" vertex="1" parent="U2vqloPY-AdH2RY4UuR--9">
+          <mxGeometry x="350" y="93" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="U2vqloPY-AdH2RY4UuR--34" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="U2vqloPY-AdH2RY4UuR--33" parent="U2vqloPY-AdH2RY4UuR--9" source="U2vqloPY-AdH2RY4UuR--32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="133" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U2vqloPY-AdH2RY4UuR--41" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
+          <mxGeometry x="-740" y="2360" width="520" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="U2vqloPY-AdH2RY4UuR--42" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="U2vqloPY-AdH2RY4UuR--41">
+          <mxGeometry width="520" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="U2vqloPY-AdH2RY4UuR--43" value="No." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="U2vqloPY-AdH2RY4UuR--42">
+          <mxGeometry width="50" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="U2vqloPY-AdH2RY4UuR--44" value="缩写" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="U2vqloPY-AdH2RY4UuR--42">
+          <mxGeometry x="50" width="100" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="U2vqloPY-AdH2RY4UuR--45" value="全称" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="U2vqloPY-AdH2RY4UuR--42">
+          <mxGeometry x="150" width="370" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="U2vqloPY-AdH2RY4UuR--46" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="U2vqloPY-AdH2RY4UuR--41">
+          <mxGeometry y="38" width="520" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="U2vqloPY-AdH2RY4UuR--47" value="1" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="U2vqloPY-AdH2RY4UuR--46">
+          <mxGeometry width="50" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="U2vqloPY-AdH2RY4UuR--48" value="LACP" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="U2vqloPY-AdH2RY4UuR--46">
+          <mxGeometry x="50" width="100" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="U2vqloPY-AdH2RY4UuR--49" value="&lt;span style=&quot;font-family: &amp;#34;arial&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , sans-serif ; font-size: 14px ; text-align: justify ; background-color: rgb(255 , 255 , 255)&quot;&gt;Link Aggregation Control Protocol 链路聚合控制协议&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="U2vqloPY-AdH2RY4UuR--46">
+          <mxGeometry x="150" width="370" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="U2vqloPY-AdH2RY4UuR--50" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="U2vqloPY-AdH2RY4UuR--41">
+          <mxGeometry y="75" width="520" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="U2vqloPY-AdH2RY4UuR--51" value="2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="U2vqloPY-AdH2RY4UuR--50">
+          <mxGeometry width="50" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="U2vqloPY-AdH2RY4UuR--52" value="LACPDU" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="U2vqloPY-AdH2RY4UuR--50">
+          <mxGeometry x="50" width="100" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="U2vqloPY-AdH2RY4UuR--53" value="&lt;span style=&quot;font-family: arial, &amp;quot;microsoft yahei&amp;quot;, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);&quot;&gt;Link Aggregation Control Protocol Data Unit，链路聚合控制协议数据单元&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="U2vqloPY-AdH2RY4UuR--50">
+          <mxGeometry x="150" width="370" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="U2vqloPY-AdH2RY4UuR--54" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="U2vqloPY-AdH2RY4UuR--41">
+          <mxGeometry y="113" width="520" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="U2vqloPY-AdH2RY4UuR--55" value="3" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="U2vqloPY-AdH2RY4UuR--54">
+          <mxGeometry width="50" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="U2vqloPY-AdH2RY4UuR--56" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="U2vqloPY-AdH2RY4UuR--54">
+          <mxGeometry x="50" width="100" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="U2vqloPY-AdH2RY4UuR--57" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="U2vqloPY-AdH2RY4UuR--54">
+          <mxGeometry x="150" width="370" height="37" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
