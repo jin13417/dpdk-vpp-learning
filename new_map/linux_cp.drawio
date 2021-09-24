@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-24T15:25:06.672Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="_osgOMNB9gCT3Pu7Hbhe" version="14.9.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-24T15:25:42.728Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="ervHI_x_YkvJ2rgo3guq" version="14.9.5" type="github">
   <diagram id="4v70rwqcQMMfPSD8vF8O" name="Page-1">
     <mxGraphModel dx="946" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -60,29 +60,6 @@
         </mxCell>
         <mxCell id="QesK6Ib3Dk1rKJGFA65l-20" value="ubuntu 虚拟机1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="154" y="370" width="90" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="QesK6Ib3Dk1rKJGFA65l-24" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#e51400;strokeColor=#B20000;strokeWidth=3;" edge="1" parent="1" source="QesK6Ib3Dk1rKJGFA65l-13">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="540" y="310" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="260" y="220" />
-              <mxPoint x="460" y="220" />
-              <mxPoint x="460" y="230" />
-              <mxPoint x="540" y="230" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="QesK6Ib3Dk1rKJGFA65l-25" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=4;fillColor=#60a917;strokeColor=#2D7600;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="QesK6Ib3Dk1rKJGFA65l-17">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="152" y="330" as="sourcePoint" />
-            <mxPoint x="510" y="230" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="152" y="300" />
-              <mxPoint x="210" y="300" />
-              <mxPoint x="210" y="230" />
-              <mxPoint x="635" y="230" />
-            </Array>
-          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
