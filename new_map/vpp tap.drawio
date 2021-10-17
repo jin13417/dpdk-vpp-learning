@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-17T12:47:00.467Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="dTkBn1NnWFUwQH1g85_j" version="15.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-17T12:55:23.326Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="ugq5l7URKdJ1kXFlVv55" version="15.4.3" type="github">
   <diagram id="8pdUEugthOyUBi60M9Dm" name="Page-1">
     <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -95,7 +95,7 @@
           <mxGeometry y="80" width="250" height="40" as="geometry" />
         </mxCell>
         <mxCell id="vImbfQAYYGUwxeGVUVHD-38" value="virtio_if_t" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="340" y="250" width="250" height="680" as="geometry" />
+          <mxGeometry x="340" y="250" width="250" height="750" as="geometry" />
         </mxCell>
         <mxCell id="vImbfQAYYGUwxeGVUVHD-39" value="u64 features；" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="vImbfQAYYGUwxeGVUVHD-38">
           <mxGeometry y="26" width="250" height="26" as="geometry" />
@@ -118,47 +118,47 @@
         <mxCell id="vImbfQAYYGUwxeGVUVHD-45" value="int csum_offload_enabled;" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="vImbfQAYYGUwxeGVUVHD-38">
           <mxGeometry y="220" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="vImbfQAYYGUwxeGVUVHD-46" value="union{}" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="vImbfQAYYGUwxeGVUVHD-38">
-          <mxGeometry y="250" width="250" height="30" as="geometry" />
+        <mxCell id="vImbfQAYYGUwxeGVUVHD-46" value="int *tap_fds; /dev/net/tun，tap接口fd&#xa;    struct&#xa;    {&#xa;      u32 pci_dev_handle;&#xa;      u32 msix_enabled;&#xa;    };" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="vImbfQAYYGUwxeGVUVHD-38">
+          <mxGeometry y="250" width="250" height="100" as="geometry" />
         </mxCell>
         <mxCell id="vImbfQAYYGUwxeGVUVHD-47" value="u16 virtio_net_hdr_sz;" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="vImbfQAYYGUwxeGVUVHD-38">
-          <mxGeometry y="280" width="250" height="30" as="geometry" />
+          <mxGeometry y="350" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vImbfQAYYGUwxeGVUVHD-48" value="virtio_if_type_t type; TAP，TUN，PCI" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="vImbfQAYYGUwxeGVUVHD-38">
-          <mxGeometry y="310" width="250" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="vImbfQAYYGUwxeGVUVHD-49" value="u32 hw_if_index;&#xa;u32 sw_if_index;" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="vImbfQAYYGUwxeGVUVHD-38">
-          <mxGeometry y="340" width="250" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="vImbfQAYYGUwxeGVUVHD-50" value="int packet_coalesce;" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="vImbfQAYYGUwxeGVUVHD-38">
           <mxGeometry y="380" width="250" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="vImbfQAYYGUwxeGVUVHD-49" value="u32 hw_if_index;&#xa;u32 sw_if_index;" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="vImbfQAYYGUwxeGVUVHD-38">
+          <mxGeometry y="410" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vImbfQAYYGUwxeGVUVHD-50" value="int packet_coalesce;" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="vImbfQAYYGUwxeGVUVHD-38">
+          <mxGeometry y="450" width="250" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="vImbfQAYYGUwxeGVUVHD-51" value="int packet_buffering;" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="vImbfQAYYGUwxeGVUVHD-38">
-          <mxGeometry y="410" width="250" height="30" as="geometry" />
+          <mxGeometry y="480" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vImbfQAYYGUwxeGVUVHD-52" value="u32 dev_instance;==在virtio intf pool池子id" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="vImbfQAYYGUwxeGVUVHD-38">
-          <mxGeometry y="440" width="250" height="30" as="geometry" />
+          <mxGeometry y="510" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vImbfQAYYGUwxeGVUVHD-53" value="u32 numa_node;" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="vImbfQAYYGUwxeGVUVHD-38">
-          <mxGeometry y="470" width="250" height="30" as="geometry" />
+          <mxGeometry y="540" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vImbfQAYYGUwxeGVUVHD-54" value="u64 remote_features;" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="vImbfQAYYGUwxeGVUVHD-38">
-          <mxGeometry y="500" width="250" height="30" as="geometry" />
+          <mxGeometry y="570" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vImbfQAYYGUwxeGVUVHD-55" value="clib_error_t *error;" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="vImbfQAYYGUwxeGVUVHD-38">
-          <mxGeometry y="530" width="250" height="30" as="geometry" />
+          <mxGeometry y="600" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vImbfQAYYGUwxeGVUVHD-56" value="union {u8 mac_address[6]}" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="vImbfQAYYGUwxeGVUVHD-38">
-          <mxGeometry y="560" width="250" height="30" as="geometry" />
+          <mxGeometry y="630" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vImbfQAYYGUwxeGVUVHD-57" value="union {tun、tap、vriotio}" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="vImbfQAYYGUwxeGVUVHD-38">
-          <mxGeometry y="590" width="250" height="30" as="geometry" />
+          <mxGeometry y="660" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vImbfQAYYGUwxeGVUVHD-58" value=" const virtio_pci_func_t *virtio_pci_func;" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="vImbfQAYYGUwxeGVUVHD-38">
-          <mxGeometry y="620" width="250" height="30" as="geometry" />
+          <mxGeometry y="690" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vImbfQAYYGUwxeGVUVHD-59" value="int is_packed;" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="vImbfQAYYGUwxeGVUVHD-38">
-          <mxGeometry y="650" width="250" height="30" as="geometry" />
+          <mxGeometry y="720" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vImbfQAYYGUwxeGVUVHD-60" value="tun/tap interface" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="680" y="700" width="230" height="376" as="geometry" />
@@ -166,7 +166,7 @@
         <mxCell id="vImbfQAYYGUwxeGVUVHD-61" value="ip6_address_t host_ip6_addr;" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="vImbfQAYYGUwxeGVUVHD-60">
           <mxGeometry y="26" width="230" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="vImbfQAYYGUwxeGVUVHD-63" value="int *vhost_fds;" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="vImbfQAYYGUwxeGVUVHD-60">
+        <mxCell id="vImbfQAYYGUwxeGVUVHD-63" value="int *vhost_fds; /dev/vhost-net的fd" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="vImbfQAYYGUwxeGVUVHD-60">
           <mxGeometry y="52" width="230" height="26" as="geometry" />
         </mxCell>
         <mxCell id="vImbfQAYYGUwxeGVUVHD-64" value="u8 *host_if_name;" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="vImbfQAYYGUwxeGVUVHD-60">
