@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-23T13:47:58.579Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="RlF6Ip_a-b0gvtkXhKr6" version="15.5.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-23T13:48:38.841Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="x_MpjknEe_Jf_2AsT0io" version="15.5.7" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
     <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="#ffffff" math="0" shadow="0">
       <root>
@@ -97,7 +97,7 @@
         <mxCell id="Ou4qxV2DXJZPpHNbIq72-73" value="u16 ipsec_over_udp_port；udp端口号" style="text;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#d6b656;" parent="Ou4qxV2DXJZPpHNbIq72-60" vertex="1">
           <mxGeometry y="338" width="270" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="Ou4qxV2DXJZPpHNbIq72-74" value="u32 tun_itf" style="text;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#d6b656;" parent="Ou4qxV2DXJZPpHNbIq72-60" vertex="1">
+        <mxCell id="Ou4qxV2DXJZPpHNbIq72-74" value="u32 tun_itf，ipsec隧道接口索引" style="text;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#d6b656;" parent="Ou4qxV2DXJZPpHNbIq72-60" vertex="1">
           <mxGeometry y="364" width="270" height="26" as="geometry" />
         </mxCell>
         <mxCell id="Ou4qxV2DXJZPpHNbIq72-75" value="u8 udp_encap" style="text;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#d6b656;" parent="Ou4qxV2DXJZPpHNbIq72-60" vertex="1">
