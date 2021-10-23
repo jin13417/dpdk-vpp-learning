@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-23T13:28:39.563Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="Tc-unhaVxIQxfe8f0nQJ" version="15.5.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-23T13:32:03.048Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="tNptRZsEwQDHL2eQ81iV" version="15.5.7" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
     <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="#ffffff" math="0" shadow="0">
       <root>
@@ -129,6 +129,24 @@
         </mxCell>
         <mxCell id="Ou4qxV2DXJZPpHNbIq72-86" value="u8 *data;" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Ou4qxV2DXJZPpHNbIq72-83" vertex="1">
           <mxGeometry y="52" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="qKSq34PAnrU9pz3v25Dv-1" value="ikev2_ts_t" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="870" y="276" width="190" height="176" as="geometry" />
+        </mxCell>
+        <mxCell id="qKSq34PAnrU9pz3v25Dv-2" value="ts_type：ipv4 或ipv6" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="qKSq34PAnrU9pz3v25Dv-1">
+          <mxGeometry y="26" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="qKSq34PAnrU9pz3v25Dv-3" value="u8 protocol_id;协议号" style="text;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#d6b656;" vertex="1" parent="qKSq34PAnrU9pz3v25Dv-1">
+          <mxGeometry y="52" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="qKSq34PAnrU9pz3v25Dv-4" value="u16 selector_len;" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="qKSq34PAnrU9pz3v25Dv-1">
+          <mxGeometry y="78" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="qKSq34PAnrU9pz3v25Dv-5" value="u16 start_port;&#xa;u16 end_port; 起始端口号" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="qKSq34PAnrU9pz3v25Dv-1">
+          <mxGeometry y="104" width="190" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="qKSq34PAnrU9pz3v25Dv-6" value="ip_address_t start_addr;&#xa;ip_address_t end_addr;起始ip地址" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="qKSq34PAnrU9pz3v25Dv-1">
+          <mxGeometry y="140" width="190" height="36" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
