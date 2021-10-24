@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-24T10:02:44.696Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="UQdRt930lnJhAryF55ra" version="15.5.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-24T10:09:53.168Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="pcSbMO7UdTbq4b-sx18V" version="15.5.7" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
     <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="#ffffff" math="0" shadow="0">
       <root>
@@ -177,6 +177,21 @@
         </mxCell>
         <mxCell id="qKSq34PAnrU9pz3v25Dv-16" value="u32 crypto_key_size;加密算法key长度" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="qKSq34PAnrU9pz3v25Dv-12">
           <mxGeometry y="106" width="350" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="qKSq34PAnrU9pz3v25Dv-17" value="ikev2_main_per_thread_data_t&#xa;线程数据" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="450" y="570" width="350" height="146" as="geometry" />
+        </mxCell>
+        <mxCell id="qKSq34PAnrU9pz3v25Dv-18" value="ikev2_sa_t *sas;   ipsec sa信息 pool 内存池" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="qKSq34PAnrU9pz3v25Dv-17">
+          <mxGeometry y="40" width="350" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="qKSq34PAnrU9pz3v25Dv-19" value="uword *sa_by_rspi;  hash  &lt;key：rspi，value：sas pool id&gt;" style="text;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#d6b656;" vertex="1" parent="qKSq34PAnrU9pz3v25Dv-17">
+          <mxGeometry y="66" width="350" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="qKSq34PAnrU9pz3v25Dv-20" value="EVP_CIPHER_CTX *evp_ctx;openssl EVP_CIPHER 上下文" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="qKSq34PAnrU9pz3v25Dv-17">
+          <mxGeometry y="94" width="350" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="qKSq34PAnrU9pz3v25Dv-21" value="HMAC_CTX *hmac_ctx; hash mac 散列消息认证上下文索引" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="qKSq34PAnrU9pz3v25Dv-17">
+          <mxGeometry y="120" width="350" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
