@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-10-24T09:08:32.632Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="y6LX6PwlJQD8oi109F1F" version="15.5.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-24T09:19:54.933Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="gRM9LOxkmN5-2dVDmZK-" version="15.5.7" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
     <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Ou4qxV2DXJZPpHNbIq72-41" value="ikev2_main_t" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="80" y="90" width="310" height="502" as="geometry" />
+          <mxGeometry x="80" y="90" width="310" height="520" as="geometry" />
         </mxCell>
         <mxCell id="Ou4qxV2DXJZPpHNbIq72-42" value="ikev2_profile_t *profiles&#xa;ikev2 profiles 配置pool内存池" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Ou4qxV2DXJZPpHNbIq72-41" vertex="1">
           <mxGeometry y="26" width="310" height="44" as="geometry" />
@@ -55,8 +55,8 @@
         <mxCell id="Ou4qxV2DXJZPpHNbIq72-58" value="u8 dpd_disabled" style="text;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#d6b656;" parent="Ou4qxV2DXJZPpHNbIq72-41" vertex="1">
           <mxGeometry y="450" width="310" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="Ou4qxV2DXJZPpHNbIq72-59" value="int (*dns_resolve_name) ()" style="text;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#d6b656;" parent="Ou4qxV2DXJZPpHNbIq72-41" vertex="1">
-          <mxGeometry y="476" width="310" height="26" as="geometry" />
+        <mxCell id="Ou4qxV2DXJZPpHNbIq72-59" value="int (*dns_resolve_name) () ，用于ikev2 response &#xa;使用域名获取ip地址，使用nds 插件。" style="text;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#d6b656;" parent="Ou4qxV2DXJZPpHNbIq72-41" vertex="1">
+          <mxGeometry y="476" width="310" height="44" as="geometry" />
         </mxCell>
         <mxCell id="Ou4qxV2DXJZPpHNbIq72-60" value="ikev2_profile_t" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#b85450;fillColor=#f8cecc;" parent="1" vertex="1">
           <mxGeometry x="530" y="80" width="270" height="442" as="geometry" />
@@ -73,10 +73,10 @@
         <mxCell id="Ou4qxV2DXJZPpHNbIq72-65" value="ikev2_id_t rem_id；远端标识" style="text;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#b85450;" parent="Ou4qxV2DXJZPpHNbIq72-60" vertex="1">
           <mxGeometry y="104" width="270" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="Ou4qxV2DXJZPpHNbIq72-66" value="ikev2_ts_t loc_ts" style="text;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#d6b656;" parent="Ou4qxV2DXJZPpHNbIq72-60" vertex="1">
+        <mxCell id="Ou4qxV2DXJZPpHNbIq72-66" value="ikev2_ts_t loc_ts；本地流量选择器" style="text;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#d6b656;" parent="Ou4qxV2DXJZPpHNbIq72-60" vertex="1">
           <mxGeometry y="130" width="270" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="Ou4qxV2DXJZPpHNbIq72-67" value="ikev2_ts_t rem_ts" style="text;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#d6b656;" parent="Ou4qxV2DXJZPpHNbIq72-60" vertex="1">
+        <mxCell id="Ou4qxV2DXJZPpHNbIq72-67" value="ikev2_ts_t rem_ts；远端流量选择器" style="text;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#d6b656;" parent="Ou4qxV2DXJZPpHNbIq72-60" vertex="1">
           <mxGeometry y="156" width="270" height="26" as="geometry" />
         </mxCell>
         <mxCell id="Ou4qxV2DXJZPpHNbIq72-68" value="ikev2_responder_t responder" style="text;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#d6b656;" parent="Ou4qxV2DXJZPpHNbIq72-60" vertex="1">
