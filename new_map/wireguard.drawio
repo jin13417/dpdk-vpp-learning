@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-07T12:49:04.867Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="r6gL0zMPE3qGFCa1HxDU" version="15.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-07T12:50:13.130Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="2mzB4ZTI-SONidaFvqfy" version="15.7.0" type="github">
   <diagram id="7AvQUt7DT94bOIP2M_y_" name="Page-1">
     <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -94,8 +94,8 @@
         <mxCell id="nrJYDSRIosnN7z2e5aEC-37" value="uword *peers;" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="nrJYDSRIosnN7z2e5aEC-29">
           <mxGeometry y="236" width="260" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="nrJYDSRIosnN7z2e5aEC-38" value="1、noise_local_t *noise_local_pool;&amp;nbsp; &lt;br&gt;&amp;nbsp; &amp;nbsp; pool内存池，记录用户设置私有key和共有key；&lt;br&gt;&lt;div&gt;&lt;span&gt;2、&lt;/span&gt;&lt;span&gt;wg_if_t *wg_if_pool;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;wireguard 接口内存池。记录接口信息&lt;/span&gt;&lt;/div&gt;3、static uword *wg_if_instances;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;bitmap表，记录用户instance id使用情况。&lt;br&gt;4、index_t *wg_if_index_by_port;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;vector接口，wireguard 端口查询接口pool id&lt;br&gt;5、" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="175" y="685" width="280" height="130" as="geometry" />
+        <mxCell id="nrJYDSRIosnN7z2e5aEC-38" value="1、noise_local_t *noise_local_pool;&amp;nbsp; &lt;br&gt;&amp;nbsp; &amp;nbsp; pool内存池，记录用户设置私有key和共有key；&lt;br&gt;&lt;div&gt;&lt;span&gt;2、&lt;/span&gt;&lt;span&gt;wg_if_t *wg_if_pool;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;wireguard 接口内存池。记录接口信息&lt;/span&gt;&lt;/div&gt;3、static uword *wg_if_instances;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;bitmap表，记录用户instance id使用情况。&lt;br&gt;4、index_t *wg_if_index_by_port;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;vector接口，wireguard 端口查询接口pool id&lt;br&gt;5、static index_t *wg_if_index_by_sw_if_index;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;vector接口，wireguard 接口索引查询接口内存池索引&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d6b656;fillColor=#fff2cc;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="700" width="310" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
