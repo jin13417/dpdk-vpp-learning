@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-18T15:16:08.729Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="61PKIy1QjWtVmv5diEvz" version="15.9.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-18T15:17:43.349Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="-SJdJ_6GJ9POkwBmQbea" version="15.9.4" type="github">
   <diagram id="Xr7v131PZR1YZp_UmPs2" name="Page-1">
     <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -58,7 +58,7 @@
         <mxCell id="yYVIS0Uz0t4i-bLcMdcE-19" value="  uword *vrrp4_arp_lookup;&#xa;  uword *vrrp6_nd_lookup;" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="yYVIS0Uz0t4i-bLcMdcE-12" vertex="1">
           <mxGeometry y="190" width="290" height="46" as="geometry" />
         </mxCell>
-        <mxCell id="yYVIS0Uz0t4i-bLcMdcE-20" value="vrrp_intf_t *vrrp_intfs;" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="yYVIS0Uz0t4i-bLcMdcE-12" vertex="1">
+        <mxCell id="yYVIS0Uz0t4i-bLcMdcE-20" value="vrrp_intf_t *vrrp_intfs; 用于track设置" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="yYVIS0Uz0t4i-bLcMdcE-12" vertex="1">
           <mxGeometry y="236" width="290" height="26" as="geometry" />
         </mxCell>
         <mxCell id="yYVIS0Uz0t4i-bLcMdcE-21" value="  vlib_main_t *vlib_main;&#xa;  vnet_main_t *vnet_main;&#xa;  ethernet_main_t *ethernet_main;" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="yYVIS0Uz0t4i-bLcMdcE-12" vertex="1">
@@ -216,7 +216,7 @@
         <mxCell id="jMTyDZ1HEhaUe_e8WgB1-2" value="u32 *vr_indices[2]，0：ipv4,1：ipv6" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="jMTyDZ1HEhaUe_e8WgB1-1">
           <mxGeometry y="26" width="260" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="jMTyDZ1HEhaUe_e8WgB1-3" value="u32 *tracking_vrs[2];" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="jMTyDZ1HEhaUe_e8WgB1-1">
+        <mxCell id="jMTyDZ1HEhaUe_e8WgB1-3" value="u32 *tracking_vrs[2]; " style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="jMTyDZ1HEhaUe_e8WgB1-1">
           <mxGeometry y="52" width="260" height="26" as="geometry" />
         </mxCell>
         <mxCell id="jMTyDZ1HEhaUe_e8WgB1-4" value="adj_index_t mcast_adj_index[2]" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="jMTyDZ1HEhaUe_e8WgB1-1">
