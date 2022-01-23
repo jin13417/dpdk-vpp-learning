@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-23T11:53:00.838Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="jHLYKKYkUXt0A8AltiRs" version="16.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-23T11:53:58.479Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="IijI2FBedA5doJURjLpW" version="16.2.7" type="github">
   <diagram id="l_xTGjEDLuFCOCQ6yGdL" name="Page-1">
     <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -79,7 +79,7 @@
         <mxCell id="BXAtRn4mZZ8piuDLXr6t-26" value="  u32 translation_buckets;bihash 桶的数量，由nat会话数获得&#xa;  u32 max_translations_per_thread; 线程最大nat会话数量&#xa;  u32 *max_translations_per_fib; vector结构，每个fib索引&#xa;对应最大会话数量【fib_index】= max_translations_per_thread," style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="BXAtRn4mZZ8piuDLXr6t-2" vertex="1">
           <mxGeometry y="900" width="360" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="BXAtRn4mZZ8piuDLXr6t-27" value="  u32 outside_vrf_id;&#xa;  u32 outside_fib_index;&#xa;  u32 inside_vrf_id;&#xa;  u32 inside_fib_index;" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="BXAtRn4mZZ8piuDLXr6t-2" vertex="1">
+        <mxCell id="BXAtRn4mZZ8piuDLXr6t-27" value="  u32 outside_vrf_id; vrf 索引。&#xa;  u32 outside_fib_index; vrf id 对应的fib index&#xa;  u32 inside_vrf_id;&#xa;  u32 inside_fib_index;" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="BXAtRn4mZZ8piuDLXr6t-2" vertex="1">
           <mxGeometry y="970" width="360" height="70" as="geometry" />
         </mxCell>
         <mxCell id="BXAtRn4mZZ8piuDLXr6t-28" value="nat_timeouts_t timeouts;" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="BXAtRn4mZZ8piuDLXr6t-2" vertex="1">
