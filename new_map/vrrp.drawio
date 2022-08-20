@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-20T13:46:37.350Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="wmGVTU6pzCeu531rLQ0V" version="20.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-20T13:47:34.715Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="9J4P34aylarnAVi2uT5K" version="20.2.5" type="github">
   <diagram id="Xr7v131PZR1YZp_UmPs2" name="Page-1">
     <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -332,8 +332,8 @@
         <mxCell id="wwGWtRlvdCG9VZdOlgTX-5" value="vrrp4-accept-owner-input" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;labelBackgroundColor=none;labelBorderColor=none;shadow=0;sketch=1;glass=0;" vertex="1" parent="1">
           <mxGeometry x="584" y="1910" width="156" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wwGWtRlvdCG9VZdOlgTX-8" value="ip4-local节点" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="1">
-          <mxGeometry x="170" y="1960" width="110" height="30" as="geometry" />
+        <mxCell id="wwGWtRlvdCG9VZdOlgTX-8" value="ip4-local节点的兄弟节点，&lt;br&gt;处理逻辑相似" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="1">
+          <mxGeometry x="120" y="1950" width="145" height="40" as="geometry" />
         </mxCell>
         <mxCell id="wwGWtRlvdCG9VZdOlgTX-9" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="wwGWtRlvdCG9VZdOlgTX-8" parent="1" source="psS8HqiohFmHwW6m-3Iq-4">
           <mxGeometry relative="1" as="geometry">
