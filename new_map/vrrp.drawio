@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-20T13:47:34.715Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="9J4P34aylarnAVi2uT5K" version="20.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-20T13:50:31.626Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="PZqI554t52AlmjcjxI8P" version="20.2.5" type="github">
   <diagram id="Xr7v131PZR1YZp_UmPs2" name="Page-1">
     <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -339,6 +339,9 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="200" y="2040" as="sourcePoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="wwGWtRlvdCG9VZdOlgTX-10" value="&lt;h1 style=&quot;font-size: 10px;&quot;&gt;组播模式下，当vrrp状态为maste时，会使能此节点，判断报文是vrrp报文，跳过路由查询流程，直接进入vrrp-input节点。&lt;/h1&gt;" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="1820" width="190" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
