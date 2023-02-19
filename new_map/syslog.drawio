@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-19T14:16:50.356Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="UXBVFkV4JxVjDTa7V5eG" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-19T14:18:42.685Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="oV6lMF6HNz7ehTpg3xck" version="20.8.20" type="github">
   <diagram name="第 1 页" id="JbdwnG1oPDzJ2S9RsYwr">
     <mxGraphModel dx="954" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -44,7 +44,7 @@
           <mxGeometry x="410" y="810" width="220" height="26" as="geometry" />
         </mxCell>
         <mxCell id="r2IcLAMELps63Ur-KNrL-26" value="syslog_msg_t" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=default;" vertex="1" parent="1">
-          <mxGeometry x="470" y="342" width="160" height="130" as="geometry" />
+          <mxGeometry x="410" y="342" width="160" height="130" as="geometry" />
         </mxCell>
         <mxCell id="r2IcLAMELps63Ur-KNrL-27" value="syslog_header_t header;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="r2IcLAMELps63Ur-KNrL-26">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
@@ -59,19 +59,22 @@
           <mxGeometry y="104" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="r2IcLAMELps63Ur-KNrL-32" value="syslog_header_t" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=default;" vertex="1" parent="1">
-          <mxGeometry x="660" y="342" width="160" height="130" as="geometry" />
+          <mxGeometry x="600" y="342" width="160" height="156" as="geometry" />
         </mxCell>
-        <mxCell id="r2IcLAMELps63Ur-KNrL-33" value="syslog_header_t" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="r2IcLAMELps63Ur-KNrL-32">
+        <mxCell id="r2IcLAMELps63Ur-KNrL-33" value="syslog_facility_t facility;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="r2IcLAMELps63Ur-KNrL-32">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="r2IcLAMELps63Ur-KNrL-34" value="u8 **structured_data" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="r2IcLAMELps63Ur-KNrL-32">
+        <mxCell id="r2IcLAMELps63Ur-KNrL-34" value="syslog_severity_t severity;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="r2IcLAMELps63Ur-KNrL-32">
           <mxGeometry y="52" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="r2IcLAMELps63Ur-KNrL-35" value="u32 curr_sd_index;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="r2IcLAMELps63Ur-KNrL-32">
+        <mxCell id="r2IcLAMELps63Ur-KNrL-35" value="f64 timestamp;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="r2IcLAMELps63Ur-KNrL-32">
           <mxGeometry y="78" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="r2IcLAMELps63Ur-KNrL-36" value="u8 *msg;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="r2IcLAMELps63Ur-KNrL-32">
+        <mxCell id="r2IcLAMELps63Ur-KNrL-36" value="char *app_name;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="r2IcLAMELps63Ur-KNrL-32">
           <mxGeometry y="104" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="r2IcLAMELps63Ur-KNrL-37" value="char *msgid" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="r2IcLAMELps63Ur-KNrL-32">
+          <mxGeometry y="130" width="160" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
