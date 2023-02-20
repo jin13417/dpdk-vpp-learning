@@ -1,19 +1,19 @@
-<mxfile host="app.diagrams.net" modified="2023-02-20T13:42:54.910Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="HZoFyBoVxJV8nXXtEQ7N" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-20T14:23:30.540Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="HgejW5vzqvWaTlHlI_uP" version="20.8.20" type="github">
   <diagram name="第 1 页" id="JbdwnG1oPDzJ2S9RsYwr">
     <mxGraphModel dx="954" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="r2IcLAMELps63Ur-KNrL-1" value="syslog_main_t" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=default;" parent="1" vertex="1">
-          <mxGeometry x="60" y="160" width="280" height="312" as="geometry" />
+          <mxGeometry x="60" y="160" width="280" height="328" as="geometry" />
         </mxCell>
-        <mxCell id="r2IcLAMELps63Ur-KNrL-2" value=" u32 procid;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="r2IcLAMELps63Ur-KNrL-1" vertex="1">
+        <mxCell id="r2IcLAMELps63Ur-KNrL-2" value=" u32 procid; 当前进程ID" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="r2IcLAMELps63Ur-KNrL-1" vertex="1">
           <mxGeometry y="26" width="280" height="26" as="geometry" />
         </mxCell>
         <mxCell id="r2IcLAMELps63Ur-KNrL-4" value="f64 time_offset" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="r2IcLAMELps63Ur-KNrL-1" vertex="1">
           <mxGeometry y="52" width="280" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="r2IcLAMELps63Ur-KNrL-5" value="ip4_address_t collector;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="r2IcLAMELps63Ur-KNrL-1" vertex="1">
+        <mxCell id="r2IcLAMELps63Ur-KNrL-5" value="ip4_address_t collector; syslog接收服务器地址" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="r2IcLAMELps63Ur-KNrL-1" vertex="1">
           <mxGeometry y="78" width="280" height="26" as="geometry" />
         </mxCell>
         <mxCell id="r2IcLAMELps63Ur-KNrL-7" value="u16 collector_port；syslog接收端口号缺省514" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="r2IcLAMELps63Ur-KNrL-1" vertex="1">
@@ -28,17 +28,17 @@
         <mxCell id="r2IcLAMELps63Ur-KNrL-17" value="u32 max_msg_size；缺省480字节" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="r2IcLAMELps63Ur-KNrL-1" vertex="1">
           <mxGeometry y="182" width="280" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="r2IcLAMELps63Ur-KNrL-18" value="syslog_severity_t severity_filter;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="r2IcLAMELps63Ur-KNrL-1" vertex="1">
-          <mxGeometry y="208" width="280" height="26" as="geometry" />
+        <mxCell id="r2IcLAMELps63Ur-KNrL-18" value="syslog_severity_t severity_filter; &#xa;消息过滤级别，默认INFO" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="r2IcLAMELps63Ur-KNrL-1" vertex="1">
+          <mxGeometry y="208" width="280" height="42" as="geometry" />
         </mxCell>
         <mxCell id="r2IcLAMELps63Ur-KNrL-19" value="u32 ip4_lookup_node_index" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="r2IcLAMELps63Ur-KNrL-1" vertex="1">
-          <mxGeometry y="234" width="280" height="26" as="geometry" />
+          <mxGeometry y="250" width="280" height="26" as="geometry" />
         </mxCell>
         <mxCell id="r2IcLAMELps63Ur-KNrL-24" value="vnet_main_t *vnet_main;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="r2IcLAMELps63Ur-KNrL-1" vertex="1">
-          <mxGeometry y="260" width="280" height="26" as="geometry" />
+          <mxGeometry y="276" width="280" height="26" as="geometry" />
         </mxCell>
         <mxCell id="r2IcLAMELps63Ur-KNrL-25" value="u16 msg_id_base;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="r2IcLAMELps63Ur-KNrL-1" vertex="1">
-          <mxGeometry y="286" width="280" height="26" as="geometry" />
+          <mxGeometry y="302" width="280" height="26" as="geometry" />
         </mxCell>
         <mxCell id="r2IcLAMELps63Ur-KNrL-23" value="syslog_severity_t severity_filter;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="1" vertex="1">
           <mxGeometry x="410" y="810" width="220" height="26" as="geometry" />
