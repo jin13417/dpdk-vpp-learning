@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-05T09:15:11.959Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="kgdXjpVWqmd543qQi1Lt" version="21.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-05T10:00:22.641Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="nFxrsduRAXW9jWQwvFY7" version="21.0.2" type="github">
   <diagram name="第 1 页" id="rPMmVkAqdcf075bc7IzI">
     <mxGraphModel dx="954" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -13,7 +13,7 @@
         <mxCell id="eiXU1SdQlwMIabXLQ-eW-4" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;clib_llist_index_t next;&lt;/font&gt;&lt;/font&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="eiXU1SdQlwMIabXLQ-eW-1">
           <mxGeometry y="48" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="eiXU1SdQlwMIabXLQ-eW-14" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;session_event_t&lt;/font&gt;&lt;/font&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=default;" vertex="1" parent="1">
+        <mxCell id="eiXU1SdQlwMIabXLQ-eW-14" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;session_evt_elt_t&lt;/font&gt;&lt;/font&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=default;" vertex="1" parent="1">
           <mxGeometry x="310" y="200" width="160" height="78" as="geometry" />
         </mxCell>
         <mxCell id="eiXU1SdQlwMIabXLQ-eW-15" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;clib_llist_anchor_t evt_list&lt;/font&gt;&lt;/font&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="eiXU1SdQlwMIabXLQ-eW-14">
@@ -48,6 +48,24 @@
         </mxCell>
         <mxCell id="eiXU1SdQlwMIabXLQ-eW-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.005;entryY=0.104;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="eiXU1SdQlwMIabXLQ-eW-17" target="eiXU1SdQlwMIabXLQ-eW-18">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eiXU1SdQlwMIabXLQ-eW-29" value="session_evt_elt_t" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="90" y="450" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eiXU1SdQlwMIabXLQ-eW-31" value="session_evt_elt_t" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="210" y="450" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eiXU1SdQlwMIabXLQ-eW-32" value="session_evt_elt_t" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="330" y="450" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eiXU1SdQlwMIabXLQ-eW-33" value="session_evt_elt_t" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="450" y="450" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eiXU1SdQlwMIabXLQ-eW-34" value="..." style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="570" y="450" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eiXU1SdQlwMIabXLQ-eW-37" value="session_evt_elt_t" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="690" y="450" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
