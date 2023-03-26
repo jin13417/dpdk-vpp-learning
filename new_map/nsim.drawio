@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-26T07:13:19.511Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="X9zd0drwqnMGfCVzmxCH" version="21.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-26T07:30:44.672Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="hfg6jtsdqId-xgAbY3dt" version="21.1.1" type="github">
   <diagram name="第 1 页" id="CsCfZdyHUU77z2SndHIt">
     <mxGraphModel dx="1060" dy="601" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -61,10 +61,10 @@
         <mxCell id="sEvUjZ9JbC9H2_x1A2Bj-21" value="nsim_wheel_t" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="570" y="130" width="190" height="156" as="geometry" />
         </mxCell>
-        <mxCell id="sEvUjZ9JbC9H2_x1A2Bj-22" value="&amp;nbsp;u32 wheel_size;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="sEvUjZ9JbC9H2_x1A2Bj-21" vertex="1">
+        <mxCell id="sEvUjZ9JbC9H2_x1A2Bj-22" value="&amp;nbsp;u32 wheel_size; entries 个数" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="sEvUjZ9JbC9H2_x1A2Bj-21" vertex="1">
           <mxGeometry y="26" width="190" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="sEvUjZ9JbC9H2_x1A2Bj-23" value="u32 cursize;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="sEvUjZ9JbC9H2_x1A2Bj-21" vertex="1">
+        <mxCell id="sEvUjZ9JbC9H2_x1A2Bj-23" value="u32 cursize;当前size" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="sEvUjZ9JbC9H2_x1A2Bj-21" vertex="1">
           <mxGeometry y="52" width="190" height="26" as="geometry" />
         </mxCell>
         <mxCell id="sEvUjZ9JbC9H2_x1A2Bj-24" value="u32 head;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="sEvUjZ9JbC9H2_x1A2Bj-21" vertex="1">
@@ -77,31 +77,31 @@
           <mxGeometry y="130" width="190" height="26" as="geometry" />
         </mxCell>
         <mxCell id="8eMptPeMvM_N7RtiBeSv-6" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: &amp;quot;Source Code Pro&amp;quot;, Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace, Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; line-height: 18px;&quot;&gt;nsim_node_ctx&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="420" y="360" width="190" height="234" as="geometry" />
+          <mxGeometry x="420" y="360" width="280" height="234" as="geometry" />
         </mxCell>
         <mxCell id="8eMptPeMvM_N7RtiBeSv-7" value="vnet_feature_config_main_t *fcm;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8eMptPeMvM_N7RtiBeSv-6">
-          <mxGeometry y="26" width="190" height="26" as="geometry" />
+          <mxGeometry y="26" width="280" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="8eMptPeMvM_N7RtiBeSv-8" value="f64 expires;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8eMptPeMvM_N7RtiBeSv-6">
-          <mxGeometry y="52" width="190" height="26" as="geometry" />
+        <mxCell id="8eMptPeMvM_N7RtiBeSv-8" value="f64 expires; 记录报文延迟时间" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8eMptPeMvM_N7RtiBeSv-6">
+          <mxGeometry y="52" width="280" height="26" as="geometry" />
         </mxCell>
         <mxCell id="8eMptPeMvM_N7RtiBeSv-9" value="u32 *drop;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8eMptPeMvM_N7RtiBeSv-6">
-          <mxGeometry y="78" width="190" height="26" as="geometry" />
+          <mxGeometry y="78" width="280" height="26" as="geometry" />
         </mxCell>
         <mxCell id="8eMptPeMvM_N7RtiBeSv-10" value="u32 *reord;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8eMptPeMvM_N7RtiBeSv-6">
-          <mxGeometry y="104" width="190" height="26" as="geometry" />
+          <mxGeometry y="104" width="280" height="26" as="geometry" />
         </mxCell>
         <mxCell id="8eMptPeMvM_N7RtiBeSv-11" value="u16 *reord_nexts;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8eMptPeMvM_N7RtiBeSv-6">
-          <mxGeometry y="130" width="190" height="26" as="geometry" />
+          <mxGeometry y="130" width="280" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="8eMptPeMvM_N7RtiBeSv-13" value="u8 *action;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8eMptPeMvM_N7RtiBeSv-6">
-          <mxGeometry y="156" width="190" height="26" as="geometry" />
+        <mxCell id="8eMptPeMvM_N7RtiBeSv-13" value="u8 *action; 记录当前报文动作 drop or 保序" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8eMptPeMvM_N7RtiBeSv-6">
+          <mxGeometry y="156" width="280" height="26" as="geometry" />
         </mxCell>
         <mxCell id="8eMptPeMvM_N7RtiBeSv-14" value="u64 n_buffered;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8eMptPeMvM_N7RtiBeSv-6">
-          <mxGeometry y="182" width="190" height="26" as="geometry" />
+          <mxGeometry y="182" width="280" height="26" as="geometry" />
         </mxCell>
         <mxCell id="8eMptPeMvM_N7RtiBeSv-15" value="u64 n_loss;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8eMptPeMvM_N7RtiBeSv-6">
-          <mxGeometry y="208" width="190" height="26" as="geometry" />
+          <mxGeometry y="208" width="280" height="26" as="geometry" />
         </mxCell>
         <mxCell id="8eMptPeMvM_N7RtiBeSv-16" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="300" y="650" width="480" height="40" as="geometry" />
