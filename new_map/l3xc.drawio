@@ -1,29 +1,29 @@
-<mxfile host="app.diagrams.net" modified="2023-04-01T08:55:26.611Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="U9R4sT_I7cUYCIkv2F2t" version="21.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-01T09:41:05.527Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="EeGiCE0POvIlQe2KL-nQ" version="21.1.1" type="github">
   <diagram name="第 1 页" id="G18l2_iF89eQzb9kzUqR">
     <mxGraphModel dx="954" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="ntw0Qp5DpSyMLFI8ATWy-1" value="l3xc" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="40" y="40" width="200" height="182" as="geometry" />
+          <mxGeometry x="40" y="40" width="310" height="182" as="geometry" />
         </mxCell>
         <mxCell id="ntw0Qp5DpSyMLFI8ATWy-2" value="fib_node_t l3xc_node;" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ntw0Qp5DpSyMLFI8ATWy-1">
-          <mxGeometry y="26" width="200" height="26" as="geometry" />
+          <mxGeometry y="26" width="310" height="26" as="geometry" />
         </mxCell>
         <mxCell id="ntw0Qp5DpSyMLFI8ATWy-4" value="fib_node_index_t l3xc_pl;" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ntw0Qp5DpSyMLFI8ATWy-1">
-          <mxGeometry y="52" width="200" height="26" as="geometry" />
+          <mxGeometry y="52" width="310" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="ntw0Qp5DpSyMLFI8ATWy-5" value="fib_protocol_t l3xc_proto;" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ntw0Qp5DpSyMLFI8ATWy-1">
-          <mxGeometry y="78" width="200" height="26" as="geometry" />
+        <mxCell id="ntw0Qp5DpSyMLFI8ATWy-5" value="fib_protocol_t l3xc_proto; 设置l3 类型ipv4 or ipv6" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ntw0Qp5DpSyMLFI8ATWy-1">
+          <mxGeometry y="78" width="310" height="26" as="geometry" />
         </mxCell>
         <mxCell id="ntw0Qp5DpSyMLFI8ATWy-6" value="u32 l3xc_sibling;" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ntw0Qp5DpSyMLFI8ATWy-1">
-          <mxGeometry y="104" width="200" height="26" as="geometry" />
+          <mxGeometry y="104" width="310" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="ntw0Qp5DpSyMLFI8ATWy-7" value="u32 l3xc_sw_if_index;" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ntw0Qp5DpSyMLFI8ATWy-1">
-          <mxGeometry y="130" width="200" height="26" as="geometry" />
+        <mxCell id="ntw0Qp5DpSyMLFI8ATWy-7" value="u32 l3xc_sw_if_index; 设置l3xc 接口索引" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ntw0Qp5DpSyMLFI8ATWy-1">
+          <mxGeometry y="130" width="310" height="26" as="geometry" />
         </mxCell>
         <mxCell id="ntw0Qp5DpSyMLFI8ATWy-8" value="&amp;nbsp;dpo_id_t l3xc_dpo;" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ntw0Qp5DpSyMLFI8ATWy-1">
-          <mxGeometry y="156" width="200" height="26" as="geometry" />
+          <mxGeometry y="156" width="310" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
