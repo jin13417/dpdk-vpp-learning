@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-01T09:41:05.527Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="EeGiCE0POvIlQe2KL-nQ" version="21.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-01T09:48:03.288Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="pUkXfbwYnLWOx7Tr-FXb" version="21.1.1" type="github">
   <diagram name="第 1 页" id="G18l2_iF89eQzb9kzUqR">
     <mxGraphModel dx="954" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -24,6 +24,12 @@
         </mxCell>
         <mxCell id="ntw0Qp5DpSyMLFI8ATWy-8" value="&amp;nbsp;dpo_id_t l3xc_dpo;" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ntw0Qp5DpSyMLFI8ATWy-1">
           <mxGeometry y="156" width="310" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ntw0Qp5DpSyMLFI8ATWy-9" value="l3xc_t *l3xc_pool;" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="290" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ntw0Qp5DpSyMLFI8ATWy-10" value="static u32 *l3xc_db[ipv4];&amp;nbsp; &amp;nbsp; vector结构 下标接口索引，存储pool 索引。" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="350" width="400" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
