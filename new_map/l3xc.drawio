@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-01T11:58:02.510Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="txbrruDa1oiF--ecRjPq" version="21.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-01T12:01:06.234Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="Lv3XHGUIsZV87Sjpm7Vk" version="21.1.1" type="github">
   <diagram name="第 1 页" id="G18l2_iF89eQzb9kzUqR">
     <mxGraphModel dx="954" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -25,14 +25,14 @@
         <mxCell id="ntw0Qp5DpSyMLFI8ATWy-7" value="u32 l3xc_sw_if_index; 设置l3xc 接口索引" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ntw0Qp5DpSyMLFI8ATWy-1">
           <mxGeometry y="130" width="310" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="ntw0Qp5DpSyMLFI8ATWy-8" value="&amp;nbsp;dpo_id_t l3xc_dpo;" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ntw0Qp5DpSyMLFI8ATWy-1">
+        <mxCell id="ntw0Qp5DpSyMLFI8ATWy-8" value="&amp;nbsp;dpo_id_t l3xc_dpo;&amp;nbsp; 转发dpo" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ntw0Qp5DpSyMLFI8ATWy-1">
           <mxGeometry y="156" width="310" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="ntw0Qp5DpSyMLFI8ATWy-9" value="l3xc_t *l3xc_pool;" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="40" y="290" width="150" height="30" as="geometry" />
+        <mxCell id="ntw0Qp5DpSyMLFI8ATWy-9" value="l3xc_t *l3xc_pool; #全局pool内存池" style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="260" width="400" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ntw0Qp5DpSyMLFI8ATWy-10" value="static u32 *l3xc_db[ipv4];&amp;nbsp; &amp;nbsp; vector结构 下标接口索引，存储pool 索引。" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="40" y="350" width="400" height="30" as="geometry" />
+        <mxCell id="ntw0Qp5DpSyMLFI8ATWy-10" value="static u32 *l3xc_db[ipv4];&amp;nbsp; &amp;nbsp; vector结构 下标接口索引，存储pool 索引。&lt;br&gt;l3xc_db[ipv4][interface_index] = l3xc_pool_index;" style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="310" width="400" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ntw0Qp5DpSyMLFI8ATWy-11" value="internet" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="680" y="425" width="120" height="80" as="geometry" />
