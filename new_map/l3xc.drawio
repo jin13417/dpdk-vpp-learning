@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2023-04-01T09:48:03.288Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="pUkXfbwYnLWOx7Tr-FXb" version="21.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-01T10:23:42.078Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="wVQ4fJMPaFGgesrChXdQ" version="21.1.1" type="github">
   <diagram name="第 1 页" id="G18l2_iF89eQzb9kzUqR">
     <mxGraphModel dx="954" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ntw0Qp5DpSyMLFI8ATWy-13" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="190" y="430" width="370" height="160" as="geometry" />
+        </mxCell>
         <mxCell id="ntw0Qp5DpSyMLFI8ATWy-1" value="l3xc" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="40" y="40" width="310" height="182" as="geometry" />
         </mxCell>
@@ -29,7 +32,38 @@
           <mxGeometry x="40" y="290" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ntw0Qp5DpSyMLFI8ATWy-10" value="static u32 *l3xc_db[ipv4];&amp;nbsp; &amp;nbsp; vector结构 下标接口索引，存储pool 索引。" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="50" y="350" width="400" height="30" as="geometry" />
+          <mxGeometry x="40" y="350" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ntw0Qp5DpSyMLFI8ATWy-11" value="internet" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="425" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ntw0Qp5DpSyMLFI8ATWy-12" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;font-size: 20px; background-color: initial;&quot;&gt;&lt;b&gt;vpp&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;" vertex="1" parent="1">
+          <mxGeometry x="280" y="450" width="280" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ntw0Qp5DpSyMLFI8ATWy-15" value="&lt;div&gt;GigabitEthernet2/6/0 (up):&lt;/div&gt;&lt;div&gt;&amp;nbsp; L3 192.168.1.20/24&lt;/div&gt;" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="475" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ntw0Qp5DpSyMLFI8ATWy-16" value="tap0192.168.100.1/24" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="520" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ntw0Qp5DpSyMLFI8ATWy-17" value="tap0192.168.100.2/24" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="540" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ntw0Qp5DpSyMLFI8ATWy-18" value="网关" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="475" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ntw0Qp5DpSyMLFI8ATWy-20" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ntw0Qp5DpSyMLFI8ATWy-13" target="ntw0Qp5DpSyMLFI8ATWy-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="590" />
+              <mxPoint x="330" y="490" />
+              <mxPoint x="625" y="490" />
+              <mxPoint x="625" y="465" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ntw0Qp5DpSyMLFI8ATWy-21" value="ip route add 39.156.66.14 via 192.168.100.1 dev tap0" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="570" width="320" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
