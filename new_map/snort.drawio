@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-13T09:37:58.332Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="8tDdD11_WlsYMeL1YcWW" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-13T10:11:07.180Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="xTn5Myg9FFtnTTyMjvJo" version="21.2.1" type="github">
   <diagram name="第 1 页" id="4dHVfZL8O17O42N6KE4Y">
     <mxGraphModel dx="954" dy="535" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -25,7 +25,7 @@
         <mxCell id="xEn6napEUVvWO5qlfONJ-9" value="u8 **buffer_pool_base_addrs;" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="xEn6napEUVvWO5qlfONJ-1">
           <mxGeometry y="176" width="250" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="xEn6napEUVvWO5qlfONJ-10" value="snort_per_thread_data_t *per_thread_data;" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="xEn6napEUVvWO5qlfONJ-1">
+        <mxCell id="xEn6napEUVvWO5qlfONJ-10" value="snort_per_thread_data_t *per_thread_data;&lt;br&gt;基于worker线程" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="xEn6napEUVvWO5qlfONJ-1">
           <mxGeometry y="202" width="250" height="48" as="geometry" />
         </mxCell>
         <mxCell id="xEn6napEUVvWO5qlfONJ-11" value="u32 input_mode;" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="xEn6napEUVvWO5qlfONJ-1">
@@ -86,9 +86,9 @@
           <mxGeometry y="416" width="260" height="34" as="geometry" />
         </mxCell>
         <mxCell id="xEn6napEUVvWO5qlfONJ-30" value="snort_instance_t" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="10" width="200" height="262" as="geometry" />
+          <mxGeometry x="360" y="10" width="200" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="xEn6napEUVvWO5qlfONJ-31" value="u32 index;" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="xEn6napEUVvWO5qlfONJ-30">
+        <mxCell id="xEn6napEUVvWO5qlfONJ-31" value="u32 index; 在pool的索引" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="xEn6napEUVvWO5qlfONJ-30">
           <mxGeometry y="26" width="200" height="26" as="geometry" />
         </mxCell>
         <mxCell id="xEn6napEUVvWO5qlfONJ-32" value="u32 client_index;" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="xEn6napEUVvWO5qlfONJ-30">
@@ -99,26 +99,26 @@
             <mxPoint x="200" y="91" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xEn6napEUVvWO5qlfONJ-34" value="void *shm_base;" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="xEn6napEUVvWO5qlfONJ-30">
+        <mxCell id="xEn6napEUVvWO5qlfONJ-34" value="void *shm_base; 共享内存基址" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="xEn6napEUVvWO5qlfONJ-30">
           <mxGeometry y="78" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="xEn6napEUVvWO5qlfONJ-35" value="u32 shm_size;" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="xEn6napEUVvWO5qlfONJ-30">
+        <mxCell id="xEn6napEUVvWO5qlfONJ-35" value="u32 shm_size;共享内存大小" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="xEn6napEUVvWO5qlfONJ-30">
           <mxGeometry y="104" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="xEn6napEUVvWO5qlfONJ-36" value="int shm_fd;" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="xEn6napEUVvWO5qlfONJ-30">
+        <mxCell id="xEn6napEUVvWO5qlfONJ-36" value="int shm_fd;共享内存fd。" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="xEn6napEUVvWO5qlfONJ-30">
           <mxGeometry y="130" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="xEn6napEUVvWO5qlfONJ-37" value="snort_qpair_t *qpairs;" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="xEn6napEUVvWO5qlfONJ-30">
-          <mxGeometry y="156" width="200" height="26" as="geometry" />
+        <mxCell id="xEn6napEUVvWO5qlfONJ-37" value="snort_qpair_t *qpairs; 基于worker线程" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="xEn6napEUVvWO5qlfONJ-30">
+          <mxGeometry y="156" width="200" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="xEn6napEUVvWO5qlfONJ-38" value="u8 *name;" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="xEn6napEUVvWO5qlfONJ-30">
-          <mxGeometry y="182" width="200" height="28" as="geometry" />
+        <mxCell id="xEn6napEUVvWO5qlfONJ-38" value="u8 *name; 实例名称" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="xEn6napEUVvWO5qlfONJ-30">
+          <mxGeometry y="200" width="200" height="28" as="geometry" />
         </mxCell>
         <mxCell id="xEn6napEUVvWO5qlfONJ-39" value="u32 input_mode;" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="xEn6napEUVvWO5qlfONJ-30">
-          <mxGeometry y="210" width="200" height="26" as="geometry" />
+          <mxGeometry y="228" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="xEn6napEUVvWO5qlfONJ-40" value="&amp;nbsp; u8 drop_on_disconnect;" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="xEn6napEUVvWO5qlfONJ-30">
-          <mxGeometry y="236" width="200" height="26" as="geometry" />
+        <mxCell id="xEn6napEUVvWO5qlfONJ-40" value="&amp;nbsp; u8 drop_on_disconnect;&amp;nbsp;" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="xEn6napEUVvWO5qlfONJ-30">
+          <mxGeometry y="254" width="200" height="26" as="geometry" />
         </mxCell>
         <mxCell id="xEn6napEUVvWO5qlfONJ-41" value="snort_client_msg_queue_elt" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="532" width="200" height="106" as="geometry" />
