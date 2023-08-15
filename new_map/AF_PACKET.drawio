@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-15T13:27:04.805Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="jqpB-osnAGInZ1V_HdD6" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-15T15:08:40.433Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="rmW1LBpDrrAbNf7NcyBr" version="21.2.1" type="github">
   <diagram name="第 1 页" id="brIz1YYcEcLa56amQANt">
     <mxGraphModel dx="954" dy="535" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -46,7 +46,7 @@
         <mxCell id="bMESk3u732QU4QVnI4Vg-5" value="&amp;nbsp;u32 **rx_buffers;" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="bMESk3u732QU4QVnI4Vg-1" vertex="1">
           <mxGeometry y="78" width="230" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="bMESk3u732QU4QVnI4Vg-6" value="mhash_t if_index_by_host_if_name;" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="bMESk3u732QU4QVnI4Vg-1" vertex="1">
+        <mxCell id="bMESk3u732QU4QVnI4Vg-6" value="mhash_t if_index_by_host_if_name;&lt;br&gt;mhash结构，内核接口名称，接口索引" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="bMESk3u732QU4QVnI4Vg-1" vertex="1">
           <mxGeometry y="104" width="230" height="46" as="geometry" />
         </mxCell>
         <mxCell id="bMESk3u732QU4QVnI4Vg-7" value="&amp;nbsp;vlib_log_class_t log_class;" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="bMESk3u732QU4QVnI4Vg-1" vertex="1">
