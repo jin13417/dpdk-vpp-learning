@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-19T13:29:05.480Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="CH2-qtI0ygmKeZ_UbEIw" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-20T09:16:39.351Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="kiSYOraKmOhsBPes3tHh" version="21.2.1" type="github">
   <diagram name="第 1 页" id="brIz1YYcEcLa56amQANt">
     <mxGraphModel dx="954" dy="535" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -164,7 +164,7 @@
           <mxGeometry y="52" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="qAgL8ZIY5NCTEiFK67UA-27" value="af_packet_create_if_arg_t" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="420" width="230" height="352" as="geometry" />
+          <mxGeometry x="50" y="420" width="230" height="396" as="geometry" />
         </mxCell>
         <mxCell id="qAgL8ZIY5NCTEiFK67UA-28" value="u8 *host_if_name;内核接口名称" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="qAgL8ZIY5NCTEiFK67UA-27">
           <mxGeometry y="26" width="230" height="26" as="geometry" />
@@ -172,35 +172,35 @@
         <mxCell id="qAgL8ZIY5NCTEiFK67UA-29" value="u8 *hw_addr; 物理mac地址" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="qAgL8ZIY5NCTEiFK67UA-27">
           <mxGeometry y="52" width="230" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qAgL8ZIY5NCTEiFK67UA-30" value="u32 rx_frame_size;" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="qAgL8ZIY5NCTEiFK67UA-27">
-          <mxGeometry y="78" width="230" height="26" as="geometry" />
+        <mxCell id="qAgL8ZIY5NCTEiFK67UA-30" value="u32 rx_frame_size;&lt;br&gt;接收帧大小" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="qAgL8ZIY5NCTEiFK67UA-27">
+          <mxGeometry y="78" width="230" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="qAgL8ZIY5NCTEiFK67UA-31" value="u32 tx_frame_size;" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="qAgL8ZIY5NCTEiFK67UA-27">
-          <mxGeometry y="104" width="230" height="26" as="geometry" />
+        <mxCell id="qAgL8ZIY5NCTEiFK67UA-31" value="u32 tx_frame_size;发送数据帧大小" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="qAgL8ZIY5NCTEiFK67UA-27">
+          <mxGeometry y="120" width="230" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qAgL8ZIY5NCTEiFK67UA-32" value="u32 rx_frames_per_block;" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="qAgL8ZIY5NCTEiFK67UA-27">
-          <mxGeometry y="130" width="230" height="26" as="geometry" />
+        <mxCell id="qAgL8ZIY5NCTEiFK67UA-32" value="u32 rx_frames_per_block;&amp;nbsp;&lt;br&gt;接收队列每个数据块存储几个报文帧" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="qAgL8ZIY5NCTEiFK67UA-27">
+          <mxGeometry y="146" width="230" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="qAgL8ZIY5NCTEiFK67UA-33" value="u32 tx_frames_per_block;" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="qAgL8ZIY5NCTEiFK67UA-27">
-          <mxGeometry y="156" width="230" height="26" as="geometry" />
+        <mxCell id="qAgL8ZIY5NCTEiFK67UA-33" value="u32 tx_frames_per_block;&lt;br&gt;接收队列每个数据块存储几个报文帧" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="qAgL8ZIY5NCTEiFK67UA-27">
+          <mxGeometry y="186" width="230" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="qAgL8ZIY5NCTEiFK67UA-34" value="u8 num_rxqs;" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="qAgL8ZIY5NCTEiFK67UA-27">
-          <mxGeometry y="182" width="230" height="26" as="geometry" />
+        <mxCell id="qAgL8ZIY5NCTEiFK67UA-34" value="u8 num_rxqs; 接收数据队列数量" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="qAgL8ZIY5NCTEiFK67UA-27">
+          <mxGeometry y="226" width="230" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qAgL8ZIY5NCTEiFK67UA-35" value="u8 num_txqs;" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="qAgL8ZIY5NCTEiFK67UA-27">
-          <mxGeometry y="208" width="230" height="26" as="geometry" />
+        <mxCell id="qAgL8ZIY5NCTEiFK67UA-35" value="u8 num_txqs; 发送数列数量" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="qAgL8ZIY5NCTEiFK67UA-27">
+          <mxGeometry y="252" width="230" height="26" as="geometry" />
         </mxCell>
         <mxCell id="qAgL8ZIY5NCTEiFK67UA-36" value="u8 is_v2;" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="qAgL8ZIY5NCTEiFK67UA-27">
-          <mxGeometry y="234" width="230" height="26" as="geometry" />
+          <mxGeometry y="278" width="230" height="26" as="geometry" />
         </mxCell>
         <mxCell id="qAgL8ZIY5NCTEiFK67UA-37" value="af_packet_if_mode_t mode;&lt;br&gt;ip2ip口，还是二层口" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="qAgL8ZIY5NCTEiFK67UA-27">
-          <mxGeometry y="260" width="230" height="40" as="geometry" />
+          <mxGeometry y="304" width="230" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="qAgL8ZIY5NCTEiFK67UA-38" value="af_packet_if_flags_t flags;" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="qAgL8ZIY5NCTEiFK67UA-27">
-          <mxGeometry y="300" width="230" height="26" as="geometry" />
+        <mxCell id="qAgL8ZIY5NCTEiFK67UA-38" value="af_packet_if_flags_t flags; 目前未使用" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="qAgL8ZIY5NCTEiFK67UA-27">
+          <mxGeometry y="344" width="230" height="26" as="geometry" />
         </mxCell>
         <mxCell id="qAgL8ZIY5NCTEiFK67UA-39" value="u32 sw_if_index;" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="qAgL8ZIY5NCTEiFK67UA-27">
-          <mxGeometry y="326" width="230" height="26" as="geometry" />
+          <mxGeometry y="370" width="230" height="26" as="geometry" />
         </mxCell>
         <mxCell id="qAgL8ZIY5NCTEiFK67UA-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="qAgL8ZIY5NCTEiFK67UA-38" target="qAgL8ZIY5NCTEiFK67UA-24">
           <mxGeometry relative="1" as="geometry" />
