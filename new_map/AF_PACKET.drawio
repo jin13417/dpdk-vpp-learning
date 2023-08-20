@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-20T12:38:25.027Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="LYBc_YAG2tMK6kthAy0Y" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-20T12:42:53.442Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="PRrZb6IUC65vRXktWjzH" version="21.2.1" type="github">
   <diagram name="第 1 页" id="brIz1YYcEcLa56amQANt">
     <mxGraphModel dx="954" dy="535" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -35,7 +35,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bMESk3u732QU4QVnI4Vg-1" value="af_packet_main_t" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="30" y="90" width="230" height="198" as="geometry" />
+          <mxGeometry x="30" y="90" width="230" height="222" as="geometry" />
         </mxCell>
         <mxCell id="bMESk3u732QU4QVnI4Vg-2" value="af_packet_if_t *interfaces; pool内存池" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="bMESk3u732QU4QVnI4Vg-1" vertex="1">
           <mxGeometry y="26" width="230" height="26" as="geometry" />
@@ -43,14 +43,14 @@
         <mxCell id="bMESk3u732QU4QVnI4Vg-4" value="u32 polling_count;&amp;nbsp;&lt;br&gt;默认为中断模式，记录轮询模式设置计数" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="bMESk3u732QU4QVnI4Vg-1" vertex="1">
           <mxGeometry y="52" width="230" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="bMESk3u732QU4QVnI4Vg-5" value="&amp;nbsp;u32 **rx_buffers;" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="bMESk3u732QU4QVnI4Vg-1" vertex="1">
-          <mxGeometry y="100" width="230" height="26" as="geometry" />
+        <mxCell id="bMESk3u732QU4QVnI4Vg-5" value="&amp;nbsp;u32 **rx_buffers; 收包buffer 索引缓冲区&lt;br&gt;[thread_id][256]&lt;br&gt;" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="bMESk3u732QU4QVnI4Vg-1" vertex="1">
+          <mxGeometry y="100" width="230" height="50" as="geometry" />
         </mxCell>
         <mxCell id="bMESk3u732QU4QVnI4Vg-6" value="mhash_t if_index_by_host_if_name;&lt;br&gt;mhash结构，内核接口名称，接口索引" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="bMESk3u732QU4QVnI4Vg-1" vertex="1">
-          <mxGeometry y="126" width="230" height="46" as="geometry" />
+          <mxGeometry y="150" width="230" height="46" as="geometry" />
         </mxCell>
         <mxCell id="bMESk3u732QU4QVnI4Vg-7" value="&amp;nbsp;vlib_log_class_t log_class;" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="bMESk3u732QU4QVnI4Vg-1" vertex="1">
-          <mxGeometry y="172" width="230" height="26" as="geometry" />
+          <mxGeometry y="196" width="230" height="26" as="geometry" />
         </mxCell>
         <mxCell id="qAgL8ZIY5NCTEiFK67UA-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.011;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bMESk3u732QU4QVnI4Vg-8" target="qAgL8ZIY5NCTEiFK67UA-1">
           <mxGeometry relative="1" as="geometry" />
