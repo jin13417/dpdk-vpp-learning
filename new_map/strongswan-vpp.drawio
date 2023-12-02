@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-02T15:08:42.704Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="SR6SkXznMe5KuLYRgLnc" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-02T15:11:30.181Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="8YFpGs7G3uB9nBYOE8yI" version="21.7.5" type="github">
   <diagram name="第 1 页" id="NZlMmKt4PmIUYlCAHn9F">
     <mxGraphModel dx="794" dy="432" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -66,7 +66,7 @@
           <mxGeometry x="630" y="290" width="140" height="55" as="geometry" />
         </mxCell>
         <mxCell id="e4khdFZhtzmp9zucxFwM-27" value="&lt;div&gt;GigabitEthernet0/6/0 &lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;192.168.100.2/24&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="480" y="126.25" width="120" height="40" as="geometry" />
+          <mxGeometry x="480" y="120" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="e4khdFZhtzmp9zucxFwM-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="e4khdFZhtzmp9zucxFwM-29" target="e4khdFZhtzmp9zucxFwM-30" parent="1">
           <mxGeometry relative="1" as="geometry" />
@@ -107,6 +107,20 @@
         </mxCell>
         <mxCell id="e4khdFZhtzmp9zucxFwM-38" value="vpp-sswan 插件" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="650" y="300" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="e4khdFZhtzmp9zucxFwM-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="e4khdFZhtzmp9zucxFwM-9" target="e4khdFZhtzmp9zucxFwM-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4khdFZhtzmp9zucxFwM-43" value="ipsec-tunnel" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="50" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e4khdFZhtzmp9zucxFwM-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#d71414;" edge="1" parent="1" source="e4khdFZhtzmp9zucxFwM-9" target="e4khdFZhtzmp9zucxFwM-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="290" y="80" />
+              <mxPoint x="540" y="80" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
