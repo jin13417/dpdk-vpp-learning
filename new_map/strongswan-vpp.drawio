@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-03T15:24:06.551Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="ujmlVSItro6MBzZZ2IFw" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-04T11:46:27.602Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="CuuDGA31hNeFPYa0XHTO" version="22.1.5" type="github">
   <diagram name="第 1 页" id="NZlMmKt4PmIUYlCAHn9F">
-    <mxGraphModel dx="794" dy="432" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2074" dy="1118" grid="1" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -122,10 +122,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="3LxnoMwm0VU10GQVuCYt-1" value="ping 192.168.110.2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;fontStyle=1;labelBorderColor=#00FF00;labelBackgroundColor=#00FF00;" vertex="1" parent="1">
+        <mxCell id="3LxnoMwm0VU10GQVuCYt-1" value="ping 192.168.110.2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;fontStyle=1;labelBorderColor=#00FF00;labelBackgroundColor=#00FF00;" parent="1" vertex="1">
           <mxGeometry x="58" y="274" width="127" height="13" as="geometry" />
         </mxCell>
-        <mxCell id="3LxnoMwm0VU10GQVuCYt-2" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.52;exitY=0.154;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.553;entryY=-0.089;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#1919FF;fontStyle=1;fontSize=18;strokeColor=#009900;strokeWidth=3;dashed=1;" edge="1" parent="1" source="3LxnoMwm0VU10GQVuCYt-1" target="e4khdFZhtzmp9zucxFwM-34">
+        <mxCell id="3LxnoMwm0VU10GQVuCYt-2" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.52;exitY=0.154;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.553;entryY=-0.089;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#1919FF;fontStyle=1;fontSize=18;strokeColor=#009900;strokeWidth=3;dashed=1;" parent="1" source="3LxnoMwm0VU10GQVuCYt-1" target="e4khdFZhtzmp9zucxFwM-34" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="107.99799999999995" y="278.994" as="sourcePoint" />
             <mxPoint x="587.39" y="83" as="targetPoint" />
@@ -140,8 +140,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="3LxnoMwm0VU10GQVuCYt-3" value="vpp-sswan ipsec策略模式组网图" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="3LxnoMwm0VU10GQVuCYt-3" value="vpp-sswan ipsec策略模式组网图" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="275" y="385" width="259" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8uWlX9gr1XOp0DNWGafa-1" value="ethernet-input" style="rounded=1;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="180" y="550" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8uWlX9gr1XOp0DNWGafa-3" value="ethernet-input" style="rounded=1;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="180" y="620" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
