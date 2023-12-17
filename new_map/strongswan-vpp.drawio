@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-17T07:23:12.802Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="Rt4RvEcuwJlK3JREryx-" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-17T14:23:07.043Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="WqAuA__kzC7E12x21rgD" version="22.1.11" type="github">
   <diagram name="第 1 页" id="NZlMmKt4PmIUYlCAHn9F">
-    <mxGraphModel dx="1562" dy="852" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1562" dy="852" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -292,6 +292,80 @@
         </mxCell>
         <mxCell id="cyO_pz1i7n0PcCOpyE9S-4" value="异步模式处理node" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="640" y="1070" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cyO_pz1i7n0PcCOpyE9S-5" value="vnet/crypto&lt;br&gt;提供加密引擎注册接口" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="120" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cyO_pz1i7n0PcCOpyE9S-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="cyO_pz1i7n0PcCOpyE9S-6" target="cyO_pz1i7n0PcCOpyE9S-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1070" y="220" />
+              <mxPoint x="1270" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cyO_pz1i7n0PcCOpyE9S-6" value="crypto_ipsecmb" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="260" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cyO_pz1i7n0PcCOpyE9S-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="cyO_pz1i7n0PcCOpyE9S-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1270" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cyO_pz1i7n0PcCOpyE9S-7" value="crypto_native" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="260" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cyO_pz1i7n0PcCOpyE9S-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cyO_pz1i7n0PcCOpyE9S-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1270" y="170" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1510" y="220" />
+              <mxPoint x="1271" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cyO_pz1i7n0PcCOpyE9S-8" value="crypto_sw_scheduler" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="260" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cyO_pz1i7n0PcCOpyE9S-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="cyO_pz1i7n0PcCOpyE9S-9" target="cyO_pz1i7n0PcCOpyE9S-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1270" y="230" />
+              <mxPoint x="1270" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cyO_pz1i7n0PcCOpyE9S-9" value="crypto_openssl" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="260" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cyO_pz1i7n0PcCOpyE9S-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cyO_pz1i7n0PcCOpyE9S-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1270" y="160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1400" y="220" />
+              <mxPoint x="1271" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cyO_pz1i7n0PcCOpyE9S-17" value="注册加密引擎" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1;fontSize=12;labelBackgroundColor=#4bff1a;" vertex="1" connectable="0" parent="cyO_pz1i7n0PcCOpyE9S-14">
+          <mxGeometry x="0.5984" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cyO_pz1i7n0PcCOpyE9S-10" value="dpdk/cryptodev" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="260" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cyO_pz1i7n0PcCOpyE9S-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cyO_pz1i7n0PcCOpyE9S-18" target="cyO_pz1i7n0PcCOpyE9S-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cyO_pz1i7n0PcCOpyE9S-18" value="vnet/ipsec&lt;br&gt;ipsec加解密处理node" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cyO_pz1i7n0PcCOpyE9S-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cyO_pz1i7n0PcCOpyE9S-19" target="cyO_pz1i7n0PcCOpyE9S-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cyO_pz1i7n0PcCOpyE9S-19" value="wireguard&lt;br&gt;wireguard插件" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="40" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
