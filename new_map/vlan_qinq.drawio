@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-16T08:12:41.831Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="HC9Tk075F-InIHsyBw0l" version="22.1.17" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-16T09:09:27.820Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="fTTgv790zBH7UrGJ48v4" version="22.1.17" type="github">
   <diagram name="第 1 页" id="XMRFgrRb3AEoOU9a7_yg">
     <mxGraphModel dx="2074" dy="1106" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -56,19 +56,19 @@
           <mxGeometry y="436" width="240" height="44" as="geometry" />
         </mxCell>
         <mxCell id="PQ3nd2OZXr9GBDzt29_k-19" value="main_intf_t" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="500" y="106" width="230" height="130" as="geometry" />
+          <mxGeometry x="500" y="106" width="330" height="130" as="geometry" />
         </mxCell>
         <mxCell id="PQ3nd2OZXr9GBDzt29_k-20" value="subint_config_t untagged_subint" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="PQ3nd2OZXr9GBDzt29_k-19">
-          <mxGeometry y="26" width="230" height="26" as="geometry" />
+          <mxGeometry y="26" width="330" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="PQ3nd2OZXr9GBDzt29_k-22" value="subint_config_t default_subint" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="PQ3nd2OZXr9GBDzt29_k-19">
-          <mxGeometry y="52" width="230" height="26" as="geometry" />
+        <mxCell id="PQ3nd2OZXr9GBDzt29_k-22" value="subint_config_t default_subint;&amp;nbsp; default_sub 模式" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="PQ3nd2OZXr9GBDzt29_k-19">
+          <mxGeometry y="52" width="330" height="26" as="geometry" />
         </mxCell>
         <mxCell id="PQ3nd2OZXr9GBDzt29_k-23" value="u16 dot1q_vlans" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="PQ3nd2OZXr9GBDzt29_k-19">
-          <mxGeometry y="78" width="230" height="26" as="geometry" />
+          <mxGeometry y="78" width="330" height="26" as="geometry" />
         </mxCell>
         <mxCell id="PQ3nd2OZXr9GBDzt29_k-24" value="u16 dot1ad_vlans" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="PQ3nd2OZXr9GBDzt29_k-19">
-          <mxGeometry y="104" width="230" height="26" as="geometry" />
+          <mxGeometry y="104" width="330" height="26" as="geometry" />
         </mxCell>
         <mxCell id="PQ3nd2OZXr9GBDzt29_k-25" value="vlan_table_t" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="500" y="288" width="230" height="52" as="geometry" />
@@ -104,13 +104,13 @@
           <mxGeometry y="26" width="230" height="26" as="geometry" />
         </mxCell>
         <mxCell id="PQ3nd2OZXr9GBDzt29_k-40" value="subint_config_t" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="1090" y="200" width="230" height="78" as="geometry" />
+          <mxGeometry x="1040" y="200" width="380" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="PQ3nd2OZXr9GBDzt29_k-41" value="u32 sw_if_index;" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="PQ3nd2OZXr9GBDzt29_k-40">
-          <mxGeometry y="26" width="230" height="26" as="geometry" />
+        <mxCell id="PQ3nd2OZXr9GBDzt29_k-41" value="u32 sw_if_index; 接口up之后，会赋值赋值接口索引" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="PQ3nd2OZXr9GBDzt29_k-40">
+          <mxGeometry y="26" width="380" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="PQ3nd2OZXr9GBDzt29_k-42" value="u32 flags" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="PQ3nd2OZXr9GBDzt29_k-40">
-          <mxGeometry y="52" width="230" height="26" as="geometry" />
+        <mxCell id="PQ3nd2OZXr9GBDzt29_k-42" value="u32 flags；&lt;br&gt;&lt;div&gt;#define SUBINT_CONFIG_MATCH_0_TAG (1&amp;lt;&amp;lt;0)&lt;/div&gt;&lt;div&gt;#define SUBINT_CONFIG_MATCH_1_TAG (1&amp;lt;&amp;lt;1)&lt;/div&gt;&lt;div&gt;#define SUBINT_CONFIG_MATCH_2_TAG (1&amp;lt;&amp;lt;2)&lt;/div&gt;&lt;div&gt;#define SUBINT_CONFIG_MATCH_3_TAG (1&amp;lt;&amp;lt;3)&lt;/div&gt;&lt;div&gt;#define SUBINT_CONFIG_VALID&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;(1&amp;lt;&amp;lt;4) #接口vlan是否使用&lt;/div&gt;&lt;div&gt;#define SUBINT_CONFIG_L2&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; (1&amp;lt;&amp;lt;5)&lt;/div&gt;&lt;div&gt;#define SUBINT_CONFIG_P2P&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;(1&amp;lt;&amp;lt;6)&lt;/div&gt;" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="PQ3nd2OZXr9GBDzt29_k-40">
+          <mxGeometry y="52" width="380" height="148" as="geometry" />
         </mxCell>
         <mxCell id="PQ3nd2OZXr9GBDzt29_k-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="PQ3nd2OZXr9GBDzt29_k-13" target="PQ3nd2OZXr9GBDzt29_k-30">
           <mxGeometry relative="1" as="geometry" />
