@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-17T11:56:02.442Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="yj-lbiyr1dTnXTZuXvKT" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-17T12:09:03.952Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="zXsbmVULxQItXFD9Xx-5" version="22.1.18" type="github">
   <diagram name="第 1 页" id="XMRFgrRb3AEoOU9a7_yg">
     <mxGraphModel dx="2074" dy="1106" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -234,6 +234,9 @@
         </mxCell>
         <mxCell id="spN8scleawRagmmVJ5R6-29" value="set interface l2 tag-rewrite &amp;lt;interface&amp;gt; [disable | pop {1|2} | push {dot1q|dot1ad} &amp;lt;tag&amp;gt; &amp;lt;tag&amp;gt;]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="100" y="904" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="spN8scleawRagmmVJ5R6-30" value="参考资料：&lt;br&gt;https://www.cnblogs.com/janeysj/p/15028992.html&lt;br&gt;https://wenku.baidu.com/view/855445d54593daef5ef7ba0d4a7302768f996f75.html?_wkts_=1705471204078&amp;amp;bdQuery=vpp+vlan" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="880" y="10" width="490" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
