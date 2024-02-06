@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-17T14:33:05.645Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="TufASBIMH9acI7qNTXXX" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-06T09:11:46.714Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="lS2ugxXdCOkuoXfE6TS0" version="23.1.1" type="github">
   <diagram name="第 1 页" id="NZlMmKt4PmIUYlCAHn9F">
-    <mxGraphModel dx="1562" dy="852" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2074" dy="1106" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -287,16 +287,16 @@
         <mxCell id="z7Y6BVsatqQl1avV6flA-1" value="interface-output" style="rounded=1;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;arcSize=25;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="210" y="1020" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="cyO_pz1i7n0PcCOpyE9S-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+        <mxCell id="cyO_pz1i7n0PcCOpyE9S-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
           <mxGeometry x="570" y="1070" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="cyO_pz1i7n0PcCOpyE9S-4" value="异步模式处理node" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="cyO_pz1i7n0PcCOpyE9S-4" value="异步模式处理node" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="640" y="1070" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="cyO_pz1i7n0PcCOpyE9S-5" value="vnet/crypto&lt;br&gt;提供加密引擎注册接口" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="cyO_pz1i7n0PcCOpyE9S-5" value="vnet/crypto&lt;br&gt;提供加密引擎注册接口" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="1180" y="120" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="cyO_pz1i7n0PcCOpyE9S-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="cyO_pz1i7n0PcCOpyE9S-6" target="cyO_pz1i7n0PcCOpyE9S-5">
+        <mxCell id="cyO_pz1i7n0PcCOpyE9S-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="cyO_pz1i7n0PcCOpyE9S-6" target="cyO_pz1i7n0PcCOpyE9S-5" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1070" y="220" />
@@ -304,18 +304,18 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="cyO_pz1i7n0PcCOpyE9S-6" value="crypto_ipsecmb" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="cyO_pz1i7n0PcCOpyE9S-6" value="crypto_ipsecmb" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="1030" y="260" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="cyO_pz1i7n0PcCOpyE9S-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="cyO_pz1i7n0PcCOpyE9S-7">
+        <mxCell id="cyO_pz1i7n0PcCOpyE9S-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="cyO_pz1i7n0PcCOpyE9S-7" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1270" y="180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cyO_pz1i7n0PcCOpyE9S-7" value="crypto_native" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="cyO_pz1i7n0PcCOpyE9S-7" value="crypto_native" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="1130" y="260" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="cyO_pz1i7n0PcCOpyE9S-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cyO_pz1i7n0PcCOpyE9S-8">
+        <mxCell id="cyO_pz1i7n0PcCOpyE9S-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="cyO_pz1i7n0PcCOpyE9S-8" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1270" y="170" as="targetPoint" />
             <Array as="points">
@@ -324,10 +324,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="cyO_pz1i7n0PcCOpyE9S-8" value="crypto_sw_scheduler" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="cyO_pz1i7n0PcCOpyE9S-8" value="crypto_sw_scheduler" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="1450" y="260" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="cyO_pz1i7n0PcCOpyE9S-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="cyO_pz1i7n0PcCOpyE9S-9" target="cyO_pz1i7n0PcCOpyE9S-5">
+        <mxCell id="cyO_pz1i7n0PcCOpyE9S-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="cyO_pz1i7n0PcCOpyE9S-9" target="cyO_pz1i7n0PcCOpyE9S-5" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1270" y="230" />
@@ -335,10 +335,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="cyO_pz1i7n0PcCOpyE9S-9" value="crypto_openssl" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="cyO_pz1i7n0PcCOpyE9S-9" value="crypto_openssl" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="1230" y="260" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="cyO_pz1i7n0PcCOpyE9S-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cyO_pz1i7n0PcCOpyE9S-10">
+        <mxCell id="cyO_pz1i7n0PcCOpyE9S-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="cyO_pz1i7n0PcCOpyE9S-10" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1270" y="160" as="targetPoint" />
             <Array as="points">
@@ -347,28 +347,181 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="cyO_pz1i7n0PcCOpyE9S-17" value="注册加密引擎" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1;fontSize=12;labelBackgroundColor=#4bff1a;" vertex="1" connectable="0" parent="cyO_pz1i7n0PcCOpyE9S-14">
+        <mxCell id="cyO_pz1i7n0PcCOpyE9S-17" value="注册加密引擎" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1;fontSize=12;labelBackgroundColor=#4bff1a;" parent="cyO_pz1i7n0PcCOpyE9S-14" vertex="1" connectable="0">
           <mxGeometry x="0.5984" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cyO_pz1i7n0PcCOpyE9S-10" value="dpdk/cryptodev" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="cyO_pz1i7n0PcCOpyE9S-10" value="dpdk/cryptodev" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="1330" y="260" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="cyO_pz1i7n0PcCOpyE9S-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cyO_pz1i7n0PcCOpyE9S-18" target="cyO_pz1i7n0PcCOpyE9S-5">
+        <mxCell id="cyO_pz1i7n0PcCOpyE9S-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="cyO_pz1i7n0PcCOpyE9S-18" target="cyO_pz1i7n0PcCOpyE9S-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cyO_pz1i7n0PcCOpyE9S-18" value="vnet/ipsec&lt;br&gt;ipsec加解密处理node" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="cyO_pz1i7n0PcCOpyE9S-18" value="vnet/ipsec&lt;br&gt;ipsec加解密处理node" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="1110" y="40" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="cyO_pz1i7n0PcCOpyE9S-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cyO_pz1i7n0PcCOpyE9S-19" target="cyO_pz1i7n0PcCOpyE9S-5">
+        <mxCell id="cyO_pz1i7n0PcCOpyE9S-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="cyO_pz1i7n0PcCOpyE9S-19" target="cyO_pz1i7n0PcCOpyE9S-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cyO_pz1i7n0PcCOpyE9S-19" value="wireguard&lt;br&gt;wireguard插件加解密node" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="cyO_pz1i7n0PcCOpyE9S-19" value="wireguard&lt;br&gt;wireguard插件加解密node" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="1300" y="40" width="164" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="cyO_pz1i7n0PcCOpyE9S-23" value="crypto-dispatch&lt;br&gt;异步调用node" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="cyO_pz1i7n0PcCOpyE9S-23" value="crypto-dispatch&lt;br&gt;异步调用node" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="1362" y="119" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="igit9j9ykuDauClgamDP-1" value="vnet_crypto_main_t" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="82" y="1371" width="467" height="442" as="geometry" />
+        </mxCell>
+        <mxCell id="igit9j9ykuDauClgamDP-2" value="vnet_crypto_alg_data_t *algs" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="igit9j9ykuDauClgamDP-1">
+          <mxGeometry y="26" width="467" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="igit9j9ykuDauClgamDP-4" value="vnet_crypto_thread_t *threads" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="igit9j9ykuDauClgamDP-1">
+          <mxGeometry y="52" width="467" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="igit9j9ykuDauClgamDP-5" value="vnet_crypto_ops_handler_t **ops_handlers" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="igit9j9ykuDauClgamDP-1">
+          <mxGeometry y="78" width="467" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="igit9j9ykuDauClgamDP-6" value="vnet_crypto_chained_ops_handler_t **chained_ops_handlers" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="igit9j9ykuDauClgamDP-1">
+          <mxGeometry y="104" width="467" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="igit9j9ykuDauClgamDP-7" value="vnet_crypto_frame_enqueue_t **enqueue_handlers 加密入队函数指针" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="igit9j9ykuDauClgamDP-1">
+          <mxGeometry y="130" width="467" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="igit9j9ykuDauClgamDP-8" value="vnet_crypto_frame_dequeue_t **dequeue_handlers&amp;nbsp; 加密出队函数指针" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="igit9j9ykuDauClgamDP-1">
+          <mxGeometry y="156" width="467" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="igit9j9ykuDauClgamDP-9" value="vnet_crypto_op_data_t opt_data[...]" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="igit9j9ykuDauClgamDP-1">
+          <mxGeometry y="182" width="467" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="igit9j9ykuDauClgamDP-10" value="vnet_crypto_async_op_data_t async_opt_data[..]" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="igit9j9ykuDauClgamDP-1">
+          <mxGeometry y="208" width="467" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="igit9j9ykuDauClgamDP-11" value="vnet_crypto_engine_t *engines" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="igit9j9ykuDauClgamDP-1">
+          <mxGeometry y="234" width="467" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="igit9j9ykuDauClgamDP-12" value="vnet_crypto_key_t *keys" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="igit9j9ykuDauClgamDP-1">
+          <mxGeometry y="260" width="467" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="igit9j9ykuDauClgamDP-13" value="uword *engine_index_by_name" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="igit9j9ykuDauClgamDP-1">
+          <mxGeometry y="286" width="467" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="igit9j9ykuDauClgamDP-14" value="uword *alg_index_by_name" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="igit9j9ykuDauClgamDP-1">
+          <mxGeometry y="312" width="467" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="igit9j9ykuDauClgamDP-15" value="uword *async_alg_index_by_name" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="igit9j9ykuDauClgamDP-1">
+          <mxGeometry y="338" width="467" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="igit9j9ykuDauClgamDP-16" value="vnet_crypto_async_alg_data_t *async_algs" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="igit9j9ykuDauClgamDP-1">
+          <mxGeometry y="364" width="467" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="igit9j9ykuDauClgamDP-17" value="vnet_crypto_async_next_node_t *next_nodes" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="igit9j9ykuDauClgamDP-1">
+          <mxGeometry y="390" width="467" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="igit9j9ykuDauClgamDP-18" value="u32 crypto_node_index" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="igit9j9ykuDauClgamDP-1">
+          <mxGeometry y="416" width="467" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="igit9j9ykuDauClgamDP-23" value="vnet_crypto_engine_t 加密引擎结构体" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="738" y="1729" width="392" height="234" as="geometry" />
+        </mxCell>
+        <mxCell id="igit9j9ykuDauClgamDP-24" value="char *name; 加密引擎名称" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="igit9j9ykuDauClgamDP-23">
+          <mxGeometry y="26" width="392" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="igit9j9ykuDauClgamDP-40" value="char *desc; 描述" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="igit9j9ykuDauClgamDP-23">
+          <mxGeometry y="52" width="392" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="igit9j9ykuDauClgamDP-41" value="int priority; 优先级" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="igit9j9ykuDauClgamDP-23">
+          <mxGeometry y="78" width="392" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="igit9j9ykuDauClgamDP-42" value="vnet_crypto_key_handler_t *key_op_handler" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="igit9j9ykuDauClgamDP-23">
+          <mxGeometry y="104" width="392" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="igit9j9ykuDauClgamDP-43" value="vnet_crypto_ops_handler_t *ops_handlers[xxx]" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="igit9j9ykuDauClgamDP-23">
+          <mxGeometry y="130" width="392" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="igit9j9ykuDauClgamDP-44" value="&lt;div&gt;vnet_crypto_chained_ops_handler_t&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp;* chained_ops_handlers[xx]&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="igit9j9ykuDauClgamDP-23">
+          <mxGeometry y="156" width="392" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="igit9j9ykuDauClgamDP-45" value="vnet_crypto_frame_enqueue_t *enqueue_handlers[xxx]" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="igit9j9ykuDauClgamDP-23">
+          <mxGeometry y="182" width="392" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="igit9j9ykuDauClgamDP-47" value="vnet_crypto_alg_data_t *algs" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="igit9j9ykuDauClgamDP-23">
+          <mxGeometry y="208" width="392" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="igit9j9ykuDauClgamDP-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.002;entryY=0.077;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="igit9j9ykuDauClgamDP-11" target="igit9j9ykuDauClgamDP-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="igit9j9ykuDauClgamDP-49" value="vnet_crypto_alg_data_t" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="741" y="1175" width="392" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="igit9j9ykuDauClgamDP-50" value="char *name;&amp;nbsp; 算法名称" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="igit9j9ykuDauClgamDP-49">
+          <mxGeometry y="26" width="392" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="igit9j9ykuDauClgamDP-51" value="vnet_crypto_op_id_t op_by_type[5]" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="igit9j9ykuDauClgamDP-49">
+          <mxGeometry y="52" width="392" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="igit9j9ykuDauClgamDP-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="igit9j9ykuDauClgamDP-2" target="igit9j9ykuDauClgamDP-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="igit9j9ykuDauClgamDP-59" value="vnet_crypto_thread_t" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="740" y="1268" width="392" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="igit9j9ykuDauClgamDP-60" value="cacheline0:&amp;nbsp; cache line 对齐" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="igit9j9ykuDauClgamDP-59">
+          <mxGeometry y="26" width="392" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="igit9j9ykuDauClgamDP-63" value="vnet_crypto_async_frame_t *frame_pool&amp;nbsp;" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="igit9j9ykuDauClgamDP-59">
+          <mxGeometry y="52" width="392" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="igit9j9ykuDauClgamDP-61" value="u32 *buffer_indices" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="igit9j9ykuDauClgamDP-59">
+          <mxGeometry y="78" width="392" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="igit9j9ykuDauClgamDP-62" value="u16 *nexts" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="igit9j9ykuDauClgamDP-59">
+          <mxGeometry y="104" width="392" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="igit9j9ykuDauClgamDP-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.003;entryY=0.131;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="igit9j9ykuDauClgamDP-4" target="igit9j9ykuDauClgamDP-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="igit9j9ykuDauClgamDP-65" value="vnet_crypto_op_data_t 同步模式数据" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="742" y="1437" width="392" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="igit9j9ykuDauClgamDP-66" value="vnet_crypto_op_type_t type，加密算法类型" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="igit9j9ykuDauClgamDP-65">
+          <mxGeometry y="26" width="392" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="igit9j9ykuDauClgamDP-67" value="vnet_crypto_alg_t alg&amp;nbsp; 算法" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="igit9j9ykuDauClgamDP-65">
+          <mxGeometry y="52" width="392" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="igit9j9ykuDauClgamDP-68" value="u32 active_engine_index_simple" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="igit9j9ykuDauClgamDP-65">
+          <mxGeometry y="78" width="392" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="igit9j9ykuDauClgamDP-69" value="u32 active_engine_index_chained" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="igit9j9ykuDauClgamDP-65">
+          <mxGeometry y="104" width="392" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="igit9j9ykuDauClgamDP-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.006;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="igit9j9ykuDauClgamDP-9" target="igit9j9ykuDauClgamDP-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="igit9j9ykuDauClgamDP-71" value="vnet_crypto_async_op_data_t 异步模式" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="741" y="1583" width="392" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="igit9j9ykuDauClgamDP-72" value="vnet_crypto_async_op_type_t type 异步模式算法类型" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="igit9j9ykuDauClgamDP-71">
+          <mxGeometry y="26" width="392" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="igit9j9ykuDauClgamDP-73" value="vnet_crypto_async_alg_t alg&amp;nbsp; 算法" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="igit9j9ykuDauClgamDP-71">
+          <mxGeometry y="52" width="392" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="igit9j9ykuDauClgamDP-74" value="u32 active_engine_index_async" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="igit9j9ykuDauClgamDP-71">
+          <mxGeometry y="78" width="392" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="igit9j9ykuDauClgamDP-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.001;entryY=0.163;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="igit9j9ykuDauClgamDP-10" target="igit9j9ykuDauClgamDP-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="igit9j9ykuDauClgamDP-77" value="vnet_crypto_async_alg_data_t&amp;nbsp;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="740" y="2022" width="392" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="igit9j9ykuDauClgamDP-78" value="char *name; 异步模式算法名称" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="igit9j9ykuDauClgamDP-77">
+          <mxGeometry y="26" width="392" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="igit9j9ykuDauClgamDP-79" value="vnet_crypto_async_op_id_t op_by_type[2]" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="igit9j9ykuDauClgamDP-77">
+          <mxGeometry y="52" width="392" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
