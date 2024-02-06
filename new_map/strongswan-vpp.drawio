@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-06T09:13:27.789Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="1AKXh1lRiNFRhyxklTuY" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-06T09:18:57.434Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="2u5fY8VTBgGCCfafDTJc" version="23.1.1" type="github">
   <diagram name="第 1 页" id="NZlMmKt4PmIUYlCAHn9F">
     <mxGraphModel dx="2074" dy="1106" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -536,6 +536,30 @@
           <mxGeometry y="52" width="392" height="26" as="geometry" />
         </mxCell>
         <mxCell id="igit9j9ykuDauClgamDP-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="igit9j9ykuDauClgamDP-17" target="igit9j9ykuDauClgamDP-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="igit9j9ykuDauClgamDP-86" value="crypto_sw_scheduler_main_t 异步模式调度管理结构体" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="73" y="2264" width="392" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="igit9j9ykuDauClgamDP-87" value="u32 crypto_engine_index&amp;nbsp;" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="igit9j9ykuDauClgamDP-86">
+          <mxGeometry y="26" width="392" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="igit9j9ykuDauClgamDP-88" value="crypto_sw_scheduler_per_thread_data_t *per_thread_data" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="igit9j9ykuDauClgamDP-86">
+          <mxGeometry y="52" width="392" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="igit9j9ykuDauClgamDP-89" value="vnet_crypto_key_t *keys" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="igit9j9ykuDauClgamDP-86">
+          <mxGeometry y="78" width="392" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="igit9j9ykuDauClgamDP-90" value="crypto_sw_scheduler_per_thread_data_t" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="738" y="2257" width="392" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="igit9j9ykuDauClgamDP-91" value="u32 node_idx;" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="igit9j9ykuDauClgamDP-90">
+          <mxGeometry y="26" width="392" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="igit9j9ykuDauClgamDP-92" value="u32 next_idx;" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="igit9j9ykuDauClgamDP-90">
+          <mxGeometry y="52" width="392" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="igit9j9ykuDauClgamDP-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="igit9j9ykuDauClgamDP-88" target="igit9j9ykuDauClgamDP-90">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
