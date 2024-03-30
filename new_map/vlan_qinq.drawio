@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-30T06:29:54.818Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="firoOBsKBgs-oeywRjgz" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-30T06:31:11.915Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="5W4kbA7pT3gKfo3NwOSe" version="23.1.1" type="github">
   <diagram name="第 1 页" id="XMRFgrRb3AEoOU9a7_yg">
     <mxGraphModel dx="1607" dy="412" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -306,10 +306,10 @@
         <mxCell id="44GL9b5t1eZxhKQVLN2Y-14" value="main_intf_t *main_intfs;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-530" y="822" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="44GL9b5t1eZxhKQVLN2Y-16" value="ethernet_main_t&lt;br style=&quot;border-color: var(--border-color); font-weight: 700;&quot;&gt;&lt;span style=&quot;font-weight: 700;&quot;&gt;以太接口管理结构体&lt;/span&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="44GL9b5t1eZxhKQVLN2Y-16" value="vlan_table_t *vlan_pool&lt;br&gt;一层vlan pool内存池" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-530" y="882" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="44GL9b5t1eZxhKQVLN2Y-17" value="ethernet_main_t&lt;br style=&quot;border-color: var(--border-color); font-weight: 700;&quot;&gt;&lt;span style=&quot;font-weight: 700;&quot;&gt;以太接口管理结构体&lt;/span&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="44GL9b5t1eZxhKQVLN2Y-17" value="qinq_table_t *qinq_pool;&lt;br&gt;二层tag pool内存池" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-530" y="950" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
