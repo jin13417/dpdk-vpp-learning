@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2024-03-30T14:39:33.255Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="X5BILV-p2n4h7qpTFesl" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-30T14:46:02.821Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="hm29Q06WU2c1Y-7HPqLE" version="23.1.1" type="github">
   <diagram name="第 1 页" id="XMRFgrRb3AEoOU9a7_yg">
-    <mxGraphModel dx="3216" dy="852" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3162" dy="852" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="44GL9b5t1eZxhKQVLN2Y-52" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;gradientColor=none;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-1298" y="10" width="1290" height="710" as="geometry" />
+        </mxCell>
         <mxCell id="PQ3nd2OZXr9GBDzt29_k-1" value="ethernet_main_t&lt;br&gt;以太接口管理结构体" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="100" y="53" width="240" height="494" as="geometry" />
         </mxCell>
@@ -277,19 +280,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="44GL9b5t1eZxhKQVLN2Y-4" value="vnet_main.interface_main&lt;br&gt;vpp接口管理模块" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1230" y="230" width="150" height="30" as="geometry" />
+          <mxGeometry x="-1220" y="118" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="44GL9b5t1eZxhKQVLN2Y-5" value="vnet_hw_interface_t *hw_interfaces;&lt;br&gt;硬件或物理接口" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1043" y="200" width="210" height="30" as="geometry" />
+          <mxGeometry x="-1033" y="88" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="44GL9b5t1eZxhKQVLN2Y-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="44GL9b5t1eZxhKQVLN2Y-9" target="44GL9b5t1eZxhKQVLN2Y-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="44GL9b5t1eZxhKQVLN2Y-9" value="vnet_sw_interface_t *sw_interfaces;&lt;br&gt;软件接口" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1040" y="260" width="210" height="30" as="geometry" />
+          <mxGeometry x="-1030" y="148" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="44GL9b5t1eZxhKQVLN2Y-11" value="vnet_sub_interface_t sub&lt;br&gt;子接口" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-730" y="260" width="210" height="30" as="geometry" />
+          <mxGeometry x="-720" y="148" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="44GL9b5t1eZxhKQVLN2Y-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="44GL9b5t1eZxhKQVLN2Y-13" target="44GL9b5t1eZxhKQVLN2Y-14">
           <mxGeometry relative="1" as="geometry" />
@@ -384,7 +387,7 @@
           <mxGeometry y="52" width="330" height="148" as="geometry" />
         </mxCell>
         <mxCell id="44GL9b5t1eZxhKQVLN2Y-46" value="vnet_sub_interface_t" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="-450" y="40" width="260" height="310" as="geometry" />
+          <mxGeometry x="-451" y="26" width="260" height="310" as="geometry" />
         </mxCell>
         <mxCell id="44GL9b5t1eZxhKQVLN2Y-47" value="u32 id；创建接口使用ID，一般以vlan ID" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="44GL9b5t1eZxhKQVLN2Y-46">
           <mxGeometry y="26" width="260" height="26" as="geometry" />
@@ -400,6 +403,12 @@
         </mxCell>
         <mxCell id="44GL9b5t1eZxhKQVLN2Y-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.005;entryY=0.049;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="44GL9b5t1eZxhKQVLN2Y-11" target="44GL9b5t1eZxhKQVLN2Y-46">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="44GL9b5t1eZxhKQVLN2Y-57" value="配置数据存储结构" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontColor=#FF0000;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="-1225" y="53" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="44GL9b5t1eZxhKQVLN2Y-58" value="转发数据存储结构" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontColor=#FF0000;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="-1235" y="336" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
