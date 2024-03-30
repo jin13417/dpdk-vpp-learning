@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-30T06:32:46.242Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="Wv2TBmPwY7VV-J_3PrIR" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-30T06:42:36.544Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="ZvhIr7pU2c184xpazGxE" version="23.1.1" type="github">
   <diagram name="第 1 页" id="XMRFgrRb3AEoOU9a7_yg">
-    <mxGraphModel dx="1607" dy="412" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2434" dy="1581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -67,7 +67,7 @@
         <mxCell id="PQ3nd2OZXr9GBDzt29_k-23" value="u16 dot1q_vlans&amp;nbsp; 外层vlan配置在vlan_pool 资源池ID" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="PQ3nd2OZXr9GBDzt29_k-19" vertex="1">
           <mxGeometry y="78" width="330" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="PQ3nd2OZXr9GBDzt29_k-24" value="u16 dot1ad_vlans 外层vlan配置在vlan_pool 资源池ID" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="PQ3nd2OZXr9GBDzt29_k-19" vertex="1">
+        <mxCell id="PQ3nd2OZXr9GBDzt29_k-24" value="u16 dot1ad_vlans 内层vlan配置在vlan_pool 资源池ID" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="PQ3nd2OZXr9GBDzt29_k-19" vertex="1">
           <mxGeometry y="104" width="330" height="26" as="geometry" />
         </mxCell>
         <mxCell id="PQ3nd2OZXr9GBDzt29_k-25" value="vlan_table_t vlan 子接口管理结构体" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
@@ -277,19 +277,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="44GL9b5t1eZxhKQVLN2Y-4" value="vnet_main.interface_main&lt;br&gt;vpp接口管理模块" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-810" y="130" width="150" height="30" as="geometry" />
+          <mxGeometry x="-1100" y="140" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="44GL9b5t1eZxhKQVLN2Y-5" value="vnet_hw_interface_t *hw_interfaces;&lt;br&gt;硬件或物理接口" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-570" y="100" width="210" height="30" as="geometry" />
+          <mxGeometry x="-913" y="110" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="44GL9b5t1eZxhKQVLN2Y-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="44GL9b5t1eZxhKQVLN2Y-9" target="44GL9b5t1eZxhKQVLN2Y-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="44GL9b5t1eZxhKQVLN2Y-9" value="vnet_sw_interface_t *sw_interfaces;&lt;br&gt;软件接口" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-570" y="160" width="210" height="30" as="geometry" />
+          <mxGeometry x="-910" y="170" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="44GL9b5t1eZxhKQVLN2Y-11" value="vnet_sub_interface_t sub&lt;br&gt;子接口" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-310" y="160" width="210" height="30" as="geometry" />
+          <mxGeometry x="-600" y="170" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="44GL9b5t1eZxhKQVLN2Y-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="44GL9b5t1eZxhKQVLN2Y-13" target="44GL9b5t1eZxhKQVLN2Y-14">
           <mxGeometry relative="1" as="geometry" />
@@ -301,16 +301,102 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="44GL9b5t1eZxhKQVLN2Y-13" value="ethernet_main_t&lt;br style=&quot;border-color: var(--border-color); font-weight: 700;&quot;&gt;&lt;span style=&quot;font-weight: 700;&quot;&gt;以太接口管理结构体&lt;/span&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-800" y="342" width="130" height="30" as="geometry" />
+          <mxGeometry x="-1090" y="412" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="44GL9b5t1eZxhKQVLN2Y-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.009;entryY=0.095;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="44GL9b5t1eZxhKQVLN2Y-14" target="44GL9b5t1eZxhKQVLN2Y-23">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="44GL9b5t1eZxhKQVLN2Y-14" value="main_intf_t *main_intfs;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-560" y="282" width="150" height="30" as="geometry" />
+          <mxGeometry x="-920" y="292" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="44GL9b5t1eZxhKQVLN2Y-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="44GL9b5t1eZxhKQVLN2Y-16" target="44GL9b5t1eZxhKQVLN2Y-29">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="44GL9b5t1eZxhKQVLN2Y-16" value="vlan_table_t *vlan_pool&lt;br&gt;一层vlan pool内存池" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-560" y="342" width="150" height="30" as="geometry" />
+          <mxGeometry x="-920" y="412" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="44GL9b5t1eZxhKQVLN2Y-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="44GL9b5t1eZxhKQVLN2Y-17" target="44GL9b5t1eZxhKQVLN2Y-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-740" y="497" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="44GL9b5t1eZxhKQVLN2Y-17" value="qinq_table_t *qinq_pool;&lt;br&gt;二层tag pool内存池" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-560" y="410" width="150" height="30" as="geometry" />
+          <mxGeometry x="-920" y="540" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="44GL9b5t1eZxhKQVLN2Y-23" value="main_intf_t&amp;nbsp; 主接口管理接口" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-740" y="246" width="330" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="44GL9b5t1eZxhKQVLN2Y-24" value="subint_config_t untagged_subint" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="44GL9b5t1eZxhKQVLN2Y-23">
+          <mxGeometry y="26" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="44GL9b5t1eZxhKQVLN2Y-25" value="subint_config_t default_subint;&amp;nbsp; default_sub 模式" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="44GL9b5t1eZxhKQVLN2Y-23">
+          <mxGeometry y="52" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="44GL9b5t1eZxhKQVLN2Y-26" value="u16 dot1q_vlans&amp;nbsp; 外层vlan配置在vlan_pool 资源池ID" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="44GL9b5t1eZxhKQVLN2Y-23">
+          <mxGeometry y="78" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="44GL9b5t1eZxhKQVLN2Y-27" value="u16 dot1ad_vlans 内层vlan配置在vlan_pool 资源池ID" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="44GL9b5t1eZxhKQVLN2Y-23">
+          <mxGeometry y="104" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="44GL9b5t1eZxhKQVLN2Y-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.151;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="44GL9b5t1eZxhKQVLN2Y-29" target="44GL9b5t1eZxhKQVLN2Y-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="44GL9b5t1eZxhKQVLN2Y-29" value="vlan_table_t vlan 子接口管理结构体" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-740" y="412" width="230" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="44GL9b5t1eZxhKQVLN2Y-30" value="vlan_intf_t vlans[1024]" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="44GL9b5t1eZxhKQVLN2Y-29">
+          <mxGeometry y="26" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="44GL9b5t1eZxhKQVLN2Y-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="44GL9b5t1eZxhKQVLN2Y-31" target="44GL9b5t1eZxhKQVLN2Y-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="44GL9b5t1eZxhKQVLN2Y-31" value="qinq_table_t qinq 子接口管理结构体" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-740" y="547" width="230" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="44GL9b5t1eZxhKQVLN2Y-32" value="qinq_intf_t vlans[1024]" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="44GL9b5t1eZxhKQVLN2Y-31">
+          <mxGeometry y="26" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="44GL9b5t1eZxhKQVLN2Y-35" value="vlan_intf_t" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-480" y="400" width="190" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="44GL9b5t1eZxhKQVLN2Y-36" value="subint_config_t single_tag_subint" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="44GL9b5t1eZxhKQVLN2Y-35">
+          <mxGeometry y="26" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="44GL9b5t1eZxhKQVLN2Y-37" value="subint_config_t inner_any_subint" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="44GL9b5t1eZxhKQVLN2Y-35">
+          <mxGeometry y="52" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="44GL9b5t1eZxhKQVLN2Y-38" value="u32 qinqs 内层vlan ID" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="44GL9b5t1eZxhKQVLN2Y-35">
+          <mxGeometry y="78" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="44GL9b5t1eZxhKQVLN2Y-40" value="qinq_intf_t" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-460" y="560" width="170" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="44GL9b5t1eZxhKQVLN2Y-41" value="subint_config_t subint" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="44GL9b5t1eZxhKQVLN2Y-40">
+          <mxGeometry y="26" width="170" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="44GL9b5t1eZxhKQVLN2Y-43" value="subint_config_t" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="274" width="330" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="44GL9b5t1eZxhKQVLN2Y-44" value="u32 sw_if_index; 接口up之后，会赋值赋值接口索引" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="44GL9b5t1eZxhKQVLN2Y-43">
+          <mxGeometry y="26" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="44GL9b5t1eZxhKQVLN2Y-45" value="u32 flags；&lt;br&gt;&lt;div&gt;#define SUBINT_CONFIG_MATCH_0_TAG (1&amp;lt;&amp;lt;0)&lt;/div&gt;&lt;div&gt;#define SUBINT_CONFIG_MATCH_1_TAG (1&amp;lt;&amp;lt;1)&lt;/div&gt;&lt;div&gt;#define SUBINT_CONFIG_MATCH_2_TAG (1&amp;lt;&amp;lt;2)&lt;/div&gt;&lt;div&gt;#define SUBINT_CONFIG_MATCH_3_TAG (1&amp;lt;&amp;lt;3)&lt;/div&gt;&lt;div&gt;#define SUBINT_CONFIG_VALID&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;(1&amp;lt;&amp;lt;4) #接口vlan是否使用&lt;/div&gt;&lt;div&gt;#define SUBINT_CONFIG_L2&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; (1&amp;lt;&amp;lt;5)&lt;/div&gt;&lt;div&gt;#define SUBINT_CONFIG_P2P&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;(1&amp;lt;&amp;lt;6)&lt;/div&gt;" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="44GL9b5t1eZxhKQVLN2Y-43">
+          <mxGeometry y="52" width="330" height="148" as="geometry" />
+        </mxCell>
+        <mxCell id="44GL9b5t1eZxhKQVLN2Y-46" value="vnet_sub_interface_t" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="-50" width="260" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="44GL9b5t1eZxhKQVLN2Y-47" value="u32 id；创建接口使用ID，一般以vlan ID" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="44GL9b5t1eZxhKQVLN2Y-46">
+          <mxGeometry y="26" width="260" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="44GL9b5t1eZxhKQVLN2Y-48" value="u16 outer_vlan_id" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="44GL9b5t1eZxhKQVLN2Y-46">
+          <mxGeometry y="52" width="260" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="44GL9b5t1eZxhKQVLN2Y-49" value="u16 inner_vlan_id" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="44GL9b5t1eZxhKQVLN2Y-46">
+          <mxGeometry y="78" width="260" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="44GL9b5t1eZxhKQVLN2Y-50" value="&lt;div&gt;u16 raw_flags;&lt;/div&gt;&lt;div&gt;struct&lt;/div&gt;&lt;div&gt;&amp;nbsp;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; u16 no_tags:1;&lt;span style=&quot;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;u16 one_tag:1;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;u16 two_tags:1;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;u16 dot1ad:1;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;/* 0 = dot1q, 1=dot1ad */&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;u16 exact_match:1;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;u16 default_sub:1;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;u16 outer_vlan_id_any:1;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;u16 inner_vlan_id_any:1;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;} flags;&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="44GL9b5t1eZxhKQVLN2Y-46">
+          <mxGeometry y="104" width="260" height="206" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
