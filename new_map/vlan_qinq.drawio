@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-07T15:35:28.704Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="QWNVLKnQfCAEyGi40E9Z" version="24.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-07T15:36:38.187Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="z15uBMkJZhdUVxrcSUUp" version="24.0.4" type="github">
   <diagram name="第 1 页" id="XMRFgrRb3AEoOU9a7_yg">
     <mxGraphModel dx="2554" dy="531" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -360,7 +360,7 @@
           <mxGeometry y="26" width="230" height="26" as="geometry" />
         </mxCell>
         <mxCell id="44GL9b5t1eZxhKQVLN2Y-35" value="vlan_intf_t" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="-610" y="490" width="205" height="104" as="geometry" />
+          <mxGeometry x="-610" y="490" width="205" height="117" as="geometry" />
         </mxCell>
         <mxCell id="44GL9b5t1eZxhKQVLN2Y-36" value="subint_config_t single_tag_subint" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="44GL9b5t1eZxhKQVLN2Y-35" vertex="1">
           <mxGeometry y="26" width="205" height="26" as="geometry" />
@@ -368,8 +368,8 @@
         <mxCell id="44GL9b5t1eZxhKQVLN2Y-37" value="subint_config_t inner_any_subint" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="44GL9b5t1eZxhKQVLN2Y-35" vertex="1">
           <mxGeometry y="52" width="205" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="44GL9b5t1eZxhKQVLN2Y-38" value="u32 qinqs 在qinq_pool的资源池索引" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="44GL9b5t1eZxhKQVLN2Y-35" vertex="1">
-          <mxGeometry y="78" width="205" height="26" as="geometry" />
+        <mxCell id="44GL9b5t1eZxhKQVLN2Y-38" value="u32 qinqs&amp;nbsp; 内层vlan配置在qinq_pool的资源池索引" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="44GL9b5t1eZxhKQVLN2Y-35" vertex="1">
+          <mxGeometry y="78" width="205" height="39" as="geometry" />
         </mxCell>
         <mxCell id="44GL9b5t1eZxhKQVLN2Y-40" value="qinq_intf_t" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="-590" y="650" width="170" height="52" as="geometry" />
