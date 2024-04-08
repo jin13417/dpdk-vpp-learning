@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-07T15:36:38.187Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="z15uBMkJZhdUVxrcSUUp" version="24.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-08T16:01:48.436Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="SIjCy6iDZ31P46oct_uB" version="24.0.4" type="github">
   <diagram name="第 1 页" id="XMRFgrRb3AEoOU9a7_yg">
-    <mxGraphModel dx="2554" dy="531" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2737" dy="506" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -335,7 +335,7 @@
         <mxCell id="44GL9b5t1eZxhKQVLN2Y-25" value="subint_config_t default_subint;&amp;nbsp; default_sub 模式" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="44GL9b5t1eZxhKQVLN2Y-23" vertex="1">
           <mxGeometry y="52" width="330" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="44GL9b5t1eZxhKQVLN2Y-26" value="u16 dot1q_vlans&amp;nbsp; 外层vlan配置在vlan_pool 资源池ID" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="44GL9b5t1eZxhKQVLN2Y-23" vertex="1">
+        <mxCell id="44GL9b5t1eZxhKQVLN2Y-26" value="u16 dot1q_vlans&amp;nbsp; 在vlan_pool 资源池ID" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="44GL9b5t1eZxhKQVLN2Y-23" vertex="1">
           <mxGeometry y="78" width="330" height="26" as="geometry" />
         </mxCell>
         <mxCell id="44GL9b5t1eZxhKQVLN2Y-27" value="u16 dot1ad_vlans 外层vlan配置在vlan_pool 资源池ID" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="44GL9b5t1eZxhKQVLN2Y-23" vertex="1">
