@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-20T12:54:40.849Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="ASObe5xe7bwgvHRDWjBM" version="24.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-20T13:29:02.325Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="XO8Udf8Ljd6NKpZSj3sV" version="24.2.1" type="github">
   <diagram name="第 1 页" id="glHY0Gd7KmC67INIILRB">
     <mxGraphModel dx="794" dy="420" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -104,7 +104,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="p4Iv83RpUlakr4i-X7LJ-43" value="l2fib_main_t" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="1030" width="250" height="260" as="geometry" />
+          <mxGeometry x="110" y="1010" width="250" height="260" as="geometry" />
         </mxCell>
         <mxCell id="p4Iv83RpUlakr4i-X7LJ-44" value="BVT (clib_bihash) mac_table;" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="p4Iv83RpUlakr4i-X7LJ-43">
           <mxGeometry y="26" width="250" height="26" as="geometry" />
@@ -132,6 +132,18 @@
         </mxCell>
         <mxCell id="p4Iv83RpUlakr4i-X7LJ-52" value="vnet_main_t *vnet_main;" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="p4Iv83RpUlakr4i-X7LJ-43">
           <mxGeometry y="234" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="p4Iv83RpUlakr4i-X7LJ-53" value="l2fib_entry_key_t" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="950" width="390" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="p4Iv83RpUlakr4i-X7LJ-54" value="&lt;div&gt;union&lt;/div&gt;&lt;div&gt;&amp;nbsp; {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; struct&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; u16 bd_index;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; u8 mac[6];&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; } fields;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; struct&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; u32 w0;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; u32 w1;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; } words;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; u64 raw;&lt;/div&gt;&lt;div&gt;&amp;nbsp; };&lt;/div&gt;" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="p4Iv83RpUlakr4i-X7LJ-53">
+          <mxGeometry y="26" width="390" height="214" as="geometry" />
+        </mxCell>
+        <mxCell id="p4Iv83RpUlakr4i-X7LJ-63" value="l2fib_entry_result_t" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="1200" width="390" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="p4Iv83RpUlakr4i-X7LJ-64" value="&lt;div&gt;union&lt;/div&gt;&lt;div&gt;&amp;nbsp; {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; struct&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; u32 sw_if_index; /* output sw_if_index (L3 intf if bvi==1) */&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; l2fib_entry_result_flags_t flags;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; u8 timestamp;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&#x9;&lt;/span&gt;/* timestamp for aging */&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; l2fib_seq_num_t sn;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;/* bd/int seq num */&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; } fields;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; u64 raw;&lt;/div&gt;&lt;div&gt;&amp;nbsp; };&lt;/div&gt;" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="p4Iv83RpUlakr4i-X7LJ-63">
+          <mxGeometry y="26" width="390" height="184" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
