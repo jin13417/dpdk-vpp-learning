@@ -1,0 +1,57 @@
+Packet 1
+
+00:04:05:084044: virtio-input
+  virtio: hw_if_index 1 next-index 4 vring 0 len 42
+    hdr: flags 0x00 gso_type 0x00 hdr_len 0 gso_size 0 csum_start 0 csum_offset 0 num_buffers 1
+00:04:05:084057: ethernet-input
+  frame: flags 0x1, hw-if-index 1, sw-if-index 1
+  ARP: 02:fe:81:57:ec:8e -> ff:ff:ff:ff:ff:ff
+00:04:05:084069: l2-input
+  l2-input: sw_if_index 1 dst ff:ff:ff:ff:ff:ff src 02:fe:81:57:ec:8e [l2-learn l2-flood ]
+00:04:05:084073: l2-learn
+  l2-learn: sw_if_index 1 dst ff:ff:ff:ff:ff:ff src 02:fe:81:57:ec:8e bd_index 1
+00:04:05:084081: l2-flood
+  l2-flood: sw_if_index 1 dst ff:ff:ff:ff:ff:ff src 02:fe:81:57:ec:8e bd_index 1
+00:04:05:084085: l2-output
+  l2-output: sw_if_index 2 dst ff:ff:ff:ff:ff:ff src 02:fe:81:57:ec:8e data 08 06 00 01 08 00 06 04 00 01 02 fe
+00:04:05:084089: tap2-output
+  tap2 flags 0x00180005
+  ARP: 02:fe:81:57:ec:8e -> ff:ff:ff:ff:ff:ff
+  request, type ethernet/IP4, address size 6/4
+  02:fe:81:57:ec:8e/192.168.1.1 -> 00:00:00:00:00:00/192.168.1.2
+00:04:05:084095: tap2-tx
+    buffer 0x9f7d3: current data 0, length 42, buffer-pool 0, ref-count 1, trace handle 0x0
+                    l2-hdr-offset 0 l3-hdr-offset 14 
+  hdr-sz 0 l2-hdr-offset 0 l3-hdr-offset 14 l4-hdr-offset 0 l4-hdr-sz 0
+  ARP: 02:fe:81:57:ec:8e -> ff:ff:ff:ff:ff:ff
+  request, type ethernet/IP4, address size 6/4
+  02:fe:81:57:ec:8e/192.168.1.1 -> 00:00:00:00:00:00/192.168.1.2
+
+Packet 2
+
+00:04:05:084154: virtio-input
+  virtio: hw_if_index 2 next-index 4 vring 0 len 42
+    hdr: flags 0x00 gso_type 0x00 hdr_len 0 gso_size 0 csum_start 0 csum_offset 0 num_buffers 1
+00:04:05:084156: ethernet-input
+  frame: flags 0x1, hw-if-index 2, sw-if-index 2
+  ARP: 02:fe:cf:7a:3e:a8 -> 02:fe:81:57:ec:8e
+00:04:05:084159: l2-input
+  l2-input: sw_if_index 2 dst 02:fe:81:57:ec:8e src 02:fe:cf:7a:3e:a8 [l2-learn l2-fwd l2-flood l2-flood ]
+00:04:05:084160: l2-learn
+  l2-learn: sw_if_index 2 dst 02:fe:81:57:ec:8e src 02:fe:cf:7a:3e:a8 bd_index 1
+00:04:05:084168: l2-fwd
+  l2-fwd:   sw_if_index 2 dst 02:fe:81:57:ec:8e src 02:fe:cf:7a:3e:a8 bd_index 1 result [0x1040000000001, 1] none
+00:04:05:084171: l2-output
+  l2-output: sw_if_index 1 dst 02:fe:81:57:ec:8e src 02:fe:cf:7a:3e:a8 data 08 06 00 01 08 00 06 04 00 02 02 fe
+00:04:05:084173: tap1-output
+  tap1 flags 0x00180005
+  ARP: 02:fe:cf:7a:3e:a8 -> 02:fe:81:57:ec:8e
+  reply, type ethernet/IP4, address size 6/4
+  02:fe:cf:7a:3e:a8/192.168.1.2 -> 02:fe:81:57:ec:8e/192.168.1.1
+00:04:05:084175: tap1-tx
+    buffer 0x9d0d3: current data 0, length 42, buffer-pool 0, ref-count 1, trace handle 0x1
+                    l2-hdr-offset 0 l3-hdr-offset 14 
+  hdr-sz 0 l2-hdr-offset 0 l3-hdr-offset 14 l4-hdr-offset 0 l4-hdr-sz 0
+  ARP: 02:fe:cf:7a:3e:a8 -> 02:fe:81:57:ec:8e
+  reply, type ethernet/IP4, address size 6/4
+  02:fe:cf:7a:3e:a8/192.168.1.2 -> 02:fe:81:57:ec:8e/192.168.1.1

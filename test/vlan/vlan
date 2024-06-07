@@ -1,0 +1,8 @@
+#创建一个tap10接口
+create tap id 10 host-if-name tap10
+#创建一个VLan id 10的子接口，并设置接口up及配置ip地址。
+create sub-interfaces tap10 10
+set interface state tap10 up
+set interface state tap10.10 up
+set interface ip address tap10.10 192.168.1.1/24
+

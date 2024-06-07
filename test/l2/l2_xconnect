@@ -1,0 +1,12 @@
+
+
+creat tap id 1 host-ns pc1 host-ip4-addr 192.168.1.1/24 host-if-name tap1
+
+creat tap id 2 host-ns pc2 host-ip4-addr 192.168.1.2/24 host-if-name tap2
+
+
+set interface state tap1 up
+set interface state tap2 up
+
+set interface l2 xconnect tap1 tap2
+set interface l2 xconnect tap2 tap1

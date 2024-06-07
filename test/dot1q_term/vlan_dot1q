@@ -1,0 +1,16 @@
+create bridge-domain 10
+
+bvi create instance 10
+set interface l2 bridge bvi10 10 bvi
+set interface state bvi10 up
+set interface ip address bvi10 192.168.1.1/24
+
+
+create tap id 10 host-if-name tap10
+create sub-interfaces tap10 10
+set interface l2 bridge tap10.10 10
+set interface state tap10 up
+set interface state tap10.10 up
+set interface l2 tag-rewrite tap10.10 pop 1
+
+

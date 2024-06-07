@@ -1,0 +1,15 @@
+
+
+creat tap id 1 host-ns inside host-ip4-addr 10.0.0.2/24 host-ip4-gw 10.0.0.1 host-if-name tap1
+
+set interface state tap1 up
+set interface ip address tap1 10.0.0.1/24
+
+nat44 plugin enable sessions 1000
+set interface nat44 in tap1
+
+set interface nat44 out tap1
+
+nat44 add address 192.168.160.101
+nat44 add address 10.0.0.1 twice-nat
+nat44 add static mapping tcp local 10.0.0.2 5201 external 192.168.160.101 5201 self-twice-nat
