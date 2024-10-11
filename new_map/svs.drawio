@@ -4,28 +4,31 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="lfiUj1Po3yG01DF8Lg2e-9" value="VPP" style="rounded=1;whiteSpace=wrap;html=1;align=center;fontStyle=1;verticalAlign=top;fontSize=21;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="160" y="160" width="420" height="220" as="geometry" />
+        </mxCell>
         <mxCell id="lfiUj1Po3yG01DF8Lg2e-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lfiUj1Po3yG01DF8Lg2e-1" target="lfiUj1Po3yG01DF8Lg2e-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lfiUj1Po3yG01DF8Lg2e-1" value="vrf 2&lt;div&gt;tap2&lt;/div&gt;&lt;div&gt;192.168.20.1/24&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="390" y="300" width="140" height="60" as="geometry" />
+        <mxCell id="lfiUj1Po3yG01DF8Lg2e-1" value="vrf 2&lt;div&gt;tap2&lt;/div&gt;&lt;div&gt;192.168.20.1/24&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="420" y="300" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lfiUj1Po3yG01DF8Lg2e-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lfiUj1Po3yG01DF8Lg2e-2" target="lfiUj1Po3yG01DF8Lg2e-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lfiUj1Po3yG01DF8Lg2e-2" value="vrf 1&lt;div&gt;tap1&lt;/div&gt;&lt;div&gt;192.168.10.1/24&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="210" y="300" width="140" height="60" as="geometry" />
+        <mxCell id="lfiUj1Po3yG01DF8Lg2e-2" value="vrf 1&lt;div&gt;tap1&lt;/div&gt;&lt;div&gt;192.168.10.1/24&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="180" y="300" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lfiUj1Po3yG01DF8Lg2e-3" value="netns tap1&lt;div&gt;tap1&lt;/div&gt;&lt;div&gt;192.168.10.2/24&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="300" width="120" height="60" as="geometry" />
+        <mxCell id="lfiUj1Po3yG01DF8Lg2e-3" value="netns tap1&lt;div&gt;tap1&lt;/div&gt;&lt;div&gt;192.168.10.2/24&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="10" y="300" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lfiUj1Po3yG01DF8Lg2e-4" value="netns tap2&lt;div&gt;tap2&lt;/div&gt;&lt;div&gt;192.168.20.2/24&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="590" y="300" width="120" height="60" as="geometry" />
+        <mxCell id="lfiUj1Po3yG01DF8Lg2e-4" value="netns tap2&lt;div&gt;tap2&lt;/div&gt;&lt;div&gt;192.168.20.2/24&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="610" y="300" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lfiUj1Po3yG01DF8Lg2e-7" value="vrf 3&lt;div&gt;tap1&lt;/div&gt;&lt;div&gt;svs route192.168.10.2&amp;nbsp; vrf 2&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="lfiUj1Po3yG01DF8Lg2e-7" value="svs vrf 3&lt;div&gt;svs vrf 3 bind tap1&lt;/div&gt;&lt;div&gt;svs route192.168.10.2&amp;nbsp; vrf 2&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="180" y="210" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lfiUj1Po3yG01DF8Lg2e-8" value="vrf 3&lt;div&gt;tap2&lt;/div&gt;&lt;div&gt;svs route192.168.20.2&amp;nbsp; vrf 1&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="lfiUj1Po3yG01DF8Lg2e-8" value="svs vrf 4&lt;div&gt;svs vrf 4 bind tap2&lt;/div&gt;&lt;div&gt;svs route192.168.20.2&amp;nbsp; vrf 1&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="390" y="210" width="170" height="60" as="geometry" />
         </mxCell>
       </root>
