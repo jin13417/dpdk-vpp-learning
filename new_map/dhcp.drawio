@@ -1,9 +1,30 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.8.4">
   <diagram name="第 1 页" id="Gntc-s0iYA17Y_jlXIX2">
-    <mxGraphModel>
+    <mxGraphModel dx="954" dy="521" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="cwmtlprhHorAUtGFIiAk-1" value="VPP" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="250" y="180" width="340" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="cwmtlprhHorAUtGFIiAk-2" value="netns tap1&amp;nbsp;&lt;div&gt;dhclient tap1&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="240" y="350" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cwmtlprhHorAUtGFIiAk-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cwmtlprhHorAUtGFIiAk-3" target="cwmtlprhHorAUtGFIiAk-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cwmtlprhHorAUtGFIiAk-3" value="tap1&lt;div&gt;192.168.2.1&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="260" y="250" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cwmtlprhHorAUtGFIiAk-5" value="netns tap2&lt;div&gt;192.168.1.2&lt;/div&gt;&lt;div&gt;dnsmasq tap2&lt;/div&gt;&lt;div&gt;dhcp range 192.168.2.2--200&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="415" y="330" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cwmtlprhHorAUtGFIiAk-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cwmtlprhHorAUtGFIiAk-6" target="cwmtlprhHorAUtGFIiAk-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cwmtlprhHorAUtGFIiAk-6" value="tap2&lt;div&gt;192.168.1.1&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="470" y="250" width="80" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
