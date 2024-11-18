@@ -1,0 +1,19 @@
+create tap id 1 host-if-name tap1 host-ip4-addr 192.168.10.2/24 host-ip4-gw 192.168.10.1 host-ns tap1
+ip table add 1
+set interface ip table tap1 1
+set interface state tap1 up
+set interface ip addr tap1 192.168.10.1/2
+
+create tap id 2 host-if-name tap2 host-ip4-addr 192.168.20.2/24 host-ip4-gw 192.168.20.1 host-ns tap2
+ip table add 2
+set interface ip table tap2 2
+set interface state tap2 up
+set interface ip addr tap2 192.168.20.1/2
+
+
+svs table ip4 table-id 3
+svs enable ip4 table-id 3 tap1
+svs table ip4 table-id 4
+svs enable ip4 table-id 4 tap2
+svs route add table-id 3 192.168.10.2/32 src-table-id 2
+svs route add table-id 4 192.168.20.2/32 src-table-id 1
