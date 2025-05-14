@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="kG3IC4H-SLwtvIdHB6Il-2" value="struct rte_lpm" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBorderColor=none;rounded=0;swimlaneLine=1;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="60" y="320" width="290" height="208" as="geometry" />
+          <mxGeometry x="60" y="320" width="290" height="240" as="geometry" />
         </mxCell>
         <mxCell id="kG3IC4H-SLwtvIdHB6Il-3" value="char name[32]&amp;nbsp; lpm模块名称" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBorderColor=none;rounded=0;swimlaneLine=1;strokeWidth=2;" parent="kG3IC4H-SLwtvIdHB6Il-2" vertex="1">
           <mxGeometry y="26" width="290" height="26" as="geometry" />
@@ -22,20 +22,20 @@
         <mxCell id="mVqiVs7Es1X-GM2BrdA6-3" value="struct rte_lpm_tbl_entry tbl24[1&amp;lt;&amp;lt;24]" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBorderColor=none;rounded=0;swimlaneLine=1;strokeWidth=2;" parent="kG3IC4H-SLwtvIdHB6Il-2" vertex="1">
           <mxGeometry y="130" width="290" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="mVqiVs7Es1X-GM2BrdA6-4" value="struct rte_lpm_tbl_entry *tbl8" style="text;strokeColor=#2D7600;fillColor=#60a917;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBorderColor=none;rounded=0;swimlaneLine=1;strokeWidth=2;fontColor=#ffffff;" parent="kG3IC4H-SLwtvIdHB6Il-2" vertex="1">
-          <mxGeometry y="156" width="290" height="26" as="geometry" />
+        <mxCell id="mVqiVs7Es1X-GM2BrdA6-4" value="struct rte_lpm_tbl_entry *tbl8 tbl8 表空间指针，长度为 256 * number_tbl8s." style="text;strokeColor=#2D7600;fillColor=#60a917;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBorderColor=none;rounded=0;swimlaneLine=1;strokeWidth=2;fontColor=#ffffff;" parent="kG3IC4H-SLwtvIdHB6Il-2" vertex="1">
+          <mxGeometry y="156" width="290" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="mVqiVs7Es1X-GM2BrdA6-5" value="struct rte_lpm_rule *rules_tbl" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBorderColor=none;rounded=0;swimlaneLine=1;strokeWidth=2;" parent="kG3IC4H-SLwtvIdHB6Il-2" vertex="1">
-          <mxGeometry y="182" width="290" height="26" as="geometry" />
+        <mxCell id="mVqiVs7Es1X-GM2BrdA6-5" value="struct rte_lpm_rule *rules_tbl,规则数据" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBorderColor=none;rounded=0;swimlaneLine=1;strokeWidth=2;" parent="kG3IC4H-SLwtvIdHB6Il-2" vertex="1">
+          <mxGeometry y="200" width="290" height="40" as="geometry" />
         </mxCell>
         <mxCell id="mVqiVs7Es1X-GM2BrdA6-6" value="struct rte_lpm_rule_info" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBorderColor=none;rounded=0;swimlaneLine=1;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="460" y="320" width="290" height="78" as="geometry" />
+          <mxGeometry x="460" y="320" width="330" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="mVqiVs7Es1X-GM2BrdA6-7" value="uint32_t first_rule" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBorderColor=none;rounded=0;swimlaneLine=1;strokeWidth=2;" parent="mVqiVs7Es1X-GM2BrdA6-6" vertex="1">
-          <mxGeometry y="26" width="290" height="26" as="geometry" />
+        <mxCell id="mVqiVs7Es1X-GM2BrdA6-7" value="uint32_t first_rule ，当前掩码对应在rules_tbl中的索引" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBorderColor=none;rounded=0;swimlaneLine=1;strokeWidth=2;" parent="mVqiVs7Es1X-GM2BrdA6-6" vertex="1">
+          <mxGeometry y="26" width="330" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="mVqiVs7Es1X-GM2BrdA6-8" value="uint32_t used_rules;" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBorderColor=none;rounded=0;swimlaneLine=1;strokeWidth=2;" parent="mVqiVs7Es1X-GM2BrdA6-6" vertex="1">
-          <mxGeometry y="52" width="290" height="26" as="geometry" />
+        <mxCell id="mVqiVs7Es1X-GM2BrdA6-8" value="uint32_t used_rules; 当前掩码数据个数。" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBorderColor=none;rounded=0;swimlaneLine=1;strokeWidth=2;" parent="mVqiVs7Es1X-GM2BrdA6-6" vertex="1">
+          <mxGeometry y="52" width="330" height="26" as="geometry" />
         </mxCell>
         <mxCell id="mVqiVs7Es1X-GM2BrdA6-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.002;entryY=0.12;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="mVqiVs7Es1X-GM2BrdA6-2" target="mVqiVs7Es1X-GM2BrdA6-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
